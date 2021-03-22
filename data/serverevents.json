@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Maailmanloppu",
+    "description": "Haha, TNT printer go brrr.",
+    "dates": {
+      "start-date": "05.11.2020",
+      "end-date": "06.11.2020"
+    },
+    "__comment": "End date:n voi jättää tyhjäksi, jolloin tapahtuma luokitellaan päivän pituiseksi. Descriptionin voi myös iloisesti jättää tyhjäksi."
+  },
+  {
+    "title": "Mapreset",
+    "description": "Palvelimen aukaisu.",
+    "dates": {
+      "start-date": "07.11.2020",
+      "end-date": ""
+    },
+    "__comment": "End date:n voi jättää tyhjäksi, jolloin tapahtuma luokitellaan päivän pituiseksi. Descriptionin voi myös iloisesti jättää tyhjäksi."
+  },
+  {
+    "title": "Karanteenin joulu",
+    "description": "Karanteenin joulua vietetään joulukalenterin muodossa koko joulun ajan.",
+    "dates": {
+      "start-date": "1.12.2019",
+      "end-date": "28.12.2019"
+    },
+    "options": {
+      "forceEndDate": true
+    }
+  }
+]

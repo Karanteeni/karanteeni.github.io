@@ -1,0 +1,127 @@
+{
+  "omistajat": [
+    {
+      "name": "Jomeee",
+      "description": "Toimii yhteisön hyväksi kaikin tavoin. Opettelee piakkoin Javaa ja alkaa ohjelmoimaan plugineita (aamen).",
+      "strengths": [
+        "Konfigurointi",
+        "Palvelimen ylläpito"
+      ],
+      "uuid": "5b9a03483c15472b8bd8987134cf9f1d"
+    },
+    {
+      "name": "Nuubles",
+      "description": "big but very smooth brain",
+      "strengths": [
+        "Pluginit",
+        "Palvelimen ylläpito"
+      ],
+      "uuid": "d4ef4bc2db26462c9793389ba56d2818"
+    }
+  ],
+  "adminit": [
+    {
+      "name": "Susse",
+      "description": "Hoitelee nettijuttuja, ja kuka ties mitä.",
+      "strengths": [
+        "Nettisivut",
+        "Discord botit"
+      ],
+      "uuid": "144b79b3-71c0-4e7e-b466-f94d36d0caed"
+    },
+    {
+      "name": "Wiikin",
+      "description": "Tunnetaan myös nimellä varislokki.",
+      "strengths": [
+        "Maisemointi"
+      ],
+      "uuid": "9b218de84001430d88f9821a71e62ad4"
+    },
+    {
+      "name": "Manuzki",
+      "description": "\"Autan jos osaan, olen ymmärtäväinen, mutta en keksi mitään, vaan ajattelen.\"",
+      "strengths": [
+        "Musiikki",
+        "Grief-tapaukset"
+      ],
+      "uuid": "a802f54ebfa148e3a7754d18d38a48be"
+    },
+    {
+      "name": "LouNii",
+      "description": "Yes.",
+      "strengths": [
+        "Hack-clientit"
+      ],
+      "uuid": "d347193d8b794a389158074681bc32f8"
+    }
+  ],
+  "operaattorit": [
+    {
+      "name": "RetuPoika",
+      "description": "\"Oispa kahvia.\"",
+      "strengths": [
+        "Hack-clientit"
+      ],
+      "uuid": "02518a1790f740e8940251d8ae348991"
+    },
+    {
+      "name": "Iita",
+      "description": "\"Ahdistaa.\"",
+      "strengths": [
+        "Suojaaminen"
+      ],
+      "uuid": "d0cd2962ea3944c48b486c6376e57ca3"
+    },
+    {
+      "name": "Viherkukka",
+      "description": "\"Täh?\"",
+      "strengths": [
+        "Riitojen sovittelu"
+      ],
+      "uuid": "5db3cb0e4ae847dc91594cc10079190d"
+    }
+  ],
+  "moderaattorit": [],
+  "rakentajat": [
+    {
+      "name": "PreGauris",
+      "description": "\"Kuvaus? No jos sitten kun en tee lohisalaattia.\"",
+      "strengths": [
+        "Rakentaminen"
+      ],
+      "uuid": "eaa677e2710d41faaed5b258cf31fdd7"
+    },
+    {
+      "name": "Asheline",
+      "description": "Rikospodcastien ahmija, kissojen ystävä ja serverin lyhyin ylläpitäjä.",
+      "strengths": [
+        "Rakentaminen"
+      ],
+      "uuid": "ca5f9868d9bc4a02b63d5fa2e48a8326"
+    },
+    {
+      "name": "Ougii_Lewe",
+      "description": "Gauriksen aliurakoitsija.",
+      "strengths": [
+        "Rakentaminen"
+      ],
+      "uuid": "5cab2b2a16dc410491ff40fa6920d01d"
+    },
+    {
+      "name": "jafarin",
+      "description": "Aiemman sukupolven supersotilas.",
+      "strengths": [
+        "Rakentaminen"
+      ],
+      "uuid": "0dc20ee9778746ceabecf208098484d7"
+    },
+    {
+      "name": "Oonakuni",
+      "description": "\"joo, äööh äööh wäwäw ok (niin että mitä että) käykö :3\"",
+      "strengths": [
+        "Rakentaminen"
+      ],
+      "uuid": "fcc6a1f38457404daed5206e467ec3ff"
+    }
+  ]
+}

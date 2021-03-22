@@ -1,0 +1,251 @@
+.omistaja {
+    color: #335fff !important;
+}
+
+.admin {
+    color: #ff476c !important;
+}
+
+.operator {
+    color: #dc3588 !important;
+}
+
+.buildmod {
+    color: #b922a3 !important;
+}
+
+h3.omistajat {
+    color: #335fff;
+}
+
+h3.adminit {
+    color: #ff476c;
+}
+
+h3.operaattorit {
+    color: #dc3588;
+}
+
+h3.rakentajat,
+h3.moderaattorit {
+    color: #b922a3;
+}
+
+.yp h3 {
+    font-family: 'Minecraftia';
+    text-align: center;
+    font-size: 1.75rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.admin-card-heading {
+    font-weight: 600;
+}
+
+.admin-card-container {
+    width: 21em;
+    margin: 2rem 1rem;
+    margin-top: 0;
+    padding: 0.625em;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #000;
+    background: linear-gradient(to right, #e1830c, #ff9800);
+    font-size: 0.8em;
+}
+
+.admin-card-container.omistajat {
+    background: linear-gradient(to right, #274dcc, #142c85);
+}
+
+.admin-card-container.adminit {
+    background: linear-gradient(to right, #d90647, #910028);
+}
+
+.admin-card-container.operaattorit {
+    background: linear-gradient(to right, #cb077d, #900153);
+}
+
+.admin-card-container.moderaattorit {
+    background: linear-gradient(to right, #a025b2, #72147b);
+}
+
+.admin-card-container.rakentajat {
+    background: linear-gradient(to right, #a025b2, #72147b);
+}
+
+.admin-card {
+    color: white;
+}
+
+.background {
+    text-align: center;
+    background: linear-gradient(to right, black, rgb(36, 36, 36));
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+}
+
+.background.omistajat {
+    background: linear-gradient(to right, #2445bd, #2242b8);
+}
+
+.background.adminit {
+    background: linear-gradient(to right, #ca013f, #c5003c);
+}
+
+.background.operaattorit {
+    background: linear-gradient(to right, #c20075, #bd0071);
+}
+
+.background.moderaattorit {
+    background: linear-gradient(to right, #991ea8, #951ea3);
+}
+
+.background.rakentajat {
+    background: linear-gradient(to right, #991ea8, #951ea3);
+}
+
+.admin-content {
+    padding: 0.625em;
+    border-bottom-left-radius: 0.625em;
+    border-bottom-right-radius: 0.625em;
+    min-height: 10.1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-content.omistajat {
+    background: linear-gradient(to right, #253abe, #2345ba);
+}
+
+.admin-content.adminit {
+    background: linear-gradient(to bottom, #c80033, #b70337);
+}
+
+.admin-content.operaattorit {
+    background: linear-gradient(to bottom, #c2006a, #b00367);
+}
+
+.admin-content.moderaattorit {
+    background: linear-gradient(to bottom, #9d1c9f, #8d1c97);
+}
+
+.admin-content.rakentajat {
+    background: linear-gradient(to bottom, #9d1c9f, #8d1c97);
+}
+
+.admin-name {
+    text-align: center;
+    font-size: 1.4em;
+    padding: 0.625em 0.2em;
+    padding-bottom: 0;
+    margin-top: -2.1em;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-family: 'Inter';
+    letter-spacing: 0.01em;
+}
+
+.admin-type {
+    display: block;
+    background-color: #000;
+    padding: 0.44em 0.65em;
+    color: white;
+    font-size: 0.75em;
+    border-radius: 6px;
+    text-align: center;
+    top: -2em;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-shadow: 2px 1px 0 #000;
+    align-self: baseline;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(243, 244, 246, 0.1);
+}
+
+.admin-type.omistajat {
+    background-color: #335fff;
+}
+
+.admin-type.adminit {
+    background-color: #ff476c;
+}
+
+.admin-type.operaattorit {
+    background-color: #dc3588;
+}
+
+.admin-type.moderaattorit {
+    background-color: #b922a3;
+}
+
+.admin-type.rakentajat {
+    background-color: #b922a3;
+}
+
+.admin-strength {
+    margin-left: 0.4em;
+}
+
+.admin-strength > p {
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.admin-strength-bullet {
+    font-size: 0.7em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.6em;
+    height: 1em;
+    width: 1em;
+}
+
+.avatar > img {
+    max-height: 9em;
+    margin: 1.25rem;
+}
+
+.admin-footer {
+    text-align: center;
+    font-size: 0.875em;
+    padding: 1.25em;
+    min-height: 7.4em;
+}
+
+.admin-footer p {
+    margin-bottom: 0;
+    color: #e8e8e8;
+}
+
+.yp h3 {
+    font-family: 'Minecraftia';
+    text-align: center;
+}
+
+.yp-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+@media screen and (max-width: 1000px) {
+    .admin-strength > p {
+        margin-bottom: 0.2em;
+        color: #e5e5e5;
+    }
+    .admin-strength > p:last-of-type {
+        margin-bottom: 0;
+    }
+    .admin-content {
+        min-height: 9.5em;
+    }
+}
+
+/* Admin End */

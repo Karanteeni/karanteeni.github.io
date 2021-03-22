@@ -1,28 +1,32 @@
 {
   "name": "karanteeni.github.io",
-  "version": "1.0.0",
-  "description": "Karanteenin peruspaske sivut (HTML, CSS, JS) :D",
-  "main": "index.js",
+  "description": "Karanteenin NEXT.js sivut",
+  "version": "2.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-jsx": "npx babel ./components --out-dir ./dist --presets react-app/prod",
-    "watch-jsx": "npx babel --watch ./components --out-dir ./dist --presets react-app/prod"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ixynas/karanteeni.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ixynas/karanteeni.github.io/issues"
-  },
-  "homepage": "https://github.com/Ixynas/karanteeni.github.io#readme",
   "dependencies": {
-    "babel-preset-react-app": "^3.1.2"
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "date-fns": "^2.11.1",
+    "gray-matter": "^4.0.2",
+    "next": "^10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-tooltip": "^4.2.15",
+    "remark": "^12.0.0",
+    "remark-html": "^12.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
-  }
+    "@types/node": "^14.14.34",
+    "@types/react": "^17.0.3",
+    "typescript": "^4.2.3"
+  },
+  "license": "MIT"
 }
