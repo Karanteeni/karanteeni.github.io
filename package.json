@@ -23,7 +23,7 @@
     "react-toast-notifications": "^2.5.1",
     "react-tooltip": "^4.2.15",
     "remark": "^12.0.0",
-    "remark-html": "^12.0.0"
+    "remark-html": "^13.0.2"
   },
   "devDependencies": {
     "@types/node": "^14.14.34",
