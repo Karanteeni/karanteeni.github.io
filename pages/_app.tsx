@@ -1,6 +1,8 @@
 import { ToastProvider } from 'react-toast-notifications'
 import { AppProps } from 'next/app'
 import { AppContextProvider } from '../store/context'
+// eslint-disable-next-line
+import "swiper/css/bundle";
 
 import '../styles/global.css'
 // import '../styles/winter.css'
