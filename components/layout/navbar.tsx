@@ -16,6 +16,7 @@ import {
     faFileAlt,
     faHome,
     faUserShield,
+    faBookOpen,
     IconDefinition
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -171,6 +172,7 @@ const Navbar = () => {
                 <DropDownItem close={closeNav} icon={faHammer} url="/reseptit" title="Custom reseptit" />
                 <DropDownItem close={closeNav} icon={faQuestionCircle} url="/ukk" title="UKK" />
                 <DropDownItem close={closeNav} icon={faEnvelope} url="/julkaisut" title="Julkaisut" />
+                <DropDownItem close={closeNav} icon={faBookOpen} url="/historia" title="Historia" />
             </DropDownCollapseMenu>
 
             <NavLink close={closeNav} icon={faExclamation} url="/saannot" title="Säännöt" />

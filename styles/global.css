@@ -629,6 +629,10 @@ h1 {
     border-radius: 6px;
 }
 
+img {
+    width: 100%;
+}
+
 .feature img {
     max-height: 400px;
     max-width: 500px;
