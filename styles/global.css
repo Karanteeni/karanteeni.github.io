@@ -666,6 +666,17 @@ li {
     margin: 0 0.55rem;
 }
 
+
+.history-heading > h2 {
+    margin-bottom: 0;
+}
+
+.history-heading > span {
+    font-size: 0.8em;
+    margin-bottom: 1.2em;
+    color: var(--color-secondary);
+}
+
 .wrappedlist li {
     background-color: rgba(0, 0, 0, 0.04);
     margin-bottom: 1px;
