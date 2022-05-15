@@ -5,7 +5,7 @@ import Layout from '../components/layout/layout'
 const Historia = () => {
     return (
         <Layout
-            title="Karanteenin historia"
+            title="Historia"
             description="Historian Karanteenin alusta sen uusimpiin päiviin"
         >
             <Heading heading="Karanteenin historia" lead="Historia alusta loppuun" />
