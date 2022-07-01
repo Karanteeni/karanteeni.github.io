@@ -507,6 +507,72 @@ const Ominaisuudet = () => {
                     <li>
                         <code>*kilpi / *shield</code> =&gt; 🛡
                     </li>
+                    <li>
+                        <code>*ilo / *hymy / *happyface</code> =&gt; ☺
+                    </li>
+                    <li>
+                        <code>*suru / *sadface</code> =&gt; ☹
+                    </li>
+                    <li>
+                        <code>*hakku / *pikki / *pickaxe</code> =&gt; ⛏
+                    </li>
+                    <li>
+                        <code>*nuoliylös / *ylös / *up / *arrowup</code> =&gt; ↑
+                    </li>
+                    <li>
+                        <code>*nuolialas / *alas / *down / *arrowdown</code> =&gt; ↓
+                    </li>
+                    <li>
+                        <code>*nuolioikea / *oikea / *right / *arrowright</code> =&gt; →
+                    </li>
+                    <li>
+                        <code>*nuolivasen / *vasen / *left / *arrowleft</code> =&gt; ←
+                    </li>
+                    <li>
+                        <code>*pääkallo / *kallo / *skull</code> =&gt; ☠
+                    </li>
+                    <li>
+                        <code>*tm / *trademark</code> =&gt; ™
+                    </li>
+                    <li>
+                        <code>*aurinko / *sun</code> =&gt; ☀
+                    </li>
+                    <li>
+                        <code>*sade / *rain</code> =&gt; 🌧
+                    </li>
+                    <li>
+                        <code>*salama / *lightning</code> =&gt; ⚡
+                    </li>
+                    <li>
+                        <code>*tähti1 / *star1</code> =&gt; ⭐
+                    </li>
+                    <li>
+                        <code>*tähti2 / *star2</code> =&gt; ★
+                    </li>
+                    <li>
+                        <code>*tähti3 / *star3</code> =&gt; ☆
+                    </li>
+                    <li>
+                        <code>*meteoriitti / *meteorite</code> =&gt; ☄
+                    </li>
+                    <li>
+                        <code>*rasti / *raksi / *cross</code> =&gt; ✘
+                    </li>
+                    <li>
+                        <code>*ruoka / *food</code> =&gt; 🍖
+                    </li>
+                    <li>
+                        <code>*laatikko_tyhjä / *box_empty</code> =&gt; ☐
+                    </li>
+                    <li>
+                        <code>*laatikko_check / *box_check</code> =&gt; ☑
+                    </li>
+                    <li>
+                        <code>*laatikko_raksi / *laatikko_rasti_ *box_cross</code> =&gt; ☒
+                    </li>
+                    <li>
+                        <code>^2</code> =&gt; ²
+                    </li>
                 </ul>
             </Feature>
         </Layout>
