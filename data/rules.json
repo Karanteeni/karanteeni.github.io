@@ -14,7 +14,7 @@
             },
             {
                 "short": "Modit ovat kiellettyjä",
-                "long": "Pelin etenemistä edistävien modien käyttäminen (esim. schematica) on kiellettyä.",
+                "long": "Pelin etenemistä edistävien modien käyttäminen (mm. rakennusbotit) on kiellettyä. Modit jotka neuvovat, esimerkiksi hologrammimodit (esim. litematica) ovat sallittuja.",
                 "icon": "denied"
             },
             {
