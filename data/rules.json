@@ -29,7 +29,7 @@
             },
             {
                 "short": "Asiattoman skinin tai käyttäjänimen käyttäminen on kiellettyä",
-                "long": " Jos nimesi tai skinisi on rasistinen, alatyylinen, loukkaava, tai muuten asiaton, sinua pyydetään vaihtamaan se. Muuten käyttäjäsi bannitaan skinin tai nimen vaihdon ajaksi.",
+                "long": " Jos skinisi on rasistinen, alatyylinen, loukkaava, tai muuten asiaton, sinua pyydetään vaihtamaan se. Asiattomat nimet server bannaa automaattisesti. Saat unbannit vaihdettuasi skinin tai nimen ja tehtyäsi unban-hakemuksen.",
                 "icon": "denied"
             },
             {
@@ -74,13 +74,18 @@
             },
             {
                 "short": "Pidetään kieli kurissa",
-                "long": "Turha kiroilu ja toisten pelaajien härnäminen tai kiusaaminen ei ole asianmukaista. Ollaanhan ihmisiksi.",
+                "long": "Turha kiroilu ja toisten pelaajien härnääminen tai kiusaaminen ei ole asianmukaista. Ollaanhan ihmisiksi.",
                 "icon": "important"
             },
             {
                 "short": "Pidetään chatti siistinä",
                 "long": "Turha spammaaminen, floodaaminen, ja CAPSILLA KIRJOITTAMINEN on kiellettyä.",
                 "icon": "important"
+            },
+            {
+                "short": "Karanteeni on poliittisesti neutraali palvelin",
+                "long": "Tämä tarkoittaa sitä, että chatissa ja palvelimella pyritään välttämään poliittisia aatteita, symboleita tai ideologioita. Myös yleistä keskustelua politiikasta pyritään välttämään, koska se yleensä aiheuttaa väittelyitä ja eripuraa.",
+                "icon": "denied"
             },
             {
                 "short": "Mainostaminen on kiellettyä",
@@ -115,11 +120,6 @@
             {
                 "short": "Pelaajien tappaminen ja pelaaja-ansojen rakentaminen kielletty",
                 "long": "Et saa aiheuttaa vahinkoa toisiin pelaajiin. Rakennelmat, jotka voivat tappaa pelaajan, ovat ankarasti kiellettyjä.",
-                "icon": "denied"
-            },
-            {
-                "short": "Karanteeni on poliittisesti neutraali palvelin",
-                "long": "Tämä tarkoittaa sitä, että chatissa ja palvelimella pyritään välttämään poliittisia aatteita, symboleita tai ideologioita. Myös yleistä keskustelua politiikasta pyritään välttämään, koska se yleensä aiheuttaa väittelyitä ja eripuraa.",
                 "icon": "denied"
             },
             {
