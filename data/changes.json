@@ -1,121 +1,318 @@
 [
     {
+        "date": "12.7.2022",
+        "changes": [
+            "Discord yhdistys - join/left viestit näyttävät pelaajan lempinimen.",
+            "Ylläpitolaisten nimet ovat nyt boldilla (thicc) /list komennossa.",
+            "Korjattu pelaajien manuaalinen linkitys.",
+            "Korjattu asetus, joka näyttää lyhyet prefixit rankeissa myös Discordin kautta tulevista viesteistä.",
+            "Lisätty väli pelinimen ja rankin väliin.",
+            "Parannettu antixrayn toimivuutta netherissä.",
+            "Lahjotitajien sulkeet [] näkyvät tabissa myös samalla värillä kuin Discordissa.",
+            "Tabissa TPS:n väri vaihtuu viiveen tavoin."
+        ]
+    },
+    {
+        "date": "11.7.2022",
+        "changes": [
+            "Kolmannentoista kartan torniparkour on avattu (/warp torniparkour)."
+        ]
+    },
+    {
+        "date": "10.7.2022",
+        "changes": [
+            "Serverillä voi nyt luoda uuden golemin. Toivottavasti tykkäät kalasta. :)",
+            "Lahjoittajien värit uusittu.",
+            "Discord yhdistys - Botti poistaa värikoodit Discordin puolelta.",
+            "Rankit eivät näy enää /list.",
+            "Ylläpito voi luoda kyselyitä myös Discordin puolella.",
+            "Jos vastaa viestiin Discordissa, niin se näkyy myös Minen chatissä.",
+            "Ylläpito voi manuaalisesti linkittää Discordin käyttäjät Minetileihin.",
+            "Ylläpito (omistajat) voivat estää chatin näkymisen Discordiin tietyiltä servereiltä.",
+            "Kyselyt - Viemällä hiiren kyselyn ylle chatissä näet kyselyn tehneen pelaajan nimen.",
+            "Kyselyissä voi nyt vaihtaa annettua ääntä.",
+            "Korjattu ongelma värien kanssa.",
+        ]
+    },
+    {
+        "date": "9.7.2022",
+        "changes": [
+            "Korjailu groupin latausongelmaa.",
+            "Korjattu nickin latausta.",
+            "Korjattu /clear komento (YP).",
+            "Korjattu virhe, joka tulee jos laittaa chatviestin silloin, kun ei ole servulla (esimerkiksi restartin aikaan).",
+            "Korjattu mutetettujen pelaajien viestien vuotaminen chattiin.",
+            "Korjattu virhe pelaajan poistuessa servulta taikamaton jäädessä päälle.",
+            "Nuubles söi paljon jäätelöä.",
+            "Bowia ei voi enää käyttää, jos se yrittää ampua rakennussauvan.",
+            "Siirretty /nick oikeudet alitasoilta Bungeecordiin.",
+            "Korjattu mangrovepuun kaatamiseen liittyviä ongelmia.",
+            "Discordin ja Minen välinen linkitys uusittu täysin. (/discord link)",
+            "Lisätty /list takaisin toimintaan Discordissa."
+        ]
+    },
+    {
+        "date": "7.7.2022",
+        "changes": [
+            "Korjattu /vote liittyvät ongelmat.",
+            "Päivitetty plugineita.",
+            "Kaupan hajonneet configit korjattu."
+        ]
+    },
+    {
+        "date": "5.7.2022",
+        "changes": [
+            "Warden on entistä pelottavampi."
+        ]
+    },
+    {
+        "date": "2.7.2022",
+        "changes": [
+            "Korjailtu chatin toimintaa esimerkiksi restartin aikana.",
+            "Korjattu /language (/kieli) komennon oikeudet.",
+            "Korjattu ylläpidon /pa add oikeudet.",
+            "Korjattu /reply komennon uudelleenasettumienn relogissa."
+        ]
+    },
+    {
+        "date": "1.7.2022",
+        "changes": [
+            "Karanteenin 13. kartta avautuu.",
+            "Server päivitetty versioon 1.19.",
+            "Map resetoitu.",
+            "Lisätty 22 uutta emojia chattiin käytettäväksi.",
+            "Wardenin hälyttäminen poistaa lennon käytöstä.",
+            "Mangrovepuut lisätty puunkaatopluginiin.",
+            "Ylläpitäjien nimissä (pään yläpuolella) näkyy taas [YP].",
+            "Portaisiin ei voi käydä enää istumaan, jos niiden päällä on palikka.",
+            "Chatistä näkee sen serverin, jolla viestin kirjoittanut pelaaja pelaa sillä hetkellä.",
+            "Lisätty asetus, jolla yllämainittujen servereiden nimet näkyvät joko kokonaan tai lyhennettynä (/valikko -> asetukset).",
+            "Lisätty komennot /lpa ja /lpatop (näyttää kyseisen serverin peliajan ja eniten sillä serverillä pelanneet).",
+            "Chatviestin voi kopioida viemällä hiiren sen ylle ja klikkaamalla.",
+            "Plugineita päivitetty 1.19 versioon.",
+            "Käännöksiä uusittu ja tehty lisää.",
+            "Bungeecordin komennot toimivat.",
+            "Peliaika, chat ja Karanteenin coreplugin siirretty Bungeecordiin.",
+            "Servereiden väliset portaalit toiminnassa.",
+            "Tasot (eloton, raihnas... ) ja alitasot (lahjoittaja, rikkoja...) siirretty Bungeecordiin.",
+            "Lisätty myös serverkohtaiset tasot (jos haluamme antaa yksittäisellä serverillä oikeuksia pelaajille).",
+            "Kääntäjä (/kieli ja käännökset) toimivat nyt Bungeecordin puolella.",
+            "Lisäksi palvelimen toiminta testattu läpi ja korjattu monia testauksessa ilmenneitä ongelmia.",
+            "Korjattu ongelma oikeuksien toiminnan suhteen.",
+            "Korjattu maagisesti kadonneet leftausviestit.",
+            "Lisätty äänet takaisin /msg komentoon."
+        ]
+    },
+    {
+        "date": "12.6.2022",
+        "changes": [
+            "Bungeecordin toimintaa saatu lähes valmiiksi."
+        ]
+    },
+    {
+        "date": "10.6.2022",
+        "changes": [
+            "Lisätty 1.19 tuki."
+        ]
+    },
+    {
+        "date": "22.5.2022",
+        "changes": [
+            "Lisää Bungeecord päivityksiä! Lisäksi Nuublesilla oli nälkä."
+        ]
+    },
+    {
+        "date": "21.5.2022",
+        "changes": [
+            "Chat toimii Bungeecordissa"
+        ]
+    },
+    {
+        "date": "20.5.2022",
+        "changes": [
+            "Siirretty chatin toimintaa Bungeecordin puolelle."
+        ]
+    },
+    {
+        "date": "17.5.2022",
+        "changes": [
+            "Bungeecordin kehitystä jatkettu. Paljon uusia ominaisuuksia. Jos näitä satut lukemaan, niin 1.7.22. löytyy serverin 1.19 changelog."
+        ]
+    },
+    {
+        "date": "15.5.2022",
+        "changes": [
+            "Bungeecordin kehityksessä laitettu uusi vaihde silmään. Erittäin paljon muutoksia."
+        ]
+    },
+    {
+        "date": "20.4.2022",
+        "changes": [
+            "Käännetty /valikko (/menu) myös englanniksi.",
+            "Lisätty uusi asetus (/valikko -> asetukset). Tunnistaa, jos chattiin kirjoitetaan lagista ja osaa kertoa, että onko lag serverin päässä.",
+            "Lisätty komennot /islag, /lagaako, /lagaakomulla, /laggy"
+        ]
+    },
+    {
+        "date": "19.4.2022",
+        "changes": [
+            "Lisätty uusia partikkeleita, sekä uusi partikkelityyppi sade."
+        ]
+    },
+    {
+        "date": "23.3.2022",
+        "changes": [
+            "Lisätty glow squid /spawner komentoon.",
+            "Päivitetty plunge attackin toimivuutta.",
+        ]
+    },
+    {
+        "date": "13.3.2022",
+        "changes": [
+            "Server päivitetty kokonaan versioon 1.18.2."
+        ]
+    },
+    {
+        "date": "11.3.2022",
+        "changes": [
+            "12. kartan puolivälin end reset."
+        ]
+    },
+    {
+        "date": "28.2.2022",
+        "changes": [
+            "Server tukee nyt versiota 1.18.2."
+        ]
+    },
+    {
+        "date": "26.2.2022",
+        "changes": [
+            "Lisätty uusi hyökkäys (plunge attack)."
+        ]
+    },
+    {
+        "date": "23.2.2022",
+        "changes": [
+            "Lisätty 17 uutta reseptiä."
+        ]
+    },
+    {
         "date": "19.2.2022",
         "changes": [
-            "Uusittu kokonaan Karanteenin ylläpitohakemuslomake :3"
+            "Ylläpitohakemuslomake uusittu."
         ]
     },
     {
         "date": "18.2.2022",
         "changes": [
-            "korjattu invtweaks asetus blockeilt, aiemmi esti vaa esineet",
-            "korjattu grassin siirto suojatuil alueil",
-            "korjattu eloton rankin lyhennetty nimi"
+            "Korjattu invtweaks asetuksia.",
+            "Korjattu grassin siirto suojatuilla alueilla.",
+            "Korjattu eloton rankin lyhennetty nimi."
         ]
     },
     {
         "date": "16.2.2022",
         "changes": [
-            "lisätty karan 'invtweaks' asetuksiin",
-            "isätty komentojen kirjoitusäänet asetuksiin"
+            "Lisätty Karanteenin 'invtweaks' asetuksiin (/valikko -> asetukset).",
+            "Lisätty komentojen kirjoitusäänet asetuksiin (/valikko -> asetukset)."
         ]
     },
     {
         "date": "13.2.2022",
         "changes": [
-            "lisätty tptoggle /valikko -> asetukset (also kaikki tptogglet resetoinu!!)",
-            "lisätty vinkit /valikko -> asetukset (ens restartis)",
-            "lisätty suojausten lukitusten infon näyttö blockeihin joita ei omista /valikko -> asetukset jos jotain noista ei nää ni ei oo permei siihe asetuksee auki viel"
+            "lisätty tptoggle (/valikko -> asetukset)",
+            "Lisätty uusia vinkkejä",
+            "Lisätty suojausten lukitusten infon näyttö blockeihin joita ei omista (/valikko -> asetukset)"
         ]
     },
     {
         "date": "12.2.2022",
         "changes": [
-            "lisätty asetukset servulle",
-            "lisätty tuplaovien automaattinen avaus klikatessa servulle (saa asetuksista pois päältä)",
-            "lisätty rankkien lyhennys servulle (saa asetuksista päälle)",
-            "lisätty /playtimetop (/patop)"
+            "Lisätty asetukset servulle.",
+            "Lisätty tuplaovien automaattinen avaus klikatessa servulle (saa asetuksista pois päältä).",
+            "Lisätty rankkien lyhennys servulle (saa asetuksista päälle).",
+            "Lisätty /playtimetop (/patop)."
         ]
     },
     {
         "date": "5.2.2022",
         "changes": [
-            "Yp voi nyt säätää bungeen servuja ja permejä ilman et pitää jatkuvasti restarttailla bungeeta",
-            "Taikamaton permit mycket wonky, päivitin noi blockpermit paikoilleen ja osalle matalempia rankkeja tuli ehk lisää blockei, osa lähti pois (ollu näkyvil kumminki aiemmi ne mitä saa). Kuolemattomalle lisätty 1 uus block taikamattoon (crying obsidian)"
+            "YP voi nyt säätää Bungeecordin permejä ja servereitä.",
+            "Taikamaton permit mycket wonky, blockpermit päivitetty paikoillee. Kuolemattomalle lisätty 1 uus block taikamattoon (crying obsidian)"
         ]
     },
     {
         "date": "24.1.2022",
         "changes": [
-            "lisätty miinaharava (warp miinaharava)",
-            "korjattu miinaharavan lataus",
-            "lisätty infon näyttö suojauksiin ylläpidolle r-clickil",
-            "lisätty boostereille, donaajille ja ylläpidolle karan logo discord nimeen",
-            "lisätty 5min koodi joka jakaa pelaajie viestit servuje välil"
+            "Lisätty miinaharava (/warp miinaharava)",
+            "Korjattu miinaharavan lataus.",
+            "Lisätty infon näyttö suojauksiin ylläpidolle r-clickillä.",
+            "Lisätty boostereille, donaajille ja ylläpidolle Karanteenin logo Discord nimeen.",
+            "Lisätty koodi joka jakaa pelaajie viestit servujen välillä."
         ]
     },
     {
         "date": "21.1.2022",
         "changes": [
-            "Vaikka alue olisi suojattu, voit silti käyttää toisten työpöytiä :3",
-            "lisätty /valikko (/menu)",
-            "korjattu  invivalikoist muistivuoto",
-            "korjattu bug jolla taikamaton editoris ei pystyny muokkaa partikkeleit jos oli blockvalikos käyny"
+            "Suojatuilla alueilla voi nykyään käyttää työpöytiä",
+            "Lisätty komento /valikko (/menu).",
+            "Korjattu invivalikoist muistivuoto.",
+            "Korjattu bug jolla taikamaton editorissa ei pystynyt muokkaamaan partikkeleita, jos oli käynyt blockvalikossa."
         ]
     },
     {
         "date": "18.1.2022",
         "changes": [
-            "lisätty 2 korjaust permiplugarin pelaajie register ja unregister metodeihi, hyväl tuuril vähentää tai korjaa noi permiongelmat (also jos korjaa ni nää 2 oli syyn siihe miks aiemmat fixit ei korjannu vaik vaikutti korjaava, also tää pätkä koodii jos se borkes oli nii specific ku olla ja voi borkeemisee) ",
-            "isätty varalta error catcher pelaajan unloadauksee et jos joku menee pielee ni sen pitäs ens relogil päästää normisti silti sisää",
-            "lisätty chatban plugariin ilmotus warnin syystä (aka. mistä viestistä tuli warn) jonka yp näkee ja voi undoo jos tarttee"
+            "Lisätty 2 korjausta permiplugarin pelaajien register ja unregister metodeihin.",
+            "Lisätty varalta error catcher pelaajan unloadaukseen.",
+            "Lisätty chatban plugariin ilmotus warnin syystä (aka. mistä viestistä tuli warn)."
         ]
     },
     {
         "date": "15.1.2022",
         "changes": [
-            "lisätty korjaus coren cachen hallintaan joka esti loginin (käytännössä pitäs olla mahoton ellei joku toinen paikka failannu latausta, eli just sillo ku pelaaja quitannu samaa aikaa ku joinannu). nyt pitäs vaa kerran sanoo et dataa ladataa ja koklaa uusiks login ni päästää sisää",
-            "lisätty ConcurrentModificationException korjaus permiplugarin rankkien sammutukseen",
-            " lisätty null check chatarin login koodiin",
-            "lisätty null check partikkeliplugarin koodiin",
-            " lisätty fix siihe et KPlayer ei asetettu koodissa -> johtaen siihe et se on null -> johtaen edellisee kahtee errorii"
+            "Lisätty korjaus coren cachen hallintaan joka esti kirjautumisen.",
+            "Lisätty ConcurrentModificationException korjaus permiplugarin rankkien sammutukseen.",
+            "Lisätty null check chatarin login koodiin.",
+            "Lisätty null check partikkeliplugarin koodiin.",
+            "Lisätty fix siihe et KPlayer ei asetettu koodissa -> johtaen siihe et se on null -> johtaen edellisee kahteen erroriin."
         ]
     },
     {
         "date": "13.1.2022",
         "changes": [
-            "korjattu taikamatosta 1 tickin partikkelinpiirtoviive",
-            "korjattu tpa komennon vanhenemisvirhe jos pelaaja offline",
-            "korjattu pelaajan datan latausta joka estäny myöhemmän datan latauksen (esim permit, tää on iha vaa et oon päästäny nullina läpi sen sijaa et laittanu arvon paikoillee, nyt se menee paikoillee)",
-            "korjattu bugi jossa irongolem on kadottanu itemin lyödessä"
+            "Korjattu taikamatosta 1 tickin partikkelinpiirtoviive",
+            "Korjattu tpa komennon vanhenemisvirhe jos pelaaja on offline",
+            "Korjattu pelaajan datan latausta joka estäny myöhemmän datan latauksen.",
+            "Korjattu bugi jossa irongolem on kadottanut itemin lyödessä pelaajaa."
         ]
     },
     {
         "date": "11.1.2022",
         "changes": [
-            "korjattu dupeglitch kuolinchestis",
-            "avattu tää partikkeli 6080 pelaajalle (muistin jokasen ulkoo ja naputtelin teidä nimet uwu)",
-            "lisätty /translation reload"
+            "Korjattu dupeglitch kuolinchestissä",
+            "Annettu uusi partikkeli Karanteenin vanhoille pelaajille (jotka olivat mukana jo vuodesta 2018)",
+            "Lisätty /translation reload (ylläpidon komento)"
         ]
     },
     {
         "date": "10.1.2022",
         "changes": [
-            "lisätty kuolinchestit takas"
+            "Kuolinchestit ovat tulleet takaisin"
         ]
     },
     {
         "date": "7.1.2022",
         "changes": [
             "/qs find korjattu",
-            "fly ei sammu kun tp netheriin"
+            "Fly ei enää sammu netheriin teleportatessa"
         ]
     },
     {
         "date": "2.1.2022",
         "changes": [
-            "lisätty barebones automaattine chatin ja pelaajanimien valvonta, helpottaa ylläpitoo pahimmis tyypeis",
-            "korjattu min ja max koordit komennoista jokka tp, tulee ens automaattises restartis"
+            "Lisätty automaattinen chatin ja pelaajanimien valvonta.",
+            "Korjattu min ja max koordinaatit teleport komennoista."
         ]
     },
     {
@@ -154,9 +351,9 @@
         "date": "3.12.2021",
         "changes": [
             "/server joulu",
-            "palvelin pelattavissa 1.18 versiolla",
-            "skaalaava render distance",
-            "permien lataaminen korjattu"
+            "Palvelin pelattavissa 1.18 versiolla.",
+            "Render distance skaalautuu palvelimen suorituskyvyn mukaan.",
+            "Permien lataaminen korjattu."
         ]
     },
     {
@@ -202,7 +399,7 @@
     {
         "date": "17.7.2021",
         "changes": [
-            "uusia custom reseptejä"
+            "Uusia custom reseptejä"
         ]
     },
     {
@@ -230,13 +427,13 @@
     {
         "date": "28.5.2021",
         "changes": [
-            "/tk (tai nykyään /welcome tai /tervetuloa myös) voi nyt /tk edit <teksti %player%>"
+            "/tk (tai nykyään /welcome tai /tervetuloa) voi nyt muokata komennolla /tk edit <teksti %player%>"
         ]
     },
     {
         "date": "3.5.2021",
         "changes": [
-            "nostettu kuolemattomien kotien määrää 18 -&#62; 20"
+            "Nostettu kuolemattomien kotien määrää 18 -&#62; 20"
         ]
     },
     {
@@ -302,15 +499,9 @@
         ]
     },
     {
-        "date": "6.2.2021",
-        "changes": [
-            "uwu"
-        ]
-    },
-    {
         "date": "21.1.2021",
         "changes": [
-            "Lisätty mail komennot"
+            "Lisätty /mail komennot"
         ]
     },
     {
@@ -398,13 +589,13 @@
     {
         "date": "7.11.2020",
         "changes": [
-            "Armorstandin asentoja voi muuttaa oikeaklikkaamalla kyykyssä!"
+            "Armorstandin asentoja voi muuttaa oikeaklikkaamalla kyykyssä."
         ]
     },
     {
         "date": "4.11.2020",
         "changes": [
-            "Palvelin päivitetty 1.16.4!",
+            "Palvelin päivitetty 1.16.4.",
             "Palvelimella voi nyt craftaa onnenkeksejä."
         ]
     },
@@ -586,7 +777,7 @@
     {
         "date": "14.5.2020",
         "changes": [
-            "Lisätty komento /votestreak [nimi ],. Ilman nimeä näkee oman voteputken."
+            "Lisätty komento /votestreak [nimi],. Ilman nimeä näkee oman voteputken."
         ]
     },
     {
@@ -638,7 +829,7 @@
     {
         "date": "16.2.2020",
         "changes": [
-            "Map reset"
+            "Mapreset"
         ]
     },
     {
@@ -650,7 +841,7 @@
     {
         "date": "13.1.2020",
         "changes": [
-            "Vote korjattu"
+            "Voten toiminta korjattu"
         ]
     },
     {
@@ -731,7 +922,7 @@
         "date": "25.09.2019",
         "changes": [
             "Tpa:n /back fixattu oikeiden pelaajien sijaintiin",
-            "mobGriefing asetettu takaisin päälle"
+            "Gamerule mobGriefing asetettu takaisin päälle"
         ]
     },
     {
