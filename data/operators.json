@@ -120,6 +120,14 @@
         "Rakentaminen"
       ],
       "uuid": "0dc20ee9778746ceabecf208098484d7"
-    }
+    },
+    {
+      "name": "Sumute",
+      "description": "orin lapsi",
+      "strengths": [
+        "Rakentaminen"
+      ],
+      "uuid": "5ef3f27168d44deab47baa1e72b932d5"
+    },
   ]
 }
