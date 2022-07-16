@@ -1,5 +1,31 @@
 [
     {
+        "date": "16.7.2022",
+        "changes": [
+            "Korjattu alitasojen toiminta."
+        ]
+    },
+    {
+        "date": "15.7.2022",
+        "changes": [
+            "Lisätty mommy spiderit - hämähäkit, jotka räjähtävät pieniin hämähäkkeihin kuollessaan. Kyseinen tapahtuma voidaan estää tappamalla luolahämis ison hämiksen päältä ensiksi.",
+            "Lisätty tikku/chesti reseptit myös mangrovelogeille.",
+            "Lisätty reseptit logien kautta craftattaviin trapdooreihin."
+        ]
+    },
+    {
+        "date": "14.7.2022",
+        "changes": [
+            "Discord yhdistys - custom prefixit näkyvät Discordissa.",
+            "Lisätty komento /discord lookup <nimi/discord#tag",
+            "Lisätty ilmoitus Minecraftiin käyttäjien yhdistämisestä.",
+            "Poistettu pakomerkit join/left viesteistä.",
+            "Discordissa laitetut kuvat/videot näkyvät taas Minecraftissa linkkinä.",
+            "Chatviestien formatointi uudelleenkoodattu.",
+            "Korjattu käyttäjien linkittämiseen liittyviä ongelmia."
+        ]
+    },
+    {
         "date": "12.7.2022",
         "changes": [
             "Discord yhdistys - join/left viestit näyttävät pelaajan lempinimen.",
