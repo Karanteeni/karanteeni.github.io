@@ -1,5 +1,12 @@
 [
     {
+        "date": "17.7.2022",
+        "changes": [
+            "Taikamaton päällä voi rikkoa portaita.",
+            "Plugineilla on globaalit käännöstekstit. Helpottaa conffausta (YP)"
+        ]
+    },
+    {
         "date": "16.7.2022",
         "changes": [
             "Korjattu alitasojen toiminta."
