@@ -60,7 +60,7 @@ const Yphaku = () => {
             <h2>Ylläpitoon hakeminen</h2>
             <p>
                 Pelaajan täytyy täyttää ylläolevat vaatimukset ollakseen valmis hakemaan ylläpitoon, joko
-                <b>moderaattoriksi</b> tai <b>rakentajaksi</b>. Hakemus on Google Formsilla tehty kyselylomake.
+                <b> moderaattoriksi</b> tai <b>rakentajaksi</b>. Hakemus on Google Formsilla tehty kyselylomake.
                 Hakemuksessa kysytään seuraavat asiat:
             </p>
             <ul>
@@ -89,8 +89,9 @@ const Yphaku = () => {
             <h2>Arviointiprosessi</h2>
             <p>
                 Hakemuksia arvioidaan <b>noin viikon verran</b>, rakentajien tapauksessa myös rakennuksia ja
-                rakennustaitoja. Kun hakemuksesi hyväksytään tai hylätään, siitä ilmoitetaan Discordin kautta. Mikäli
-                hakija ei täytä "vaatimuksia", voidaan se hylätä <b>automaattisesti</b>.
+                rakennustaitoja. <b>Kun hakemuksesi hyväksytään, siitä ilmoitetaan Discordin kautta. Mikäli ilmoitusta ei
+                tule, on hakemuksesi luultavasti hylätty</b>. Voit halutessasi kysyä ylläpidolta hakemuksen tilannetta jos
+                mietityttää. Mikäli hakija ei täytä "vaatimuksia", voidaan se hylätä <b>automaattisesti</b>.
             </p>
             <h2>Lopputeksti</h2>
             <p>
