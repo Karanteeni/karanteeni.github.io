@@ -86,6 +86,18 @@
       "description": "\"Oon huono keksiin tälläsiä\"",
       "strengths": [],
       "uuid": "4f13344913bb4fd4a0b8722d900dbb08"
+    },
+    {
+      "name": "Vaapukkax",
+      "description": "",
+      "strengths": [],
+      "uuid": "00b59d31f84f486db29b7c37b60a0be0"
+    },
+    {
+      "name": "MVPPlusPlus",
+      "description": "",
+      "strengths": [],
+      "uuid": "d5275d787e474d8aa4cdcfae7d2808cc"
     }
   ],
   "rakentaja": [
@@ -112,14 +124,6 @@
         "Rakentaminen"
       ],
       "uuid": "c9427421eb1f468aaff457f9f2a7e2f5"
-    },
-    {
-      "name": "Jafarin",
-      "description": "Jaffa.",
-      "strengths": [
-        "Rakentaminen"
-      ],
-      "uuid": "0dc20ee9778746ceabecf208098484d7"
     },
     {
       "name": "Sumute",
