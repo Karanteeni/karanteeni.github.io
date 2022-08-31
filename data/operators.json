@@ -89,14 +89,18 @@
     },
     {
       "name": "Vaapukkax",
-      "description": "",
-      "strengths": [],
+      "description": "\"Manu varasti mun lausahduksen\"",
+      "strengths": [
+        "Koodaaminen"
+      ],
       "uuid": "00b59d31f84f486db29b7c37b60a0be0"
     },
     {
       "name": "MVPPlusPlus",
-      "description": "",
-      "strengths": [],
+      "description": "yo kuis hurisee!",
+      "strengths": [
+        "Videoiden editointi"
+      ],
       "uuid": "d5275d787e474d8aa4cdcfae7d2808cc"
     }
   ],
@@ -132,6 +136,14 @@
         "Rakentaminen"
       ],
       "uuid": "5ef3f27168d44deab47baa1e72b932d5"
+    },
+    {
+      "name": "Mikufox",
+      "description": "Kettuilee paljon. Sillee hyvällä tavalla",
+      "strengths": [
+        "Rakentaminen"
+      ],
+      "uuid": "fdac507124964a92a97236e36d95a1b5"
     }
   ]
 }
