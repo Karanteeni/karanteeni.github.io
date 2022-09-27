@@ -40,7 +40,8 @@
 }
 
 .other [data-id='tooltip'] {
-    background: white;
+    background: black;
+    color: white;
 }
 
 .icon {
