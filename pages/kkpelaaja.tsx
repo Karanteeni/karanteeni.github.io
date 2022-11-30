@@ -49,7 +49,7 @@ export default function Lahjoitus() {
                     heading="Kuukauden pelaajat"
                     lead="Tälle sivulle on kerätty kuukauden pelaajat. Kiitos tuesta ja uskollisuudestanne! ♥"
                 />
-                <div class="yp-page-info">
+                <div className="yp-page-info">
                     <p>
                         Kuukauden pelaaja on yksi Karanteenin alitasoista, jonka voi kukin pelaaja saada vain kerran.
                         Kuukauden pelaajan voi saada:
