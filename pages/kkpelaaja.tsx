@@ -44,7 +44,7 @@ export default function Lahjoitus() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <div className="lahjoitusdokumentti">
+            <div className="">
                 <Heading
                     heading="Kuukauden pelaajat"
                     lead="Tälle sivulle on kerätty kuukauden pelaajat. Kiitos tuesta ja uskollisuudestanne! ♥"
@@ -72,7 +72,7 @@ export default function Lahjoitus() {
                         Emme välttämättä valikoi uutta kuukauden pelaajaa joka kuukausi.
                     </p>
                 </div>
-                <div className="lahjoitustablewrapper">
+                <div className="lahjoitustablewrapper lahjoitusdokumentti">
                     <table>
                         <thead>
                             <tr>
