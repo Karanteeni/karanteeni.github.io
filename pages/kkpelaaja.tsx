@@ -47,7 +47,7 @@ export default function Lahjoitus() {
             <div className="lahjoitusdokumentti">
                 <Heading
                     heading="Kuukauden pelaajat"
-                    lead="Tälle sivulle on kerätty kuukauden pelaajat. Kiitos tuesta ja uskollisuudestanne! ♥"
+                    lead="Tälle sivulle on kerätty kuukauden pelaajat.<br>Kiitos tuesta ja uskollisuudestanne! ♥<br>Voit saada kuukauden pelaajan olemalla aktiivinen, auttamalla ihmisiä, sekä yleisesti olemalla positiivinen. Kuukauden pelaajan on oltava tasoltaan vähintään Sisukas.<br>Emme välttämättä valitse kuukauden pelaajaa joka kuukausi. Tämän tason mukana tulee myös joitain muitakin palkintoja"
                 />
                 <div className="lahjoitustablewrapper">
                     <table>
