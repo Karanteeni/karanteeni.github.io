@@ -336,6 +336,9 @@ main.yllapito li {
 
 .kk-page-info > * {
     margin: 1em 0;
+}
+
+.kk-page-info {
     padding: 1em 0;
 }
 
