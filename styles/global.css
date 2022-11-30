@@ -256,7 +256,7 @@ main.not-found img {
     border: 1px solid var(--primary-border-color);
     padding: 0.6rem;
     padding-bottom: 1rem;
-    width: 180px;
+    width: 210px;
     display: flex;
     flex-direction: column;
 }
