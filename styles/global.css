@@ -334,6 +334,11 @@ main.yllapito li {
     margin: 1em 0;
 }
 
+.kk-page-info > * {
+    margin: 1em 0;
+    padding: 1em 0;
+}
+
 .server-event {
     padding: 0.6em;
     border-radius: 6px;
