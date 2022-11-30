@@ -155,6 +155,12 @@ const Rankit = () => {
                     Rikkoja (sellaisille pelaajille, jotka auttavat ylläpitoa löytämään palvelimelta sitä hajottavia
                     asioita)
                 </li>
+                <li>
+                    Kuukauden pelaaja (vaikuttavat positiivisesti palvelimen ilmapiiriin. Lisää näet <Link href="/kkpelaaja">täältä</Link>)
+                </li>
+                <li>
+                    Tiimiläinen (on tai on ollut ylläpidossa Karanteenin yhteistyöpalvelimilla)
+                </li>
             </ul>
             <p>
                 Karanteenissa kaikilla pelaajilla on rankkiominaisuuksien lisäksi käytössään muita komentoja ja
