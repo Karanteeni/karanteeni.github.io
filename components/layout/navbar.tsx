@@ -194,7 +194,7 @@ const Navbar = () => {
                 setSelected={setSelectedDropdown}
                 title="Kiitokset"
                 icon={faGift}
-                itemIndex={2}
+                itemIndex={3}
             >
                 <DropDownItem close={closeNav} icon={faGift} url="/lahjoitus" title="Lahjoitukset" />
                 <DropDownItem close={closeNav} icon={faCrown} url="/kkpelaaja" title="Kuukauden pelaajat" />
@@ -205,7 +205,7 @@ const Navbar = () => {
                 setSelected={setSelectedDropdown}
                 title="Hakemukset"
                 icon={faScroll}
-                itemIndex={3}
+                itemIndex={4}
             >
                 <DropDownItem close={closeNav} icon={faFileAlt} url="/yphaku" title="Hae ylläpitoon!" />
                 <DropDownItem close={closeNav} icon={faFileAlt} url="/unban" title="Unban-hakemus" />
