@@ -1,4 +1,4 @@
-const Heading = ({ heading, lead, children }: { heading: string; lead?: string; children?: React.ReactNode }) => {
+const Heading = ({ heading, lead, children }: { heading: string; lead?: string | React.ReactNode; children?: React.ReactNode }) => {
     return (
         <div className="main-heading">
             <h1>{heading}</h1>
