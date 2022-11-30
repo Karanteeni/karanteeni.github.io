@@ -37,7 +37,7 @@ export default function Lahjoitus() {
 
     return (
         <Layout
-            className="lahjoitus"
+            className="yllapito"
             title=""
             description=""
         >
