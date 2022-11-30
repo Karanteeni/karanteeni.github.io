@@ -15,6 +15,7 @@ import {
     faGift,
     faFileAlt,
     faHome,
+    faCrown,
     faUserShield,
     IconDefinition
 } from '@fortawesome/free-solid-svg-icons'
@@ -188,7 +189,16 @@ const Navbar = () => {
                 <DropDownItem close={closeNav} icon={faFileAlt} url="/yphaku" title="Hae ylläpitoon!" />
             </DropDownCollapseMenu>
 
-            <NavLink close={closeNav} icon={faGift} url="/lahjoitus" title="Lahjoitukset" />
+            <DropDownCollapseMenu
+                selected={selectedDropdown}
+                setSelected={setSelectedDropdown}
+                title="Kiitokset"
+                icon={faGift}
+                itemIndex={2}
+            >
+                <DropDownItem close={closeNav} icon={faGift} url="/lahjoitus" title="Lahjoitukset" />
+                <DropDownItem close={closeNav} icon={faCrown} url="/kkpelaaja" title="Kuukauden pelaajat" />
+            </DropDownCollapseMenu>
 
             <DropDownCollapseMenu
                 selected={selectedDropdown}
