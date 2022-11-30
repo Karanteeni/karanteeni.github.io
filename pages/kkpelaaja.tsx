@@ -47,8 +47,29 @@ export default function Lahjoitus() {
             <div className="lahjoitusdokumentti">
                 <Heading
                     heading="Kuukauden pelaajat"
-                    lead={<>Tälle sivulle on kerätty kuukauden pelaajat.<br/>Kiitos tuesta ja uskollisuudestanne! ♥<br/>Voit saada kuukauden pelaajan olemalla aktiivinen, auttamalla ihmisiä, sekä yleisesti olemalla positiivinen. Kuukauden pelaajan on oltava tasoltaan vähintään Sisukas.<br/>Emme välttämättä valitse kuukauden pelaajaa joka kuukausi. Tämän tason mukana tulee myös joitain muitakin palkintoja</>}
+                    lead="Tälle sivulle on kerätty kuukauden pelaajat. Kiitos tuesta ja uskollisuudestanne! ♥"
                 />
+                <p>
+                    Kuukauden pelaaja on yksi Karanteenin alitasoista, jonka voi kukin pelaaja saada vain kerran.
+                    Kuukauden pelaajan voi saada:
+                </p>
+                <ul>
+                    <li>
+                        Olemalla aktiivinen palvelimella
+                    </li>
+                    <li>
+                        Auttamalla toisia pelaajia
+                    </li>
+                    <li>
+                        Luomalla positiivista ilmapiiriä
+                    </li>
+                    <li>
+                        Olemalla tasoltaan vähintään Sisukas
+                    </li>
+                </ul>
+                <p>
+                    Emme välttämättä valikoi uutta kuukauden pelaajaa joka kuukausi.
+                </p>
                 <div className="lahjoitustablewrapper">
                     <table>
                         <thead>
