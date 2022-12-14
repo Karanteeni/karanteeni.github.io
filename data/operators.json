@@ -106,14 +106,6 @@
       "uuid": "5cab2b2a16dc410491ff40fa6920d01d"
     },
     {
-      "name": "Markurius",
-      "description": "Mullikoin kuuteen",
-      "strengths": [
-        "Rakentaminen"
-      ],
-      "uuid": "70defd5d9767496ca6bab621d6f06766"
-    },
-    {
       "name": "Jenniii",
       "description": "\"tykkään kissoista ja nukkumisesta\"",
       "strengths": [
@@ -136,6 +128,14 @@
         "Rakentaminen"
       ],
       "uuid": "fdac507124964a92a97236e36d95a1b5"
+    },
+    {
+      "name": "Markurius",
+      "description": "Mullikoin kuuteen",
+      "strengths": [
+        "Rakentaminen"
+      ],
+      "uuid": "70defd5d9767496ca6bab621d6f06766"
     }
   ]
 }
