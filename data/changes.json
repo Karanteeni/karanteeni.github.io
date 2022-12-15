@@ -3,7 +3,7 @@
         "date": "15.12.2022",
         "changes": [
             "Serverille ei enää pääse versiolla 1.19.2.",
-            "Palvelinportaalit ovat toimintakuntoiset, eivät vielä täydelliset."
+            "Palvelinportaalit ovat toimintakuntoiset, eivät vielä täydelliset.",
             "Servujen yksityinen chat laitettu toimintakuntoon.",
             "Chatissa on oma merkki, jos olet servulla, jonka chat on erotettu yleisestä chatistä.",
             "Ylläpito voi nähdä jokaisen serverin chatin /socialspy (YP)"
