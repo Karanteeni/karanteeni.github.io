@@ -1,9 +1,147 @@
 [
     {
+        "date": "15.12.2022",
+        "changes": [
+            "Serverille ei enää pääse versiolla 1.19.2.",
+            "Palvelinportaalit ovat toimintakuntoiset, eivät vielä täydelliset."
+            "Servujen yksityinen chat laitettu toimintakuntoon.",
+            "Chatissa on oma merkki, jos olet servulla, jonka chat on erotettu yleisestä chatistä.",
+            "Ylläpito voi nähdä jokaisen serverin chatin /socialspy (YP)"
+        ]
+    },
+    {
+        "date": "13.12.2022",
+        "changes": [
+            "Lisätty serverille 1.19.3 tuki."
+        ]
+    },
+    {
+        "date": "1.12.2022",
+        "changes": [
+            "Vuoden 2022 joulukalenteri avattu.",
+            "Joulupalvelin avattu."
+        ]
+    },
+    {
+        "date": "29.11.2022",
+        "changes": [
+            "Lisätty /powertool (YP).",
+            "Lisätty globaali blacklist blockien interactaukselle (YP)."
+        ]
+    },
+    {
+        "date": "10.11.2022",
+        "changes": [
+            "MissionNPC (MNPC): Lisätty tuki ääniscripteille.",
+            "MNPC: Lisätty tuki per-player-structureille.",
+            "MNPC: Lisätty global permission -palkinto.",
+            "Korjattu permiplugarista bugi, joka esti serveriä lisäämästä omia permejä global permien päälle.",
+            "Lisätty permiplugariin API, jolla voi handlata pelaajan global permejä spigotin puolelta."
+        ]
+    },
+    {
+        "date": "9.11.2022",
+        "changes": [
+            "Lisätty 17 uutta craftingreseptiä. Deepslate toimii cobbled deepslaten lailla stone cutterissa."
+        ]
+    },
+    {
+        "date": "8.11.2022",
+        "changes": [
+            "Lisätty MapModCompanion plugin. Helpottaa minimappien käyttäjiä."
+        ]
+    },
+    {
+        "date": "6.11.2022",
+        "changes": [
+            "Halloween poistettu serveriltä."
+        ]
+    },
+    {
+        "date": "25.10.2022",
+        "changes": [
+            "Korjailtu aikaisempia ongelmia kuparien custom craftingreseptien kanssa."
+        ]
+    },
+    {
+        "date": "18.10.2022",
+        "changes": [
+            "Mangrove planks slabeista ja mud brick slabeista voi nyt craftata kokonaisia palikoita."
+        ]
+    },
+    {
+        "date": "12.10.2022",
+        "changes": [
+            "Korjattu monistusbugi rakennuswandista.",
+            "Kellopartikkelin toimintaa päivitetty oikeanlaiseksi.",
+            "Rakennuswand osaa nyt laittaa portaita maahan."
+        ]
+    },
+    {
+        "date": "1.10.2022",
+        "changes": [
+            "Lokakuun muutokset: Spawn muutettu halloweeniin sopivaksi, pelaajat saavat lokakuun ajan partikkelin, discordin logo halloweenteemainen ja tab päivitetty teemaan sopivaksi.",
+            "End resetoitu."
+        ]
+    },
+    {
+        "date": "29.9.2022",
+        "changes": [
+            "Lisätty nekromantikoille (ja ylemmille tasoille) oikeudet /kysely.",
+            "Discord: Lisätty komento /lookup, jolla voi katsoa pelaajan peliajan ja yhdistyksen discordiin.",
+            "Discord: Ylläpito voi mykistää pelaajia discordin kautta.",
+            "Discord: Serverillä olevan pelaajan nimen mainitseminen tagaa hänet Minen puolella."
+        ]
+    },
+    {
+        "date": "28.8.2022",
+        "changes": [
+            "Lisätty minen piilotetut maalaukset serverille.",
+            "Lisätty craftaysresepti bundlelle.",
+            "Korjattu /värit komennosta seuraavalle riville vuotava punainen viiva.",
+            "Poistettu väärällä kielellä oleva vinkki."
+        ]
+    },
+    {
+        "date": "20.8.2022",
+        "changes": [
+            "Discordiin luotu uusi kanava, joka on tarkoitettu 16v+ pelaajille. Parantajasta ylöspäin voi siirtää kanavalta pois tyyppejä ja sinne liittyminen vaatii minetilin yhdistämisen discordiin."
+        ]
+    },
+    {
+        "date": "14.8.2022",
+        "changes": [
+            "Serveri päivitetty versioon 1.19.2."
+        ]
+    },
+    {
+        "date": "6.8.2022",
+        "changes": [
+            "Discord yhdistys: Korjailtu linkitysongelmia.",
+            "Discord yhdistys: Fixattu /discord reload (ylläpidon komento).",
+            "Discord yhdistys: Korjailtu ylimääräisten värikoodien näkyvyys.",
+            "Discord yhdistys: Lisätty tuki 'shorten-servers' asetukselle.",
+            "Discord yhdistys: Lisätty merkintä piilotetuille servereille /list komennossa.",
+            "Discord yhdistys: Mykistetyt pelaajat eivät voi enää lähettää viestiä discordista mineen.",
+            "Discord yhdistys: Discordista poistuminen poistaa pelaajan linkityksen.",
+            "Discord yhdistys: Uusien pelaajien liittymisviestit näkyvät nyt keltaisella discordissa.",
+            "Discord yhdistys: Discordin puolella pelaajien nimet näkyvät nyt oikeina niminä, eikä nickeinä.",
+            "Discord yhdistys: /list järjestelee nyt pelaajat.",
+            "Discord yhdistys: Ylläpitäjät näkyvät /list alleviivattuna",
+            "Discord yhdistys: Minen kautta voi katsoa helpommin discordissa lähetettyjä kuvia"
+        ]
+    },
+    {
+        "date": "20.7.2022",
+        "changes": [
+            "Asetuksia säädetty. Serverille yhdistäminen todennäköisesti nopeampaa."
+        ]
+    },
+    {
         "date": "17.7.2022",
         "changes": [
             "Taikamaton päällä voi rikkoa portaita.",
-            "Plugineilla on globaalit käännöstekstit. Helpottaa conffausta (YP)"
+            "Plugineilla on globaalit käännöstekstit. Helpottaa conffausta (YP)."
         ]
     },
     {
