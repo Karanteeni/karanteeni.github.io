@@ -72,6 +72,14 @@
         "Koodaaminen"
       ],
       "uuid": "00b59d31f84f486db29b7c37b60a0be0"
+    },
+    {
+      "name": "MVPPlusPlus",
+      "description": "yo kuis hurisee!",
+      "strengths": [
+        "Videoiden editointi"
+      ],
+      "uuid": "d5275d787e474d8aa4cdcfae7d2808cc"
     }
   ],
   "moderaattori": [
@@ -86,14 +94,6 @@
       "description": "\"Oon huono keksiin tälläsiä\"",
       "strengths": [],
       "uuid": "4f13344913bb4fd4a0b8722d900dbb08"
-    },
-    {
-      "name": "MVPPlusPlus",
-      "description": "yo kuis hurisee!",
-      "strengths": [
-        "Videoiden editointi"
-      ],
-      "uuid": "d5275d787e474d8aa4cdcfae7d2808cc"
     }
   ],
   "rakentaja": [
