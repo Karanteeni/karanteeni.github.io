@@ -88,6 +88,10 @@
         "image": "xp_bottle.png"
     },
     {
+        "caption": "Erilaisia spawnereita voi luoda tällä tavalla",
+        "image": "spawner.png"
+    },
+    {
         "caption": "Meemi.",
         "image": "dirt.png"
     }

@@ -134,10 +134,6 @@
                 "hover": "Nimeää kädessäsi olevan esineen!"
             },
             {
-                "command": "spawner",
-                "hover": "Vaihtaa spawnerin tyyppiä. Ota spawner käteen kun suoritat komentoa."
-            },
-            {
                 "command": "tp pelaaja",
                 "hover": "Voit teleportata muihin ilman /tpa"
             }

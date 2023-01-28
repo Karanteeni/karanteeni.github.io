@@ -54,7 +54,7 @@
             },
             {
                 "short": "Ansaitun rankin hyväksikäyttäminen kielletty",
-                "long": "Sinua alempirankkiset pelaajat eivät saa hyötyä rankkisi ominaisuuksista. Et saa esimerkiksi muuntaa spawnerin tyyppiä toisten puolesta, tai myydä spawnereita, joihin pelaajalla ei ole vielä oikeutta.",
+                "long": "Sinua alempirankkiset pelaajat eivät saa hyötyä rankkisi ominaisuuksista.",
                 "icon": "denied"
             },
             {
