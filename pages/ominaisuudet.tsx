@@ -68,7 +68,7 @@ const Ominaisuudet = () => {
             </Feature>
             <Feature title="Emeraldhissi">
                 <Video source="/feature/emeraldvator.mp4" />
-                <p>Voit rakentaa toimivan hissin emerald palikoilla. Hissit kytketään päälle redstonevirralla. </p>
+                <p>Voit rakentaa toimivan hissin emerald palikoilla. Hissit kytketään päälle redstonevirralla ja ne yltävät enintään 32 palikan päähän. </p>
             </Feature>
 
             <Feature title="Taikamatto">
