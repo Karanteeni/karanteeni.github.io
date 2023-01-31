@@ -1,8 +1,46 @@
 [
     {
+        "date": "31.1.2023",
+        "changes": [
+            "Useampi bugikorjaus."
+        ]
+    },
+    {
+        "date": "30.1.2023",
+        "changes": [
+            "Blaze Spawnereita ei voi enää rikkoa, koska niitä ei voi craftata ja maailmassa on vain rajoitettu määrä niitä.",
+            "Korjattu spawnereihin liittyviä ongelmia."
+        ]
+    },
+    {
+        "date": "29.1.2023",
+        "changes": [
+            "Lisätty komennot /locking add-global-whitelist ja /locking remove-global-whitelist. Nämä komennot mahdollistavat ihmisen lisäämisen kaikkiin lukittuihin palikoihin kerralla."
+        ]
+    },
+    {
+        "date": "28.1.2023",
+        "changes": [
+            "Mapreset suoritettu: kartta 13 -> 14. 14. kartan ajan käytössä on vuodenajat.",
+            "Muutettu spawnereiden toimintaa.",
+            "Lisätty pennipeli takaisin palvelimelle.",
+            "Crafting tableista näkee nyt, mitä toiset työstävät.",
+            "Rakennussauva laittaa nyt palikoita keskeltä ulospäin.",
+            "Napit, pressure platet ja tripwire hookit voi nyt virittää alas sulalla.",
+            "Bugikorjauksia."
+        ]
+    },
+    {
+        "date": "23.1.2023",
+        "changes": [
+            "Lisätty partikkelityyppi: Lotus.",
+            "Lisätty partikkelityyppi: Siivet.",
+            "Lisätty lotuspartikkeleita ja siipipartikkeleita."
+        ]
+    },
+    {
         "date": "15.12.2022",
         "changes": [
-            "Serverille ei enää pääse versiolla 1.19.2.",
             "Palvelinportaalit ovat toimintakuntoiset, eivät vielä täydelliset.",
             "Servujen yksityinen chat laitettu toimintakuntoon.",
             "Chatissa on oma merkki, jos olet servulla, jonka chat on erotettu yleisestä chatistä.",
