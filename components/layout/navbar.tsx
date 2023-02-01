@@ -17,7 +17,8 @@ import {
     faHome,
     faCrown,
     faUserShield,
-    IconDefinition
+    IconDefinition,
+    faScrewdriver
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -209,6 +210,16 @@ const Navbar = () => {
             >
                 <DropDownItem close={closeNav} icon={faFileAlt} url="/yphaku" title="Hae ylläpitoon!" />
                 <DropDownItem close={closeNav} icon={faFileAlt} url="/unban" title="Unban-hakemus" />
+            </DropDownCollapseMenu>
+
+            <DropDownCollapseMenu
+                selected={selectedDropdown}
+                setSelected={setSelectedDropdown}
+                title="Muut"
+                icon={faScrewdriver}
+                itemIndex={5}
+            >
+                <DropDownItem close={closeNav} icon={faFileAlt} url="/nick" title="Nimigeneraattori" />
             </DropDownCollapseMenu>
         </Nav>
     )

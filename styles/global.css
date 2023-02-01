@@ -1353,6 +1353,34 @@ fieldset > label > input {
     width: 15em;
 }
 
+.colorContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+}
+
+.modifier {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.nameInput > * {
+    display: block;
+    width: 100%;
+}
+
+.nameStylized {
+    text-align: center;
+    font-size: 3em;
+    min-height: 2ch;
+    padding: 8px;
+    font-family: 'Minecraftia';
+    margin-bottom: 16px;
+    border-radius: 1em;
+}
+
 @media screen and (max-width: 1000px) {
     .rank-grid {
         grid-auto-flow: row;
