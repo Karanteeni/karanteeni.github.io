@@ -95,7 +95,12 @@ const DropDownItem = ({
     title: string
 }) => {
     const router = useRouter();
-    const sameDomain = url.startsWith("/") || url.startsWith("#") || (new URL(url)).origin == window.origin;
+    const [sameDomain, setSameDomain] = useState(false);
+
+    useEffect(() => {
+        setSameDomain(url.startsWith("/") || url.startsWith("#") || (new URL(url)).origin == window.origin);
+    }, [url]);
+
     return (
         <Link href={url}>
             <a
