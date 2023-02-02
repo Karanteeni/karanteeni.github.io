@@ -94,7 +94,8 @@ const DropDownItem = ({
     icon: IconDefinition
     title: string
 }) => {
-    const router = useRouter()
+    const router = useRouter();
+    const sameDomain = url.startsWith("/") || url.startsWith("#") || (new URL(url)).origin == window.origin;
     return (
         <Link href={url}>
             <a
@@ -104,6 +105,7 @@ const DropDownItem = ({
                         close()
                     }
                 }}
+                target={sameDomain ? '_self' : '_blank'}
             >
                 <Icon icon={icon} />
                 {title}
@@ -223,8 +225,8 @@ const Navbar = () => {
                 left={true}
             >
                 <DropDownItem close={closeNav} icon={faFileAlt} url="/nick" title="Nimigeneraattori" />
-                <DropDownItem close={closeNav} icon={faGavel} url="/bans" title="Porttikiellot" />
-                <DropDownItem close={closeNav} icon={faMap} url="/map" title="Kartta" />
+                <DropDownItem close={closeNav} icon={faGavel} url="http://bans.karanteeni.net/" title="Porttikiellot" />
+                <DropDownItem close={closeNav} icon={faMap} url="http://map.karanteeni.net/" title="Kartta" />
             </DropDownCollapseMenu>
         </Nav>
     )
