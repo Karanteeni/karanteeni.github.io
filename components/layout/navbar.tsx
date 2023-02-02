@@ -18,7 +18,9 @@ import {
     faCrown,
     faUserShield,
     IconDefinition,
-    faScrewdriver
+    faScrewdriver,
+    faGavel,
+    faMap
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -57,9 +59,9 @@ const NavLink = ({
     )
 }
 
-const DropDownCollapseMenu = ({ selected, setSelected, itemIndex, icon, title, children }: any) => {
+const DropDownCollapseMenu = ({ selected, setSelected, itemIndex, icon, title, children, left }: any) => {
     let show = selected === itemIndex
-    let className = show ? 'dropdown-menu collapse show' : 'dropdown-menu collapse'
+    let className = (show ? 'dropdown-menu collapse show' : 'dropdown-menu collapse') + (left ? ' left' : '');
     return (
         <li className="nav-item dropdown">
             <div
@@ -218,8 +220,11 @@ const Navbar = () => {
                 title="Muut"
                 icon={faScrewdriver}
                 itemIndex={5}
+                left={true}
             >
                 <DropDownItem close={closeNav} icon={faFileAlt} url="/nick" title="Nimigeneraattori" />
+                <DropDownItem close={closeNav} icon={faGavel} url="/bans" title="Porttikiellot" />
+                <DropDownItem close={closeNav} icon={faMap} url="/map" title="Kartta" />
             </DropDownCollapseMenu>
         </Nav>
     )

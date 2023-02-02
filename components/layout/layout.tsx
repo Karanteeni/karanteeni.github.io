@@ -11,13 +11,15 @@ export default function Layout({
     home,
     className,
     title,
-    description
+    description,
+    contained = true
 }: {
     children: React.ReactNode
     home?: boolean
     className?: string
     title?: string
     description?: string
+    contained?: boolean
 }) {
     return (
         <div>
@@ -41,9 +43,14 @@ export default function Layout({
             </Head>
             {home && <HomeHero />}
             <Navbar />
-            <div className="main-container">
-                <main className={`${home ? 'home ' : ''}${className ? className + ' ' : ''}`}>{children}</main>{' '}
-            </div>
+
+            {contained ?
+                <div className="main-container">
+                    <main className={`${home ? 'home ' : ''}${className ? className + ' ' : ''}`}>{children}</main>{' '}
+                </div>
+            :
+                <div className='full-size'>{children}</div>
+            }
 
             <Footer home={home} />
         </div>

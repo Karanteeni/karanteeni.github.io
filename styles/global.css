@@ -180,6 +180,33 @@ main.not-found img {
     padding: 0.5em 0.5em;
 }
 
+.full-size {
+    width: 100%;
+    height: calc(100vh - 64px);
+}
+
+.redirect-card {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
+.redirect-card > * {
+    padding: 8px;
+    border-radius: 8px;
+    pointer-events: all;
+    background-color: var(--background-secondary);
+}
+
+.borderless {
+    border: none;
+}
+
 .mobile .nav {
     flex-direction: column;
     padding-top: 0;
@@ -259,6 +286,11 @@ main.not-found img {
     width: 210px;
     display: flex;
     flex-direction: column;
+}
+
+.dropdown-menu.left {
+    left: unset;
+    right: 0;
 }
 
 .dropdown-menu h4 {
