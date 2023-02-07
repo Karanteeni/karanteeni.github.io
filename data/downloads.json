@@ -5,12 +5,12 @@
             {
                 "text": "Purolaakson 1. kartta (1.9.4)",
                 "url": "https://nx34682.your-storageshare.de/s/9TqDMWoAZxrX6Gs",
-                "image": null
+                "image": "/images/puro_1.png"
             },
             {
                 "text": "Karanteenin 4. kartta (1.14.2)",
                 "url": "https://nx34682.your-storageshare.de/s/tQ6E75SBpQLe8oD",
-                "image": null
+                "image": "/images/map_4.png"
             },
             {
                 "text": "Karanteenin 5. kartta (1.13.2)",
@@ -36,6 +36,51 @@
                 "text": "Karanteenin 12. kartta (1.18.2)",
                 "url": "https://nx34682.your-storageshare.de/s/q85tJGZWxxLaWHx",
                 "image": "/images/map_12.png"
+            }
+        ]
+    },
+    {
+        "heading": "Resurssipaketit",
+        "targets": [
+            {
+                "text": "Map 12 Spawn Resourcepack",
+                "url": "https://nx34682.your-storageshare.de/s/mxSKPargagPbMrF",
+                "image": null
+            },
+            {
+                "text": "Map 12 Lunaria Resourcepack",
+                "url": "https://nx34682.your-storageshare.de/s/ZZM3EsNQzZRoj9y",
+                "image": null
+            },
+            {
+                "text": "Map 12 Malmila Resourcepack",
+                "url": "https://nx34682.your-storageshare.de/s/2SnWgfZxTJyzJDn",
+                "image": null
+            },
+            {
+                "text": "Map 13 Spawn Resourcepack",
+                "url": "https://nx34682.your-storageshare.de/s/2qK96m5GKCoiYcb",
+                "image": null
+            },
+            {
+                "text": "Map 14 Spawn Resourcepack",
+                "url": "https://nx34682.your-storageshare.de/s/B7wq9dKJsjw9ZC3",
+                "image": null
+            },
+            {
+                "text": "Sus Pilvet Resourcepack",
+                "url": "https://nx34682.your-storageshare.de/s/zKCt2zZ6E6oaRbb",
+                "image": null
+            }
+        ]
+    },
+    {
+        "heading": "Vanhentuneet",
+        "targets": [
+            {
+                "text": "Hostile Survival Resource pack",
+                "url": "https://nx34682.your-storageshare.de/s/5YXYYqQ4g4qPbQF",
+                "image": null
             }
         ]
     }
