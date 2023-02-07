@@ -20,7 +20,8 @@ import {
     IconDefinition,
     faScrewdriver,
     faGavel,
-    faMap
+    faMap,
+    faDownload
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -232,6 +233,7 @@ const Navbar = () => {
                 <DropDownItem close={closeNav} icon={faFileAlt} url="/nick" title="Nimigeneraattori" />
                 <DropDownItem close={closeNav} icon={faGavel} url="http://bans.karanteeni.net/" title="Porttikiellot" />
                 <DropDownItem close={closeNav} icon={faMap} url="http://map.karanteeni.net/" title="Kartta" />
+                <DropDownItem close={closeNav} icon={faDownload} url="/downloads" title="Lataukset" />
             </DropDownCollapseMenu>
         </Nav>
     )

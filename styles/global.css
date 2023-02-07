@@ -1294,6 +1294,36 @@ time {
     background-color: #128df3;
 }
 
+.download-link {
+    clear: both;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.download-link:hover {
+    color: var(--color-secondary);
+}
+
+.download-link img {
+    opacity: 0;
+    transition-duration: 0.2s;
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    transform: translateY(-50px);
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    pointer-events: none;
+}
+
+.download-link:hover img {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .rule-content {
     display: flex;
     flex-direction: column;

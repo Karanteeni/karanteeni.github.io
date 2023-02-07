@@ -158,11 +158,6 @@
                 "icon": "important"
             },
             {
-                "short": "Xp-farmit ja /spawner",
-                "long": "Kyliin on mahdollista muuttaa spesifi spawner, mutta spawner täytyy palauttaa tai myydä alkuperäisessä mobissa takaisin.",
-                "icon": "allowed"
-            },
-            {
                 "short": "Kylästä häätäminen",
                 "long": "Kylän omistaja(t) voi(vat) häätää pelaajan sääntörikkomuksen seurauksena. Mikäli kylästä häädetään henkilö, tulee hänen tavaransa palauttaa. Mikäli henkilö poistetaan kylästä ilman, että tavaroita palautetaan asianmukaisessa ajassa, on häätäjä rikkonut serverin sääntöjä (varastaminen).",
                 "icon": "notice"

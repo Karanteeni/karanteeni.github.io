@@ -240,10 +240,10 @@ const Ominaisuudet = () => {
 
             <Feature title="Spawnerien kerääminen">
                 <p>
-                    Karanteenissa pystyy hakkaamaan mobspawnerit itselleen, kunhan käyttää hakkua jossa on Silk Touch
+                    Karanteenissa pystyy hakkaamaan mobspawnerit itselleen, mutta ne putoavat tyhjänä maahan. Jos haluat mobin säilyvän, riko spawner hakulla jossa on on Silk Touch
                     (silkkinen kosketus) enchantti.
                 </p>
-                <p>Parantuva rankista ylöspäin pelkkä hakku riittää!</p>
+                <p>Voit muuttaa spawnerin tyyppiä craftaamalla</p>
             </Feature>
 
             <Feature title="Näkymättömät itemframet">
