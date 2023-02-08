@@ -1294,34 +1294,59 @@ time {
     background-color: #128df3;
 }
 
+.download-link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .download-link {
     clear: both;
     width: 100%;
     display: inline-block;
     position: relative;
+    background: var(--background-secondary);
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.download-link.missing {
+    color: gray;
+    text-decoration: line-through;
+    cursor: default;
+}
+
+.download-link.missing:hover {
+    color: darkgray;
 }
 
 .download-link:hover {
     color: var(--color-secondary);
+    background: var(--background-primary);
 }
 
 .download-link img {
     opacity: 0;
     transition-duration: 0.2s;
-    width: 400px;
+    width: 50%;
     height: 200px;
     object-fit: cover;
     object-position: center;
-    transform: translateY(-50px);
+    transform: translateY(-2em);
     position: absolute;
     bottom: 100%;
     left: 0;
     pointer-events: none;
+    left: 25%;
 }
 
 .download-link:hover img {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-8px);
 }
 
 .rule-content {
@@ -1425,7 +1450,7 @@ fieldset > label > input {
 .modifier {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .nameInput > * {
