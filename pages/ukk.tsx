@@ -41,11 +41,9 @@ const CommonQuestions = (props) => {
                 <Question>Löysin palvelimelta peliä rikkovan vian. Mitä teen?</Question>
                 <Answer>
                     Ota yhteyttä ylläpitäjään joko palvelimella tai liity Karanteenin Discordiin ja valitse sieltä
-                    kanava "Bugit ja parannusehdotukset".
-                    <strong>
-                        Mikäli bugia voi hyväksikäyttää, pidä se omana tietonasi, äläkä kerro muille pelaajille.
-                    </strong>
-                    Bugin hyväksikäyttö on <strong>ankarasti kiellettyä</strong>. Mikäli jäät siitä kiinni, saat siitä
+                    kanava "Bugit ja parannusehdotukset". <strong>Mikäli bugia voi hyväksikäyttää, pidä se omana tietonasi,
+                    äläkä kerro muille pelaajille.</strong> Bugin
+                    hyväksikäyttö on <strong>ankarasti kiellettyä</strong>. Mikäli jäät siitä kiinni, saat siitä
                     automaattisesti tuntuvan porttikiellon. Hyväksikäytettävän / peliärikkovan bugin ilmiantamisesta saa
                     yleensä korvauksen.
                 </Answer>
@@ -136,7 +134,8 @@ const ProtectionQuestions = (props) => {
                 <Answer>
                     Voit antaa oikeudet kyseisiin blockeihin katsomalla blockia ja kirjoittamalla komennon{' '}
                     <code>/lukitus add-member &lt;pelaajan_nimi&gt;</code>. Tämän jälkeen kaverillasi on oikeudet avata kyseinen
-                    arkku. Komento toimii myös muihin container blockeihin.
+                    arkku. Komento toimii myös muihin container blockeihin.<br/> Vaihtoehtoisesti voit antaa oikeudet myös kaikkiin
+                    suojattuihin palikoihin lisäämällä kaverisi valkoiselle listalle komennolla <code>/lukitus add-global-whitelist &lt;pelaaja_nimi&gt;</code>.
                 </Answer>
             </div>
 
@@ -262,7 +261,8 @@ const ModQuestions = (props) => {
                 <Question>Mitkä modit ovat sallittuja Karanteenissa?</Question>
                 <Answer>
                     Pääsääntöisesti kaikki pelaajia hyödyttävät modit ovat kiellettyjä, siinä missä grafiikkamodit kuten
-                    OptiFine ovat sallittuja. Nykäise ylläpitäjää hihasta mikäli et ole varma.
+                    OptiFine ovat sallittuja. Mikäli modi vain neuvoo pelaajaa (esim. Litematica) on se Todennäköisesti sallittu.
+                    Nykäise ylläpitäjää hihasta mikäli et ole varma.
                 </Answer>
             </div>
         </>
