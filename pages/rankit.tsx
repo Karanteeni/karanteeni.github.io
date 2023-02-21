@@ -145,7 +145,7 @@ const Rankit = () => {
                 afkatessa. Peliajan näkee komennolla <code>/peliaika</code>, ja toisten pelaajien{' '}
                 <code>/peliaika pelaajan_nimi</code>.
             </p>
-            <p>Peliaikaan perustuvien rakkien lisäksi, Karanteenissa on myös muutama muu eritysrankki.</p>
+            <p>Peliaikaan perustuvien rankkien lisäksi, Karanteenissa on myös muutama muu eritysrankki.</p>
             <ul>
                 <li>
                     Lahjoittaja (kaikille, jotka lahjoittavat vähintään 10€ palvelimelle ks.{' '}
