@@ -80,15 +80,15 @@
         "Videoiden editointi"
       ],
       "uuid": "d5275d787e474d8aa4cdcfae7d2808cc"
-    }
-  ],
-  "moderaattori": [
+    },
     {
       "name": "Jokune",
       "description": "\"miten tätä ajetaan?\"",
       "strengths": [],
       "uuid": "bbd2bc4c9fe64ffeb69b767c0df3db4f"
-    },
+    }
+  ],
+  "moderaattori": [
     {
       "name": "Lesserr",
       "description": "\"Oon huono keksiin tälläsiä\"",
