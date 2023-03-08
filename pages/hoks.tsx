@@ -15,23 +15,24 @@ const Hoks = () => {
             <p>
                 Karanteeni on vuodesta 2016 asti toiminut suomalainen Minecraft palvelin. Karanteenin alkuperäiset
                 perustajat ovat Emmazki, Jomeee ja Nuubles, joista Jomeee ja Nuubles ovat vielä aktiivisina pyörimässä.
-                Palvelimella keskeisin pelimuoto on omilla ominaisuuksilla paranneltu Survival. Palvelimelle on
-                palaamassa Creative ja erinäköiset minipelit.
+                Palvelimella keskeisin pelimuoto on omilla ominaisuuksilla paranneltu Survival, mutta monelle tuttu
+                Creative on myös pelattavissa. Tulevaisuudessa myös erilaiset minipelit tekevät paluun serverille.
             </p>
             <p>
                 Palvelimen toimintaidea on se, että mitä pidempään pelaat serverillä, sitä parempia ominaisuuksia avaat
                 käyttöösi. Peliajalla kerättävistä ominaisuuksista voi lukea lisää{' '}
-                <Link href="/rankit">rankit sivulta</Link>. Muista Karanteenin ominaisuukista voi lukea{' '}
+                <Link href="/rankit">rankit sivulta</Link>. Muista Karanteenin ominaisuuksista voi lukea{' '}
                 <Link href="ominaisuudet">ominaisuudet sivulla</Link>.
             </p>
             <p>
-                Palvelimella järjestetään vuosittain erilaisia juhlia (esim joulujuhlat, synttärit ja juhannusbileet).
-                Survival resetoidaan suunnilleen aina 7 kuukauden välein jota ennen aina pelaajien annetaan räjäyttää
+                Palvelimella järjestetään vuosittain erilaisia tapahtumia (esim joulujuhlat, synttäribileet ja pääsiäisjuhlat).
+                Vakituisten juhlien lisäksi pyöritämme satunnaisesti UHC-pelejä, joiden voittamisesta saa harvinaisen partikkelin.
+                Survival resetoidaan noin puolen vuoden välein, jota ennen aina pelaajien annetaan räjäyttää
                 vanha mappi uuden tieltä.
             </p>
             <p>
                 Palvelin on täysin omakustanteinen, eli lahjoitusten ja ylläpitäjien varassa. Lahjoitukset käytetään
-                palvelimen käynnissäpitämiseen sekä erinäköisten tapahtumien järjestämiseen.
+                täysin palvelimen ylläpitoon.
             </p>
 
             <h3>Muita pointteja</h3>
