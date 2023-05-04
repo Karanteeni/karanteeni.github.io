@@ -410,6 +410,9 @@ const Ominaisuudet = () => {
                         <code>/sit</code>
                     </li>
                     <li>
+                        <code>1 plotti Creativessa</code>
+                    </li>
+                    <li>
                         <code>/lemmikki (lemmikkiopas)</code>
                     </li>
                     <li>
