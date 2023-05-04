@@ -1,5 +1,127 @@
 [
     {
+        "date": "21.4.2023",
+        "changes": [
+            "Lisätty dispenserille uusi recipe."
+        ]
+    },
+    {
+        "date": "1.4.2023",
+        "changes": [
+            "Aprillipila lisätty ja poistettu.",
+            "Mapin puolivälin end reset suoritettu."
+        ]
+    },
+    {
+        "date": "28.3.2023",
+        "changes": [
+            "Serveri päivitetty täysin versioon 1.19.4."
+        ]
+    },
+    {
+        "date": "22.3.2023",
+        "changes": [
+            "Serverille lisätty 1.19.4 tuki."
+        ]
+    },
+    {
+        "date": "16.3.2023",
+        "changes": [
+            "Downloads sivujen resurssipaketit päivitetty 1.19.4 formaattiin."
+        ]
+    },
+    {
+        "date": "13.3.2023",
+        "changes": [
+            "PvP-areenan mahdollista lagiongelmaa estetty."
+        ]
+    },
+    {
+        "date": "11.3.2023",
+        "changes": [
+            "Useampi bugikorjaus."
+        ]
+    },
+    {
+        "date": "5.3.2023",
+        "changes": [
+            "Chattivaroitusten kiertoa vaikeutettu.",
+            "Lisätty whitelist sanoille, joista ei kuulu saada varoitusta",
+            "Korjattu chatinvalvontaplugarin ongelmia."
+        ]
+    },
+    {
+        "date": "3.3.2023",
+        "changes": [
+            "Lisätty uusi partikkelityyppi, joka sisältää 31 partikkelia."
+        ]
+    },
+    {
+        "date": "27.2.2023",
+        "changes": [
+            "Paranneltu automaattista puunkaatoa."
+        ]
+    },
+    {
+        "date": "23.2.2023",
+        "changes": [
+            "Lisätty liekinheitin lumien sulattamiseen."
+        ]
+    },
+    {
+        "date": "18.2.2023",
+        "changes": [
+            "Creative avattu - siihen liittyvät asiat, kuten spawn, tiet, muut säädöt valmiita.",
+            "Creativeen tulee rankkien kasvaessa lisää plotteja (lisää rankit-sivulla).",
+            "Creativessa WorldEdit Parantuvasta eteenpäin.",
+            "Creativen valikkoon lisätty Creativelle suunnattu osio.",
+            "Lemmikkiplugin vaihdettu itse tehtyyn.",
+            "Korjattu puuttuviin oikeuksiin liittyvä bugi"
+        ]
+    },
+    {
+        "date": "17.2.2023",
+        "changes": [
+            "Korjattu /valikko komennon bugi.",
+            "Plunge attack ei aktivoidu enää blockeja klikkaamalla",
+            "Karanteenin Discord sai uuden avustajabotin"
+        ]
+    },
+    {
+        "date": "15.2.2023",
+        "changes": [
+            "KaranteeniCoren BareCommand päivitys uuteen formaattiin.",
+            "Korjattu /valikko komennosta creativen homet",
+            "Lisätty tuki Creativeen pääsyyn valikon kautta"
+        ]
+    },
+    {
+        "date": "14.2.2023",
+        "changes": [
+            "Lisätty uusi recipe. Stripped logit voi craftata suoraan tikuiksi."
+        ]
+    },
+    {
+        "date": "11.2.2023",
+        "changes": [
+            "Magma creamin voi pestä vedellä täytetyssä cauldronissa.",
+            "Useampi bugikorjaus."
+        ]
+    },
+    {
+        "date": "7.2.2023",
+        "changes": [
+            "Karanteenin vanhoja karttoja ja eri resurssipaketit on nyt ladattavissa nettisivuilta."
+        ]
+    },
+    {
+        "date": "7.2.2023",
+        "changes": [
+            "Korjattu virheellisiä viestejä.",
+            "Phantomien spawnaus poistettu ja membrane lisätty palvelimen kauppaan."
+        ]
+    },
+    {
         "date": "31.1.2023",
         "changes": [
             "Useampi bugikorjaus."
