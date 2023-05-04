@@ -37,6 +37,11 @@
             {
                 "command": "trash"
             }
+        ],
+        "other": [
+            {
+                "content": "1 uusi plotti Creativeen (yht. 2)",
+            }
         ]
     },
     "sisukas": {
@@ -106,6 +111,12 @@
             },
             {
                 "content": "Uudet partikkelit taikamattoon"
+            },
+            {
+                "content": "Oikeudet WorldEditin käyttöön Creativessa"
+            },
+            {
+                "content": "2 uutta plottia Creativeen (yht. 4)"
             }
         ]
     },
@@ -141,6 +152,9 @@
             },
             {
                 "content": "Uudet partikkelit taikamattoon"
+            },
+            {
+                "content": "2 uutta plottia Creativeen (yht. 6)"
             }
         ]
     },
@@ -168,6 +182,9 @@
             },
             {
                 "content": "Uudet kenkien partikkelit"
+            },
+            {
+                "content": "2 uutta plottia Creativeen (yht. 8)"
             }
         ]
     },
@@ -210,6 +227,9 @@
             },
             {
                 "content": "Uudet elytra partikkelit"
+            },
+            {
+                "content": "1 uusi plotti creativeen (yht. 9)"
             }
         ]
     },
@@ -237,6 +257,9 @@
             },
             {
                 "content": "Uudet elytra partikkelit"
+            },
+            {
+                "content": "3 uutta plottia Creativeen (yht. 12)"
             }
         ]
     }
