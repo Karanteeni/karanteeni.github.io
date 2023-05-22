@@ -57,7 +57,7 @@ export default function Lahjoitus() {
                         </a>
                     </b>
                     . Voit myös ottaa Discordissa yhteyttä Jomeen, niin voimme katsoa kuinka voit tehdä mahdollisen
-                    lahjoituksen. Helpoimmat tavat on Hostille maksu ja PayPal.{' '}
+                    lahjoituksen. Helpoin maksutapa on PayPal.{' '}
                     <b>Muistathan kertoa lahjoittaessasi discord/minecraft nimesi.</b>
                 </p>
                 <p>
