@@ -52,20 +52,20 @@ const Nick = () => {
             const hexColor = rgbToHex(r1, g1, b1);
             let modifiedCharacter = "&"
                 + hexColor
-                + character;
-
                 if(bold) {
-                modifiedCharacter = "&l" + modifiedCharacter;
-            }
-            if(italic) {
-                modifiedCharacter = "&o" + modifiedCharacter;
-            }
-            if(overline) {
-                modifiedCharacter = "&m" + modifiedCharacter;
-            }
-            if(underline) {
-                modifiedCharacter = "&n" + modifiedCharacter;
-            }
+                modifiedCharacter = modifiedCharacter + "&l";
+                }
+                if(italic) {
+                    modifiedCharacter = modifiedCharacter + "&o";
+                }
+                if(overline) {
+                    modifiedCharacter = modifiedCharacter + "&m";
+                }
+                if(underline) {
+                    modifiedCharacter = modifiedCharacter + "&n";
+                }
+                modifiedCharacter = modifiedCharacter += character;
+
             newName += modifiedCharacter;
             htmlName.push(<span style={{
                 fontStyle: italic ? "italic" : "normal",

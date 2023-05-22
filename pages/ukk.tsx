@@ -277,7 +277,7 @@ const Ukk = () => {
         >
             <Heading
                 heading="Usein kysytyt kysymykset"
-                lead='Milloin on mapresetin tuhoamisenchantin yhteensopiva plugarin home ei teleporttaa?" "On."'
+                lead='"Milloin on mapresetin tuhoamisenchantin yhteensopiva plugarin home ei teleporttaa?" "On."'
             />
 
             <div>

@@ -119,7 +119,7 @@ const Saannot = () => {
                     Sääntöjen rikkomisesta tulee aina seuraamuksia. Rikkeen vakavuuden mukaan voidaan pelaajalle antaa
                     varoituksia, väliaikaiset bannit tai ikuiset bannit.
                 </p>
-                <p className="rules-common-p">Kolmesta varoituksesta pelaaja saa automaattiset kahden viikon bannit.</p>
+                <p className="rules-common-p">Kolmesta varoituksesta pelaaja saa automaattiset kahden viikon bannit ja kuudesta ikuiset.</p>
                 <p className="rules-common-p">Varoitus säilyy pelaajalla 180 päivää, jonka jälkeen se vanhenee.</p>
                 <p className="rules-common-p">
                     Huomioi, että vaikka säännöissä ei välttämättä suoraan kiellettäisi jotain skenaariota, voi se silti
