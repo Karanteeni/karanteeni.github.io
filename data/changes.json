@@ -1,5 +1,18 @@
 [
     {
+        "date": "6.5.2023",
+        "changes": [
+            "Lisätty 74 uutta käännöstä onnenkekseihin."
+        ]
+    },
+    {
+        "date": "5.5.2023",
+        "changes": [
+            "Chestejä voi nyt craftata stripped logeista.",
+            "Hiekkaa saa nykyään blast furnacella (gravelin sulatus)"
+        ]
+    },
+    {
         "date": "21.4.2023",
         "changes": [
             "Lisätty dispenserille uusi recipe."
