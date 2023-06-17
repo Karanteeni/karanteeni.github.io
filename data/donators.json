@@ -1,5 +1,17 @@
 [
     {
+        "date": "11.6.23",
+        "name": "ME_22",
+        "amount": "5€",
+        "heart": "♥"
+    },
+    {
+        "date": "4.6.23",
+        "name": "Manuzki",
+        "amount": "40€",
+        "heart": "♥"
+    },
+    {
         "date": "2.4.23",
         "name": "Unspontaneous",
         "amount": "12.34€",
