@@ -1,27 +1,23 @@
 [
     {
-        "caption": "Nametagille on Karanteenissa oma resepti.",
-        "image": "nametag.png"
+        "caption": "Voit craftata logit suoraan tikuiksi. Toimii myös kuorituilla puilla.",
+        "image": "log_to_stick.png"
     },
     {
-        "caption": "End Crystal. Karanteenissa Ender dragon pudottaa joka spawnaus kerran jälkeen lohikäärmeen munan. Siksi end crystalleille on asetettu uusi vaikeampi resepti.",
-        "image": "endcrystal.png"
+        "caption": "Logeista voi myös tehdä suoraan isomman määrän arkkuja. Tämäkin toimii kuorituilla tukeilla.",
+        "image": "log_to_chest.png"
     },
     {
-        "caption": "Onnenkeksi",
-        "image": "fortunecookie.png"
-    },
-    {
-        "caption": "Rakentajan essentiaalinen työkalu. Käytössä sisukkaasta ylöspäin.",
-        "image": "builders_wand.png"
-    },
-    {
-        "caption": "Sammalta",
-        "image": "moss.PNG"
+        "caption": "Kahden slabin yhdistäminen päällekäin liittää ne taas kokonaiseksi palikaksi. Toimii millä tahansa slabilla, jotka eivät päällekäin laitettuna tuota muita blockeja.",
+        "image": "slab_to_block.png"
     },
     {
         "caption": "Rooted dirt juurilla ja mullalla.",
-        "image": "rooted_dirt.PNG"
+        "image": "rooted_dirt.png"
+    },
+    {
+        "caption": "Sammalta saa helposti levitettyä bone mealin avulla. Jos et jaksa mennä etsimään, niin tässä oiva ohituskaista sen ensimmäisen sammaleen hankintaan.",
+        "image": "moss_block.png"
     },
     {
         "caption": "Suuri dripleaf",
@@ -29,43 +25,91 @@
     },
     {
         "caption": "Suuren dripleafin voi muuntaa pieneksi",
-        "image": "small_dripleaf.PNG"
+        "image": "small_dripleaf.png"
     },
     {
         "caption": "Spore blossomin voi luoda siemenillä, alliumilla ja flowering azalea lehdillä",
         "image": "spore_blossom.png"
     },
     {
-        "caption": "Powder snow ansablock",
-        "image": "powder_snow.png"
+        "caption": "Coral faneja voi muuttaa Coraleiksi. Resepti toimii myös toiseen suuntaan.",
+        "image": "coral_fan_to_coral.png"
     },
     {
-        "caption": "Kaikki lasipaneelityypit voi muuttaa takaisin palikoiksi.",
-        "image": "glasspane.png"
+        "caption": "Coraleja taas voi muuntaa vastaaviksi blockeikseen.",
+        "image": "coral_to_coral_block.png"
     },
     {
-        "caption": "Värjättyä lasia voi sulattaa takaisin värjäämättömäksi.",
-        "image": "smelt_tempered_glass.png"
+        "caption": "Ämpäriin saa helposti lunta tällä reseptillä",
+        "image": "powder_snow_bucket.png"
     },
     {
-        "caption": "Blast furnacella hiiliblockista voi sulattaa mustan väriaineen.",
-        "image": "black_dye.png"
+        "caption": "Nametagille on Karanteenissa oma resepti.",
+        "image": "name_tag.png"
     },
     {
-        "caption": "Nyt myös eri prismarine tyyppejä voi muuntaa täys blockeiksi.",
-        "image": "prismarine_block.png"
+        "caption": "Vaikka Mojang ei vielä bundleja olekaan virallisesti lisännyt saataville peliin, niin lisäsimme sen itse.",
+        "image": "bundle.png"
     },
     {
-        "caption": "Chainmail Armorit rakennetaan iron bareista samalla tavalla kuin normaalit armorit. Tarvittava raaka-aine on iron bar.",
+        "caption": "Enää ei tarvitse craftailla erikseen redstone torcheja. Repeaterit saa nyt tehtyä helpomminkin.",
+        "image": "redstone_repeater.png"
+    },
+    {
+        "caption": "Dispenserien craftays onnistuu nyt ilman bowien tekoa erikseen. Enää ei tarvitse tapella siis stackaantymättömien tavaroiden kanssa.",
+        "image": "dispenser.png"
+    },
+    {
+        "caption": "Chainmail Armorit rakennetaan iron bareista normaalien armoreiden tapaan.",
         "image": "chainmail_armor.png"
     },
     {
-        "caption": "Coral faneja voi muuttaa Coraleiksi.",
-        "image": "fire_coral.png"
+        "caption": "End Crystal. Karanteenissa Ender dragon pudottaa joka spawnaus kerran jälkeen lohikäärmeen munan. Siksi end crystalleille on asetettu uusi vaikeampi resepti.",
+        "image": "end_crystal.png"
     },
     {
-        "caption": "Laittamalla kaksi slabia päällekkäin mistä tahansa puumateriaalista tekee siitä kokonaisen plankin.",
-        "image": "plank.png"
+        "caption": "Kätevä tapa kantaa mukanaan ylimääräisiä leveleitä.",
+        "image": "enchanted_bottle.png"
+    },
+    {
+        "caption": "Mikäli lumen määrä ärsyttää, niin pääset siitä kätevästi eroon liekinheittimellä. Lumilapiot ovat yliarvostettuja.",
+        "image": "flamethrower.png"
+    },
+    {
+        "caption": "Onnenkeksi. Mitä tahansa voi selvitä syödessäsi sen.",
+        "image": "fortune_cookie.png"
+    },
+    {
+        "caption": "Rakentajan essentiaalinen työkalu. Käytössä sisukkaasta ylöspäin.",
+        "image": "builders_wand.png"
+    },
+    {
+        "caption": "Kaikki lasipaneelityypit voi muuttaa takaisin palikoiksi.",
+        "image": "glass_pane_to_block.png"
+    },
+    {
+        "caption": "Värjättyä lasia voi sulattaa takaisin värjäämättömäksi.",
+        "image": "glass_smelting.png"
+    },
+    {
+        "caption": "Blast furnacella hiiliblockista voi sulattaa mustan väriaineen.",
+        "image": "black_dye_blasting.png"
+    },
+    {
+        "caption": "Voit sulattaa blast furnacella kiven soraksi.",
+        "image": "stone_to_gravel_blasting.png"
+    },
+    {
+        "caption": "Gravelin voi taas vuorostaan muuntaa blast furnacella hiekaksi.",
+        "image": "gravel_to_sand_blasting.png"
+    },
+    {
+        "caption": "Raudat ja kullat voi nyt sulattaa suoraan kokonaisina blockeina blast furnacella.",
+        "image": "raw_ore_to_block_blasting.png"
+    },
+    {
+        "caption": "Erilaisia spawnereita voi luoda tällä tavalla.",
+        "image": "spawner.png"
     },
     {
         "caption": "Voit tehdä pelaajan pään. :) Raaka-aineina Bone block, Emerald, Diamond, Golden Apple ja Rotten flesh.",
@@ -77,22 +121,10 @@
     },
     {
         "caption": "Voit tehdä myös Skeletonin pään. Raaka-aineina Golden Apple, Bone ja Bone block.",
-        "image": "skeleton_head.png"
-    },
-    {
-        "caption": "Voit sulattaa smooth stonea hiekaksi.",
-        "image": "sand_smooth_stone.png"
-    },
-    {
-        "caption": "Enchanted Bottle on myös mahdollista koota. ;)",
-        "image": "xp_bottle.png"
-    },
-    {
-        "caption": "Erilaisia spawnereita voi luoda tällä tavalla",
-        "image": "spawner.png"
+        "image": "skeleton_skull.png"
     },
     {
         "caption": "Meemi.",
-        "image": "dirt.png"
+        "image": "troll.png"
     }
 ]
