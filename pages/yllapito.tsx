@@ -53,10 +53,10 @@ const Yllapito = () => {
             <Heading heading="Ylläpito" lead="Keitä ylläpitäjät ovat ja mitä he tekevät?" />
             <div className="yp-page-info">
                 <p>
-                    Käytännössä ylläpitäjät pitävät vapaaehtoisesti palvelinta pystyssä eri tavoin. Meillä on niitä
-                    varten kasa ylläpitoarvoja, jotta voimme jakaa työtehtäviä kokemuksen ja osaamisen, sekä myöskin
-                    ajan mukaan. Ylentyminen on mahdollista, tosin Rakentajalla vain, mikäli siirtynee Moderaattoriksi
-                    ennen sitä. Listataan arvoja hieman ja kerrotaan mitä kukakin tekee!
+                    Käytännössä ylläpitäjät pitävät vapaaehtoisesti palvelinta pystyssä eri tavoin. Serverin ylläpitoa
+                    varten meiltä löytyy kasa ylläpitoarvoja, jotta voimme jakaa työtehtäviä kokemuksen ja osaamisen, 
+                    sekä myöskin ajan mukaan. Ylentyminen on mahdollista, tosin Rakentajalla vain ensin
+                    moderaattoriksi siirtymisen kautta. Listataan arvoja hieman ja kerrotaan mitä kukakin tekee!
                 </p>
 
                 <div>
@@ -67,16 +67,15 @@ const Yllapito = () => {
                         <span data-toggle="tooltip" data-placement="top" title="Spawnit, hubit, erilaiset huoneet">
                             <b> päärakennukset</b>
                         </span>
-                        . Jos yhtään katselette ympärille, tajuatte, että se on heidän käsialaa kokonaisuudessaan. He
-                        ovat samalla viivalla moderaattoreiden kanssa ja toimivat varalla vain, mikäli palvelimella ei
-                        ole moderaattoria tai ylempää paikalla. Rakentajien tehtäviin <b>EI KUULU</b> nahisteluiden
+                        . He ovat samalla viivalla moderaattoreiden kanssa ja toimivat valvontatehtävissä vain, mikäli palvelimella ei
+                        ole muita ylläpitäjiä paikalla. Rakentajien tehtäviin <b>EI KUULU</b> nahisteluiden
                         selvittäminen!
                     </p>
                 </div>
                 <div>
                     <p>
                         <span className="tag rakentaja">Moderaattori</span> on arvo, johon voi päästä{' '}
-                        <Link href="/yphaku">hakemalla</Link>. Heidän tehtävänä on pitää chat siistinä, suojata alueita,
+                        <Link href="/yphaku">hakemalla</Link>. Heidän tehtävänsä on pitää chat siistinä, suojata alueita,
                         tarkistaa grieffit ja viedä ne eteenpäin, sekä purkaa nahisteluita pelaajien välillä.
                     </p>
                 </div>

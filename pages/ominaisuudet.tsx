@@ -58,7 +58,7 @@ const Ominaisuudet = () => {
                     asetuksia sekä käyttämään muita Karanteenin komentoja nopeasti.
                 </p>
             </Feature>
-            <Feature title="Pelaaja partikkelit">
+            <Feature title="Partikkelit">
                 <Video source="/feature/particles1.gif" />
                 <p>
                     Komennolla /partikkelit (tai /particles tai /pp) pystyy ottamaan käyttöön erilaisia partikkeleita,
@@ -68,7 +68,7 @@ const Ominaisuudet = () => {
             </Feature>
             <Feature title="Emeraldhissi">
                 <Video source="/feature/emeraldvator.mp4" />
-                <p>Voit rakentaa toimivan hissin emerald palikoilla. Hissit kytketään päälle redstonevirralla ja ne yltävät enintään 32 palikan päähän. </p>
+                <p>Voit rakentaa toimivan hissin emerald palikoista. Hissit kytketään päälle redstonevirralla ja ne yltävät enintään 32 palikan päähän. </p>
             </Feature>
 
             <Feature title="Taikamatto">
@@ -83,7 +83,7 @@ const Ominaisuudet = () => {
                 </p>
                 <p>
                     Rankit avaavat maton muokkaukseen lisää blockkeja. Katso aukeavat blockit{' '}
-                    <Link href="rankit">rankit sivulta</Link>.
+                    <Link href="rankit">rankit-sivulta</Link>.
                 </p>
             </Feature>
 
@@ -189,15 +189,15 @@ const Ominaisuudet = () => {
                         <code>/lukitus remove-member &lt;pelaajan_nimi&gt;</code>
                     </li>
                     <li>
-                        Voit tehdä lukituksista kaikille avonaisen, mutta ilman muokkaus/rikkomisoikeuksia komennolla <code>/lukitus public</code>.
+                        Voit tehdä lukituksista kaikille avonaisen, mutta ilman muokkaus-/rikkomisoikeuksia komennolla <code>/lukitus public</code>.
                     </li>
                 </ul>
             </Feature>
 
-            <Feature title="Armorstand kustomointi">
+            <Feature title="Armorstandien muokkaus">
                 <Video source="/feature/armorstand.mp4" />
                 <p>
-                    Karanteenissa voi kustomoida armostandien asentoa. Asentojen välillä voi vaihdella klikkaamalla
+                    Karanteenissa voi muokata armostandien asentoa. Asentojen välillä voi vaihdella klikkaamalla
                     armostandia kyykyssä oikealla klikillä.
                 </p>
                 <p>Saatavilla olevat asennot:</p>
@@ -223,7 +223,7 @@ const Ominaisuudet = () => {
             <Feature title="Villan peseminen">
                 <p>
                     Värjätyt villat voi valkaista takaisin valkoiseksi samalla tavalla kuin bannerit. Laita värjätyt
-                    villat cauldroniin !
+                    villat cauldroniin!
                 </p>
             </Feature>
 
@@ -241,9 +241,10 @@ const Ominaisuudet = () => {
             <Feature title="Spawnerien kerääminen">
                 <p>
                     Karanteenissa pystyy hakkaamaan mobspawnerit itselleen, mutta ne putoavat tyhjänä maahan. Jos haluat mobin säilyvän, riko spawner hakulla jossa on on Silk Touch
-                    (silkkinen kosketus) enchantti.
+                    (silkkinen kosketus) -enchantti.
                 </p>
-                <p>Voit muuttaa spawnerin tyyppiä craftaamalla</p>
+                <p>Voit muuttaa spawnerin tyyppiä craftaamalla.</p>
+                <p>Roihuja sisältäviä spawnereita ei voi kerätä.</p>
             </Feature>
 
             <Feature title="Näkymättömät itemframet">
@@ -252,7 +253,7 @@ const Ominaisuudet = () => {
             </Feature>
 
             <Feature title="Yleiset komennot" id="komennot">
-                <p>Survivalissa toimii isoläjä komentoja jotka ovat pelaajilla auki Eloton rankista asti!</p>
+                <p>Survivalissa toimii iso läjä komentoja jotka ovat pelaajilla auki Eloton rankista asti!</p>
                 <p>
                     Rankkikohtaiset komennot ja ominaisuudet löytyvät <Link href="rankit">täältä</Link>.
                 </p>

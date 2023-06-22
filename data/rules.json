@@ -109,12 +109,12 @@
             },
             {
                 "short": "Maisemagrieffaaminen kielletty",
-                "long": "Maaston ja maiseman turmeleminen on kiellettyä. Puut on kasvatettava takaisin, hiekan hakkuu ei saa jättää rumia jälkiä ympäristöön, turhien epäesteettisten rakennelmien rakentaminen on kielletty (esim. 1x1 dirt tornit).",
+                "long": "Maaston ja maiseman turmeleminen on kiellettyä. Puut on kasvatettava takaisin, hiekan hakkuu ei saa jättää rumia jälkiä ympäristöön, turhien epäesteettisten rakennelmien rakentaminen on kielletty (esim. 1x1 dirt-tornit).",
                 "icon": "denied"
             },
             {
                 "short": "Villager kyliä ei saa tuhota",
-                "long": "Villager kyliä ei saa grieffata, mutta heinäpaalut, työasemat, kellot, sekä sängyt saa ottaa itselleen. Kylien peltoja saa käyttää, kunhan muistaa istuttaa ruoat takaisin. Kylän voi ottaa kodikseen, jolloin kyliä koskevat säännöt eivät enää päde.",
+                "long": "Villager kyliä ei saa grieffata, mutta heinäpaalit, työasemat, kellot, sekä sängyt saa ottaa itselleen. Kylien peltoja saa käyttää, kunhan muistaa istuttaa ruoat takaisin. Kylän voi ottaa kodikseen, jolloin kyliä koskevat säännöt eivät enää päde.",
                 "icon": "notice"
             },
             {
@@ -148,13 +148,13 @@
                 "icon": "denied"
             },
             {
-                "short": "Copy & Paste viestit ovat kiellettyjä",
+                "short": "Copy & Paste -viestit ovat kiellettyjä",
                 "long": "Copy Paste eli niin sanottu massapostaus on kiellettyä. Kukaan ei jaksa nähdä joka viides minuutti täysin samaa viestiä kylästäsi ja siitä mitä palveluita siellä on. Kokeile sen sijaan mainostaa kylääsi ystävällisesti ja henkilökohtaisesti. Jos joku tarvitsee xp-farmia ja kylässäsi on sellainen, mainitse se ihmeessä.",
                 "icon": "denied"
             },
             {
                 "short": "Mainosta kylääsi spawnilla!",
-                "long": "Jomelle voi yksityisviestillä laittaa 256x128 resoluutioisen kuvan, jossa mainostat omaa kylääsi. Se laitetaan spawnille. Kylällä on oltava warp, jotta mainoksesi laitetaan näkyviin!",
+                "long": "Jomelle voi yksityisviestillä laittaa 256x128-resoluutioisen kuvan, jossa mainostat omaa kylääsi. Se laitetaan spawnille. Kylällä on oltava warp, jotta mainoksesi laitetaan näkyviin!",
                 "icon": "important"
             },
             {
@@ -184,7 +184,7 @@
         "ruleset": [
             {
                 "short": "Ylläpito näkee komennot, viestit, ja datan",
-                "long": "Turvallisuussyistä ylläpito näkee kaikki pelaajien komennot ja viestit, jotta voidaan estää esimerkiksi toisten häiriköintiä ja mahdollista lähentelyä. Tämä on yleisesti käytössä kaikilla Minecraft-palvelimilla, vaikka he eivät toisikaan sitä esille millään tavalla, näin toimien harmaalla alueella. (esimerkiksi: /socialspy). Vaikka ylläpito näkeekin pelaajan datan kuten muillakin palvelimilla, yksityistä tietoa näistä ei levitetä ulkopuolelle, kuten muillakin palvelimilla.",
+                "long": "Turvallisuussyistä ylläpito näkee kaikki pelaajien komennot ja viestit, jotta voidaan estää esimerkiksi toisten häiriköintiä ja mahdollista lähentelyä. Tämä on yleisesti käytössä kaikilla Minecraft-palvelimilla, vaikka he eivät toisikaan sitä esille millään tavalla, näin toimien harmaalla alueella. (esimerkiksi: /socialspy). Vaikka ylläpito näkeekin pelaajan datan kuten muillakin palvelimilla, yksityistä tietoa näistä ei levitetä ulkopuolelle, kuten muillakaan palvelimilla.",
                 "icon": "notice"
             }
         ]

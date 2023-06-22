@@ -56,16 +56,16 @@ export default function Lahjoitus() {
                     </p>
                     <ul>
                         <li>
-                            Olemalla aktiivinen palvelimella
+                            Olemalla aktiivinen palvelimella.
                         </li>
                         <li>
-                            Auttamalla toisia pelaajia
+                            Auttamalla toisia pelaajia.
                         </li>
                         <li>
-                            Luomalla positiivista ilmapiiriä
+                            Luomalla positiivista ilmapiiriä.
                         </li>
                         <li>
-                            Olemalla tasoltaan vähintään Sisukas
+                            Olemalla tasoltaan vähintään Sisukas.
                         </li>
                     </ul>
                     <p>

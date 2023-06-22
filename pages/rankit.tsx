@@ -141,15 +141,14 @@ const Rankit = () => {
 
             <p>
                 Karanteenissa on kahdeksan peliaikaan perustuvaa rankkia, jotka tuovat <b>lisäominaisuuksia</b> ajan
-                kuluessa. Rankki nousee automaattisesti, kun vaadittu peliaika on saavutettu. Peliaika ei keräänny
-                afkatessa. Peliajan näkee komennolla <code>/peliaika</code>, ja toisten pelaajien{' '}
+                kuluessa. Rankki nousee automaattisesti, kun vaadittu peliaika on saavutettu. Peliajan näkee komennolla <code>/peliaika</code>, ja toisten pelaajien{' '}
                 <code>/peliaika pelaajan_nimi</code>.
             </p>
             <p>Peliaikaan perustuvien rankkien lisäksi, Karanteenissa on myös muutama muu eritysrankki.</p>
             <ul>
                 <li>
                     Lahjoittaja (kaikille, jotka lahjoittavat vähintään 10€ palvelimelle ks.{' '}
-                    <Link href="/lahjoitus">lahjoitus sivu</Link>)
+                    <Link href="/lahjoitus">lahjoitus-sivu</Link>)
                 </li>
                 <li>
                     Rikkoja (sellaisille pelaajille, jotka auttavat ylläpitoa löytämään palvelimelta sitä hajottavia

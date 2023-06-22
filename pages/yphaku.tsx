@@ -49,7 +49,7 @@ const Yphaku = () => {
             <p>
                 Rakentajien hakemuksessa kysytään kuvia rakennuksistasi. Kuvat tahdotaan
                 <em>
-                    <b> ilman shadereita ja käyttäen default resurssipakettia</b>
+                    <b> ilman shadereita ja käyttäen default-resurssipakettia</b>
                 </em>
                 .
             </p>
@@ -67,7 +67,7 @@ const Yphaku = () => {
                 <li>Pelinimi</li>
                 <li>Peliaika + rankki palvelimella</li>
                 <li>Mahdollinen aiempi ylläpitokokemus tai muut liittyvät luottamustehtävät, jos on</li>
-                <li>Mahdolliset aiemmat rangaistukset palvelimella tai discordissa (jos on ollut)</li>
+                <li>Mahdolliset aiemmat rangaistukset palvelimella tai Discordissa (jos on ollut)</li>
                 <li>Ikäsi</li>
                 <li>Discord (vaadittu)</li>
                 <li>Arvo johon haet (Moderaattori / Rakentaja)</li>

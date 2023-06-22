@@ -170,7 +170,7 @@
         ],
         "other": [
             {
-                "content": "Uusia tapoja nimetä tavaroita /nimeä komennolla",
+                "content": "Uusia tapoja nimetä tavaroita /nimeä-komennolla",
                 "hover": "Lihavointi, kursivointi, randomisointi ja alleviivaus"
             },
             {
@@ -204,7 +204,7 @@
         ],
         "other": [
             {
-                "content": "Kyky asettaa täys RGB värillinen nick.",
+                "content": "Kyky asettaa täys RGB-värillinen nick.",
                 "hover": "Syntaksilla &#RRGGBBteksti"
             },
             {
@@ -212,7 +212,7 @@
                 "hover": "Syntaksilla &#RRGGBBteksti"
             },
             {
-                "content": "Nekromatikkoja ei voi hiljentää /ignore komennolla."
+                "content": "Nekromatikkoja ei voi hiljentää /ignore-komennolla."
             },
             {
                 "content": "Neljä uutta väriä taikamattoon (mc)",
@@ -226,7 +226,7 @@
                 "content": "Uudet partikkelit taikamattoon"
             },
             {
-                "content": "Uudet elytra partikkelit"
+                "content": "Uudet elytra-partikkelit"
             },
             {
                 "content": "1 uusi plotti creativeen (yht. 9)"
@@ -256,7 +256,7 @@
                 "content": "Uudet partikkelit taikamattoon"
             },
             {
-                "content": "Uudet elytra partikkelit"
+                "content": "Uudet elytra-partikkelit"
             },
             {
                 "content": "3 uutta plottia Creativeen (yht. 12)"

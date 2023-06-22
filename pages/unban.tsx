@@ -6,7 +6,7 @@ const Unban = () => {
         <Layout title="Unban-hakemus" description="Tällä sivulla voit anoa unbanneja palvelimelle, tai discordiin.">
             <Heading
                 heading="Unban-hakemus"
-                lead="Onko iskenyt katumapäälle, taiko sattunut hirveä väärinkäsitys? Lue sivu läpi niin ehkä asiaan voidaan vaikuttaa."
+                lead="Aloitko katumaan tehtyjä rikkeitä, vai sattuiko väärinkäsitys? Lue sivu läpi niin ehkä asiaan voidaan vaikuttaa."
             />
 
             <p>
@@ -23,7 +23,7 @@ const Unban = () => {
                     tilannetta järkevästi.
                 </li>
                 <li>Tarkastele hakemusta ajatuksella. Väärin tai epäselvästi täytetyt hakemukset vaikeuttavat hakemuksen käsittelyä.</li>
-                <li>Jos banneja on jäljellä alle viikko, unban hakemusta ei tulla käsittelemään.</li>
+                <li>Jos banneja on jäljellä alle viikko, unban-hakemusta ei tulla käsittelemään.</li>
             </ul>
 
             <h4>Lähetä hakemus</h4>

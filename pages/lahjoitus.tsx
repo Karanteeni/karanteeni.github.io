@@ -67,7 +67,7 @@ export default function Lahjoitus() {
                         <span className="offset1">R</span>
                         <span className="offset2">G</span>
                         <span className="offset3">B</span>
-                    </span>{' '}
+                    </span>{'-'}
                     värejä, kyltteihin värejä värikoodeilla, taikamattoon uusi partikkeli, sekä tabiin näkyvyyttä
                     (värikkäät hakasulkeet). Ominaisuuksia tulee ajan kanssa lisää, ja ne aukeavat automaattisesti myös
                     kaikille vanhoille lahjoittajille.
