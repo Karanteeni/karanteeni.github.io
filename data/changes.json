@@ -1,5 +1,65 @@
 [
     {
+        "date": "26.8.2023",
+        "changes": [
+            "Creative päivitetty 1.20.1",
+            "Korjailtu Creativen bugeja."
+        ]
+    },
+    {
+        "date": "9.8.2023",
+        "changes": [
+            "Discord: Annetut rangaistukset näkyvät nyt minecraft-chatissä"
+        ]
+    },
+    {
+        "date": "8.8.2023",
+        "changes": [
+            "Lisätty resepti punaiselle hiekalle"
+        ]
+    },
+    {
+        "date": "30.7.2023",
+        "changes": [
+            "Tikkujen ja chestien craftays onnistuu nyt pistämällä mitä tahansa logia yhteen."
+        ]
+    },
+    {
+        "date": "29.7.2023",
+        "changes": [
+            "Server päivitetty 1.20.1 versioon.",
+            "Kartta, kodit ja rahat nollattu (mapreset 14 --> 15).",
+            "Lisätty kirsikkapuut automaattiseen puunkaatoon.",
+            "Lisätty komento asetusten säätöön (/setting tai /asetus).",
+            "Partikkelit saa nopeasti sammutettua valikon asetuksista tai ylläolevalla komenolla.",
+            "Lisätty taikamattoon uusi kustomointityyli (reunukset).",
+            "Lisätty pelaajan taso näkymään pelaajanimen vieressä.",
+            "Lisätty 1.20 musiikit musiikkivalikoihin.",
+            "Lisätty ovien koputus lyömällä sitä.",
+            "Uusittu tablistiä.",
+            "1.20 materiaalit ovat lisätty custom resepteihin.",
+            "Lisätty roikkuvat kyltit suojattaviin blockeihin.",
+            "Kuolinchesti sai päivityksiä.",
+            "Restart musiikki vaihdettu.",
+            "Muutamia ylläpidolle suunnattuja muutoksia."
+        ]
+    },
+    {
+        "date": "11.7.2023",
+        "changes": [
+            "Discord: Minecraft-chatin viestejä päivitelty.",
+            "Discord: Vaihdettu skinigrafiikan API.",
+            "Discord: Vaihdettu Discordin päivittyineihin käyttäjänimiin.",
+            "Discord: Päivitetty minecraft-chatin rankup viestiä"
+        ]
+    },
+    {
+        "date": "8.6.2023",
+        "changes": [
+            "Serverille lisätty 1.20 tuki."
+        ]
+    },
+    {
         "date": "6.5.2023",
         "changes": [
             "Lisätty 74 uutta käännöstä onnenkekseihin."

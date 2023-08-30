@@ -34,7 +34,7 @@ const ServerStatus = () => {
                         Versio:
                         <span className="server-version">
                             {' '}
-                            {status.version === '1.7.x-1.18.x' ? '1.18.2' : status.version}
+                            {status.version === '1.7.x-1.18.x' ? '1.18.2' : status.protocol_name}
                         </span>
                     </span>
 
