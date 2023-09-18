@@ -3,19 +3,13 @@
     {
       "name": "Jomeee",
       "description": "Jääteen suurkuluttaja",
-      "strengths": [
-        "Konfigurointi",
-        "Palvelimen ylläpito"
-      ],
+      "strengths": ["Konfigurointi", "Palvelimen ylläpito"],
       "uuid": "5b9a03483c15472b8bd8987134cf9f1d"
     },
     {
       "name": "Nuubles",
       "description": "big but very smooth brain",
-      "strengths": [
-        "Pluginit",
-        "Palvelimen ylläpito"
-      ],
+      "strengths": ["Pluginit", "Palvelimen ylläpito"],
       "uuid": "d4ef4bc2db26462c9793389ba56d2818"
     }
   ],
@@ -23,28 +17,13 @@
     {
       "name": "Manuzki",
       "description": "\"Autan jos osaan, olen ymmärtäväinen, mutta en keksi mitään, vaan ajattelen.\"",
-      "strengths": [
-        "Musiikki",
-        "Grief-tapaukset"
-      ],
+      "strengths": ["Musiikki", "Grief-tapaukset"],
       "uuid": "a802f54ebfa148e3a7754d18d38a48be"
-    },
-    {
-      "name": "Orianteri",
-      "description": "\"Onko tämä todellisuus?\"",
-      "strengths": [
-        "Tapahtumapaikat",
-        "Rakentaminen",
-        "Pelaajien auttaminen"
-      ],
-      "uuid": "d253032a753f44eb951461ca49e77d80"
     },
     {
       "name": "Iita",
       "description": "\"Ahdistaa.\"",
-      "strengths": [
-        "Tapahtumasuunnittelu"
-      ],
+      "strengths": ["Tapahtumasuunnittelu"],
       "uuid": "d0cd2962ea3944c48b486c6376e57ca3"
     }
   ],
@@ -52,33 +31,25 @@
     {
       "name": "RetuPoika",
       "description": "\"Oispa kahvia.\"",
-      "strengths": [
-        "Hack-clientit"
-      ],
+      "strengths": ["Hack-clientit"],
       "uuid": "02518a1790f740e8940251d8ae348991"
     },
     {
       "name": "Viherkukka",
       "description": "\"Täh?\"",
-      "strengths": [
-        "Riitojen sovittelu"
-      ],
+      "strengths": ["Riitojen sovittelu"],
       "uuid": "5db3cb0e4ae847dc91594cc10079190d"
     },
     {
       "name": "Vaapukkax",
       "description": "\"Manu varasti mun lausahduksen\"",
-      "strengths": [
-        "Koodaaminen"
-      ],
+      "strengths": ["Koodaaminen"],
       "uuid": "00b59d31f84f486db29b7c37b60a0be0"
     },
     {
       "name": "MVPPlusPlus",
       "description": "yo kuis hurisee!",
-      "strengths": [
-        "Videoiden editointi"
-      ],
+      "strengths": ["Videoiden editointi"],
       "uuid": "d5275d787e474d8aa4cdcfae7d2808cc"
     },
     {
@@ -100,49 +71,37 @@
     {
       "name": "LeweXD",
       "description": "Gauriksen aliurakoitsija.",
-      "strengths": [
-        "Rakentaminen"
-      ],
+      "strengths": ["Rakentaminen"],
       "uuid": "5cab2b2a16dc410491ff40fa6920d01d"
     },
     {
       "name": "Jenniii",
       "description": "\"tykkään kissoista ja nukkumisesta\"",
-      "strengths": [
-        "Rakentaminen"
-      ],
+      "strengths": ["Rakentaminen"],
       "uuid": "c9427421eb1f468aaff457f9f2a7e2f5"
     },
     {
       "name": "Sumute",
       "description": "orin lapsi",
-      "strengths": [
-        "Rakentaminen"
-      ],
+      "strengths": ["Rakentaminen"],
       "uuid": "5ef3f27168d44deab47baa1e72b932d5"
     },
     {
       "name": "Mikufox",
       "description": "Kettuilee paljon. Sillee hyvällä tavalla",
-      "strengths": [
-        "Rakentaminen"
-      ],
+      "strengths": ["Rakentaminen"],
       "uuid": "fdac507124964a92a97236e36d95a1b5"
     },
     {
       "name": "Markurius",
       "description": "Mullikoin kuuteen",
-      "strengths": [
-        "Rakentaminen"
-      ],
+      "strengths": ["Rakentaminen"],
       "uuid": "70defd5d9767496ca6bab621d6f06766"
     },
     {
       "name": "Avenia",
       "description": "\"Pääsin pois Orin kellarista\"",
-      "strengths": [
-        "Rakentaminen"
-      ],
+      "strengths": ["Rakentaminen"],
       "uuid": "9d0b16ecd57d4e2891f842cbeac37a3a"
     }
   ]
