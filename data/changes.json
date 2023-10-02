@@ -1,5 +1,11 @@
 [
     {
+        "date": "3.10.2023",
+        "changes": [
+            "Lisätty serverille 1.20.2 tuki"
+        ]
+    },
+    {
         "date": "26.8.2023",
         "changes": [
             "Creative päivitetty 1.20.1",
