@@ -107,7 +107,7 @@ const Yllapito = () => {
                 </div>
             </div>
             <p className="lead">
-                <em>Hyvät naiset ja herrat, palvelimen henkilökunta</em>
+                <em>Saanen esitellä: palvelimen henkilökunta</em>
             </p>
             <Admininstration />
         </Layout>
