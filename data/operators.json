@@ -23,7 +23,7 @@
     {
       "name": "Iita",
       "description": "\"Ahdistaa.\"",
-      "strengths": ["Tapahtumasuunnittelu"],
+      "strengths": ["Tapahtumasuunnittelu", "Sisällöntuotanto"],
       "uuid": "d0cd2962ea3944c48b486c6376e57ca3"
     },
     {
@@ -34,18 +34,6 @@
     }
   ],
   "operaattori": [
-    {
-      "name": "RetuPoika",
-      "description": "\"Oispa kahvia.\"",
-      "strengths": ["Hack-clientit"],
-      "uuid": "02518a1790f740e8940251d8ae348991"
-    },
-    {
-      "name": "Viherkukka",
-      "description": "\"Täh?\"",
-      "strengths": ["Riitojen sovittelu"],
-      "uuid": "5db3cb0e4ae847dc91594cc10079190d"
-    },
     {
       "name": "MVPPlusPlus",
       "description": "yo kuis hurisee!",
@@ -69,24 +57,6 @@
   ],
   "rakentaja": [
     {
-      "name": "LeweXD",
-      "description": "Gauriksen aliurakoitsija.",
-      "strengths": ["Rakentaminen"],
-      "uuid": "5cab2b2a16dc410491ff40fa6920d01d"
-    },
-    {
-      "name": "Jenniii",
-      "description": "\"tykkään kissoista ja nukkumisesta\"",
-      "strengths": ["Rakentaminen"],
-      "uuid": "c9427421eb1f468aaff457f9f2a7e2f5"
-    },
-    {
-      "name": "Sumute",
-      "description": "orin lapsi",
-      "strengths": ["Rakentaminen"],
-      "uuid": "5ef3f27168d44deab47baa1e72b932d5"
-    },
-    {
       "name": "Mikufox",
       "description": "Kettuilee paljon. Sillee hyvällä tavalla",
       "strengths": ["Rakentaminen"],
@@ -97,12 +67,6 @@
       "description": "Mullikoin kuuteen",
       "strengths": ["Rakentaminen"],
       "uuid": "70defd5d9767496ca6bab621d6f06766"
-    },
-    {
-      "name": "Avenia",
-      "description": "\"Pääsin pois Orin kellarista\"",
-      "strengths": ["Rakentaminen"],
-      "uuid": "9d0b16ecd57d4e2891f842cbeac37a3a"
     }
   ]
 }
