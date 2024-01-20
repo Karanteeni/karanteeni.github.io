@@ -1,27 +1,54 @@
 [
     {
+        "date": "20.1.2024",
+        "changes": [
+            "Mapreset ja siihen liittyvät muut työt.",
+            "Korjattu /sit istumiskorkeus, mikä hajosi 1.20.3(tai .4).",
+            "Server päivitetty 1.20.4 versioon.",
+            "Kauppaan tavaran myymistä muutettu hiukan. Kannustaa nyt myös mainaamaan farmauksen sijaan."
+        ]
+    },
+    {
+        "date": "24.12.2023",
+        "changes": [
+            "Korjattu hover & click eventit discord viesteissä."
+        ]
+    },
+    {
+        "date": "11.11.2023",
+        "changes": [
+            "End resetoitu."
+        ]
+    },
+    {
+        "date": "19.10.2023",
+        "changes": [
+            "Korjattu restartin aikaset virheelliset viestit."
+        ]
+    },
+    {
         "date": "3.10.2023",
         "changes": [
-            "Lisätty serverille 1.20.2 tuki"
+            "Lisätty serverille 1.20.2 tuki."
         ]
     },
     {
         "date": "26.8.2023",
         "changes": [
-            "Creative päivitetty 1.20.1",
+            "Creative päivitetty 1.20.1.",
             "Korjailtu Creativen bugeja."
         ]
     },
     {
         "date": "9.8.2023",
         "changes": [
-            "Discord: Annetut rangaistukset näkyvät nyt minecraft-chatissä"
+            "Discord: Annetut rangaistukset näkyvät nyt minecraft-chatissä."
         ]
     },
     {
         "date": "8.8.2023",
         "changes": [
-            "Lisätty resepti punaiselle hiekalle"
+            "Lisätty resepti punaiselle hiekalle."
         ]
     },
     {
