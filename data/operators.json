@@ -31,6 +31,12 @@
       "description": "\"Manu varasti mun lausahduksen\"",
       "strengths": ["Koodaaminen"],
       "uuid": "00b59d31f84f486db29b7c37b60a0be0"
+    },
+    {
+      "name": "Jokune",
+      "description": "\"miks tää menee rikki?\"",
+      "strengths": ["Discord botin ylläpito"],
+      "uuid": "bbd2bc4c9fe64ffeb69b767c0df3db4f"
     }
   ],
   "operaattori": [
@@ -39,12 +45,6 @@
       "description": "yo kuis hurisee!",
       "strengths": ["Videoiden editointi"],
       "uuid": "d5275d787e474d8aa4cdcfae7d2808cc"
-    },
-    {
-      "name": "Jokune",
-      "description": "\"miks tää menee rikki?\"",
-      "strengths": ["Discord botin ylläpito"],
-      "uuid": "bbd2bc4c9fe64ffeb69b767c0df3db4f"
     }
   ],
   "moderaattori": [
