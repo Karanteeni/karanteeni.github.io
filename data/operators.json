@@ -53,6 +53,12 @@
       "description": "\"Oon huono keksiin tälläsiä\"",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "4f13344913bb4fd4a0b8722d900dbb08"
+    },
+    {
+      "name": "Kuutioitu",
+      "description": "\"kertoisin mitä laiskuun on mutta en jaksa\"",
+      "strengths": ["Palvelimen ylläpito"],
+      "uuid": "13ba8e18123d41c0bba580b2662c0e0d"
     }
   ],
   "rakentaja": [
