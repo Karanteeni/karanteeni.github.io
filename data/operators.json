@@ -59,6 +59,12 @@
       "description": "\"kertoisin mitä laiskuus on mutta en jaksa\"",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "13ba8e18123d41c0bba580b2662c0e0d"
+    },
+    {
+      "name": "Enm1",
+      "description": "\"En mä oo sanonu mitää kivaa\"",
+      "strengths": ["Palvelimen ylläpito"],
+      "uuid": "d12d86727cdf4fe18df21282f5265920"
     }
   ],
   "rakentaja": [
