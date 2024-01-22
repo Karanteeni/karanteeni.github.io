@@ -65,6 +65,12 @@
       "description": "\"En mä oo sanonu mitää kivaa\"",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "d12d86727cdf4fe18df21282f5265920"
+    },
+    {
+      "name": "UniOnHeikoil",
+      "description": "\"Pitikö tähän joku semmonenki miettiä\"",
+      "strengths": ["Palvelimen ylläpito"],
+      "uuid": "6dcda6de07204a30998aa1cdf91990da"
     }
   ],
   "rakentaja": [
