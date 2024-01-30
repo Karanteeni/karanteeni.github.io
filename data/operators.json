@@ -77,12 +77,6 @@
       "description": "\"Pitikö tähän joku semmonenki miettiä\"",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "d347193d8b794a389158074681bc32f8"
-    },
-    {
-      "name": "Tanniih",
-      "description": "\"Oispa suklaata\"",
-      "strengths": ["Palvelimen ylläpito"],
-      "uuid": "2f4b9740ad04411ea4e29700c1c5c2a5"
     }
   ],
   "rakentaja": [
@@ -97,6 +91,12 @@
       "description": "Mullikoin kuuteen",
       "strengths": ["Rakentaminen"],
       "uuid": "70defd5d9767496ca6bab621d6f06766"
+    },
+    {
+      "name": "Tanniih",
+      "description": "\"Oispa suklaata\"",
+      "strengths": ["Palvelimen ylläpito"],
+      "uuid": "2f4b9740ad04411ea4e29700c1c5c2a5"
     }
   ]
 }
