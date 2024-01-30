@@ -71,6 +71,18 @@
       "description": "\"Pitikö tähän joku semmonenki miettiä\"",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "6dcda6de07204a30998aa1cdf91990da"
+    },
+    {
+      "name": "LouNii",
+      "description": "\"Pitikö tähän joku semmonenki miettiä\"",
+      "strengths": ["Palvelimen ylläpito"],
+      "uuid": "d347193d8b794a389158074681bc32f8"
+    },
+    {
+      "name": "Tanniih",
+      "description": "\"Oispa suklaata\"",
+      "strengths": ["Palvelimen ylläpito"],
+      "uuid": "2f4b9740ad04411ea4e29700c1c5c2a5"
     }
   ],
   "rakentaja": [
