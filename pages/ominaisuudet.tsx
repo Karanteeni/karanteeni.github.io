@@ -110,7 +110,7 @@ const Ominaisuudet = () => {
                     </code>
                 </p>
                 <p>
-                    Jos kylässäsi on vähintään 15 asukasta, voit pyytää sille warppia <code>/warps</code> listaan.
+                    Jos kylässäsi on vähintään 10 asukasta, voit pyytää sille warppia <code>/warps</code> listaan.
                 </p>
             </Feature>
 
