@@ -77,6 +77,12 @@
       "description": "\"YeS.\"",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "d347193d8b794a389158074681bc32f8"
+    },
+    {
+      "name": "Asheline",
+      "description": "\"graniitti on ruma blockki ja jos käytät sitä rakentamiseen olet väärässä\"",
+      "strengths": ["Palvelimen ylläpito", "Rakentaminen"],
+      "uuid": "ca5f9868d9bc4a02b63d5fa2e48a8326"
     }
   ],
   "rakentaja": [
@@ -97,6 +103,12 @@
       "description": "\"Oispa suklaata\"",
       "strengths": ["Rakentaminen"],
       "uuid": "2f4b9740ad04411ea4e29700c1c5c2a5"
+    },
+    {
+      "name": "Avenia",
+      "description": "\"Pääsin pois Orin kellarista\"",
+      "strengths": ["Rakentaminen"],
+      "uuid": "9d0b16ecd57d4e2891f842cbeac37a3a"
     }
   ]
 }
