@@ -49,12 +49,6 @@
   ],
   "moderaattori": [
     {
-      "name": "Lesserr",
-      "description": "\"Oon huono keksiin tälläsiä\"",
-      "strengths": ["Palvelimen ylläpito"],
-      "uuid": "4f13344913bb4fd4a0b8722d900dbb08"
-    },
-    {
       "name": "Kuutioitu",
       "description": "\"kertoisin mitä laiskuus on mutta en jaksa\"",
       "strengths": ["Palvelimen ylläpito"],
@@ -77,12 +71,6 @@
       "description": "\"YeS.\"",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "d347193d8b794a389158074681bc32f8"
-    },
-    {
-      "name": "Asheline",
-      "description": "\"graniitti on ruma blockki ja jos käytät sitä rakentamiseen olet väärässä\"",
-      "strengths": ["Palvelimen ylläpito", "Rakentaminen"],
-      "uuid": "ca5f9868d9bc4a02b63d5fa2e48a8326"
     }
   ],
   "rakentaja": [
