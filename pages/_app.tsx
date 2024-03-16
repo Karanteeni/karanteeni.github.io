@@ -3,8 +3,8 @@ import { AppProps } from 'next/app'
 import { AppContextProvider } from '../store/context'
 
 import '../styles/global.css'
-import '../styles/winter.css'
-// import '../styles/easter.css'
+// import '../styles/winter.css'
+import '../styles/easter.css'
 // import '../styles/summer.css'
 // import '../styles/autumn.css'
 
