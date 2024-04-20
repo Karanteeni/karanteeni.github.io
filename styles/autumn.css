@@ -95,8 +95,9 @@ nav {
 }
 
 .home-hero {
+    background-image: url('../public/images/bg_autumn.png');
     background-size: cover;
-    background-position-y: 50%;
+    background-position-y: 90%;
 }
 
 main:not(.home):not(.lahjoitus):not(.not-found) {
