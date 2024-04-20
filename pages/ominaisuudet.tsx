@@ -271,7 +271,7 @@ const Ominaisuudet = () => {
                         <code>/rankit</code>
                     </li>
                     <li>
-                        <code>/warns (tarkistathan varoitustilanteesi!)</code>
+                        <code>/warnings (tarkistathan varoitustilanteesi!)</code>
                     </li>
                     <li>
                         <code>/vote</code>
@@ -281,12 +281,6 @@ const Ominaisuudet = () => {
                     </li>
                     <li>
                         <code>/dynmap show (palauttaa pelaajan takaisin dynmappiin)</code>{' '}
-                    </li>
-                    <li>
-                        <code>/kieli fi-Fi</code>
-                    </li>
-                    <li>
-                        <code>/kieli en-US </code>
                     </li>
                     <li>
                         <code>/spawn</code>
@@ -343,16 +337,6 @@ const Ominaisuudet = () => {
                         <code>/reply (/r)</code>
                     </li>
                     <li>
-                        <code>
-                            /ignore {'{'}add/remove{'}'} {'{'}pelaajan_nimi{'}'}
-                        </code>
-                    </li>
-                    <li>
-                        <code>
-                            /ignore {'{'}list{'}'}
-                        </code>
-                    </li>
-                    <li>
                         <code>/quickshop (kauppa-arkkuopas)</code>
                     </li>
                     <li>
@@ -372,6 +356,11 @@ const Ominaisuudet = () => {
                     <li>
                         <code>
                             /trust {'{'}alueen_nimi{'}'} {'{'}pelaajan_nimi{'}'}
+                        </code>
+                    </li>
+                    <li>
+                        <code>
+                            /untrust {'{'}alueen_nimi{'}'} {'{'}pelaajan_nimi{'}'}
                         </code>
                     </li>
                     <li>
@@ -411,9 +400,6 @@ const Ominaisuudet = () => {
                         <code>/sit</code>
                     </li>
                     <li>
-                        <code>1 plotti Creativessa</code>
-                    </li>
-                    <li>
                         <code>/lemmikki (lemmikkiopas)</code>
                     </li>
                     <li>
@@ -423,40 +409,7 @@ const Ominaisuudet = () => {
                         <code>/radio</code>
                     </li>
                     <li>
-                        <code>/missions</code>
-                    </li>
-                    <li>
                         <code>/tk</code>
-                    </li>
-                    <li>
-                        <code>/unoreverse</code>
-                    </li>
-                    <li>
-                        <code>/skiaddleskidoodle</code>
-                    </li>
-                    <li>
-                        <code>/nubbe</code>
-                    </li>
-                    <li>
-                        <code>/iita</code>
-                    </li>
-                    <li>
-                        <code>/jöms</code>
-                    </li>
-                    <li>
-                        <code>/ash</code>
-                    </li>
-                    <li>
-                        <code>/retu</code>
-                    </li>
-                    <li>
-                        <code>/manu</code>
-                    </li>
-                    <li>
-                        <code>/viher</code>
-                    </li>
-                    <li>
-                        <code>/susse</code>
                     </li>
                 </ul>
             </Feature>
