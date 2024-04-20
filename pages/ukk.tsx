@@ -71,7 +71,7 @@ const CommonQuestions = (props) => {
                 <Answer>
                     Maailman nollauksessa eli "mapresetissa" kaikki aloittavat samalta viivalta. Tämä tarkoittaa sitä,
                     että pelaajien rahat, inventory ja koko kartta nollataan maisemanvaihdon vuoksi, jolloin kaikki
-                    joutuvat aloittamaan alusta. Peliaika on ainut asia, joka säilyy.
+                    joutuvat aloittamaan alusta. Peliaika (ja täten tasot) on ainut asia, joka säilyy.
                 </Answer>
             </div>
 
@@ -106,8 +106,8 @@ const ProtectionQuestions = (props) => {
                 <Answer>
                     Ylläpito suojaa alueen ja suojaukseen vaaditaan talon alku. Huomaathan, että talosi täytyy olla
                     vähintään sadan (100) blockin päässä lähimmästä talosta. Mikäli aiot luoda kylän, voit päättää
-                    alueelle nimen. Warpin kylälle saa vasta, kun kylällä on 15 asukasta. Endiin ei pääsääntöisesti
-                    suojata alueita.
+                    alueelle nimen. Warpin kylälle saa vasta, kun kylällä on 10 asukasta. Endiin emme suojaa alueita
+                    sen resetoituessa myös Kartan aikana.
                 </Answer>
             </div>
 
