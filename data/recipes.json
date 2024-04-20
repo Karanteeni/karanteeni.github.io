@@ -40,6 +40,10 @@
         "image": "coral_to_coral_block.png"
     },
     {
+        "caption": "Punaista hiekkaa saa myös tehtyä tarpeen tullen.",
+        "image": "red_sand.png"
+    },
+    {
         "caption": "Ämpäriin saa helposti lunta tällä reseptillä",
         "image": "powder_snow_bucket.png"
     },
@@ -52,16 +56,8 @@
         "image": "bundle.png"
     },
     {
-        "caption": "Enää ei tarvitse craftailla erikseen redstone torcheja. Repeaterit saa nyt tehtyä helpomminkin.",
-        "image": "redstone_repeater.png"
-    },
-    {
-        "caption": "Dispenserien craftays onnistuu nyt ilman bowien tekoa erikseen. Enää ei tarvitse tapella siis stackaantymättömien tavaroiden kanssa.",
-        "image": "dispenser.png"
-    },
-    {
-        "caption": "Chainmail armorit rakennetaan iron bareista normaalien armoreiden tapaan.",
-        "image": "chainmail_armor.png"
+        "caption": "Onnenkeksi. Mitä tahansa voi selvitä syödessäsi sen.",
+        "image": "fortune_cookie.png"
     },
     {
         "caption": "End crystal. Karanteenissa Ender dragon pudottaa joka spawnaus kerran jälkeen lohikäärmeen munan. Siksi end crystalleille on asetettu uusi vaikeampi resepti.",
@@ -72,16 +68,16 @@
         "image": "enchanted_bottle.png"
     },
     {
-        "caption": "Mikäli lumen määrä ärsyttää, niin pääset siitä kätevästi eroon liekinheittimellä. Lumilapiot ovat yliarvostettuja.",
-        "image": "flamethrower.png"
+        "caption": "Chainmail armorit rakennetaan iron bareista normaalien armoreiden tapaan.",
+        "image": "chainmail_armor.png"
     },
     {
-        "caption": "Onnenkeksi. Mitä tahansa voi selvitä syödessäsi sen.",
-        "image": "fortune_cookie.png"
+        "caption": "Enää ei tarvitse craftailla erikseen redstone torcheja. Repeaterit saa nyt tehtyä helpomminkin.",
+        "image": "redstone_repeater.png"
     },
     {
-        "caption": "Rakentajan essentiaalinen työkalu. Käytössä sisukkaasta ylöspäin.",
-        "image": "builders_wand.png"
+        "caption": "Dispenserien craftays onnistuu nyt ilman bowien tekoa erikseen. Enää ei tarvitse tapella siis stackaantymättömien tavaroiden kanssa.",
+        "image": "dispenser.png"
     },
     {
         "caption": "Kaikki lasipaneelityypit voi muuttaa takaisin palikoiksi.",
@@ -106,6 +102,10 @@
     {
         "caption": "Raudat ja kullat voi nyt sulattaa suoraan kokonaisina blockeina blast furnacella.",
         "image": "raw_ore_to_block_blasting.png"
+    },
+    {
+        "caption": "Rakentajan essentiaalinen työkalu. Käytössä sisukkaasta ylöspäin.",
+        "image": "builders_wand.png"
     },
     {
         "caption": "Erilaisia spawnereita voi luoda tällä tavalla.",
