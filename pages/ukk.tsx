@@ -173,8 +173,8 @@ const EconomyQuestions = (props) => {
             <div>
                 <Question>Mitä valuuttaa palvelin käyttää ja kuinka saan sitä?</Question>
                 <Answer>
-                    Palvelimella on rahavaluuttana pennit. Pennejä saat hankkimalla uutta peliaikaa, sekä palvelinta
-                    äänestämällä <code>/vote</code>. Jokainen äänestykerta on 50 pennin arvoinen. Voit myös myydä sekä
+                    Palvelimella on rahavaluuttana pennit. Pennejä saat äänestyslaatikoista, joita voit avata hubissa.
+                    Äänestyslaatikoita saat avattua komennolla <code>/vote</code>. Voit myös myydä sekä
                     ostaa tavaraa käyttämällä arkkukauppoja. Spawnilla on kauppa (<code>/warp kauppa</code>), jonne voit
                     myydä oreista tehtyjä blockeja.
                 </Answer>
