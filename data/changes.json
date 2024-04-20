@@ -1,5 +1,13 @@
 [
     {
+        "date": "23.3.2024",
+        "changes": [
+            "Hub avattu: Sisältää useamman minipelin, eastereggejä ja kaikkea muuta tutkittavaa!",
+            "Vote uusittu: Äänestämällä saa nyt äänestyslaatikon, josta voi voittaa palkintoja penneistä partikkeleihin (ja päihin).",
+            "Lisätty skullit: Äänestyslaatikoista on mahdollista avata pysyvät oikeudet eri päihin, joita on päälle 2000. Voit vaihtaa pelaajan pään eri pääksi komennolla /skullbag tai /head."
+        ]
+    },
+    {
         "date": "20.1.2024",
         "changes": [
             "Mapreset ja siihen liittyvät muut työt.",
