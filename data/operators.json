@@ -41,6 +41,12 @@
   ],
   "operaattori": [
     {
+      "name": "Viherkukka",
+      "description": "\"Täh?\"",
+      "strengths": ["Riitojen sovittelu"],
+      "uuid": "5db3cb0e4ae847dc91594cc10079190d"
+    },  
+    {
       "name": "MVPPlusPlus",
       "description": "yo kuis hurisee!",
       "strengths": ["Videoiden editointi"],
