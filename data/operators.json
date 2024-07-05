@@ -41,12 +41,6 @@
   ],
   "operaattori": [
     {
-      "name": "Viherkukka",
-      "description": "\"Täh?\"",
-      "strengths": ["Riitojen sovittelu"],
-      "uuid": "5db3cb0e4ae847dc91594cc10079190d"
-    },  
-    {
       "name": "MVPPlusPlus",
       "description": "yo kuis hurisee!",
       "strengths": ["Videoiden editointi"],
@@ -91,12 +85,6 @@
       "description": "\"Oispa suklaata\"",
       "strengths": ["Rakentaminen"],
       "uuid": "2f4b9740ad04411ea4e29700c1c5c2a5"
-    },
-    {
-      "name": "Avenia",
-      "description": "\"Pääsin pois Orin kellarista\"",
-      "strengths": ["Rakentaminen"],
-      "uuid": "9d0b16ecd57d4e2891f842cbeac37a3a"
     }
   ]
 }
