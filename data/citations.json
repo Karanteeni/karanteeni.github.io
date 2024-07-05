@@ -470,5 +470,21 @@
     {
         "content": "Mene sinä kala Turkuun",
         "name": "Jokune"
+    },
+    {
+        "content": "Pystyisin vetää kaheksa pupuu päivän aikana!",
+        "name": "Nuubles"
+    },
+    {
+        "content": "Tänä vuonna ei Jeesus kuollu",
+        "name": "Ville"
+    },
+    {
+        "content": "Tortilla on rapea pizza",
+        "name": "Nuubles"
+    },
+    {
+        "content": "Mä on [silloin] nuori! Siitä on jo vuosi!",
+        "name": "Tanni"
     }
 ]
