@@ -1,5 +1,39 @@
 [
     {
+        "date": "2.8.2024",
+        "changes": [
+            "Kartta, kodit ja rahat nollattu (mapreset 16 --> 17).",
+            "Server päivitetty 1.21 versioon.",
+            "Useampi bugikorjaus."
+        ]
+    },
+    {
+        "date": "2.7.2024",
+        "changes": [
+            "Server tukee nyt versiota 1.21."
+        ]
+    },
+    {
+        "date": "23.6.2024",
+        "changes": [
+            "Korjattu äänestyslaatikoiden bugi."
+        ]
+    },
+    {
+        "date": "1.6.2024",
+        "changes": [
+            "Survival & Creative päivitetty 1.20.6 versioon.",
+            "Hubin teema vaihtuu automaattisesti eri teemoihin ympäri vuoden."
+        ]
+    },
+    {
+        "date": "27.4.2024",
+        "changes": [
+            "End resetoitu.",
+            "Serverille lisätty 1.20.5 tuki."
+        ]
+    },
+    {
         "date": "23.3.2024",
         "changes": [
             "Hub avattu: Sisältää useamman minipelin, eastereggejä ja kaikkea muuta tutkittavaa!",
