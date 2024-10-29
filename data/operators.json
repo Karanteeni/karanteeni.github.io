@@ -45,9 +45,7 @@
       "description": "yo kuis hurisee!",
       "strengths": ["Videoiden editointi"],
       "uuid": "d5275d787e474d8aa4cdcfae7d2808cc"
-    }
-  ],
-  "moderaattori": [
+    },
     {
       "name": "Kuutioitu",
       "description": "\"kertoisin mitä laiskuus on mutta en jaksa\"",
@@ -55,16 +53,18 @@
       "uuid": "13ba8e18123d41c0bba580b2662c0e0d"
     },
     {
-      "name": "Enm1",
-      "description": "\"En mä oo sanonu mitää kivaa\"",
-      "strengths": ["Palvelimen ylläpito"],
-      "uuid": "d12d86727cdf4fe18df21282f5265920"
-    },
-    {
       "name": "UninenVille",
       "description": "\"Pitikö tähän joku semmonenki miettiä\"",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "6dcda6de07204a30998aa1cdf91990da"
+    }
+  ],
+  "moderaattori": [
+    {
+      "name": "Enm1",
+      "description": "\"En mä oo sanonu mitää kivaa\"",
+      "strengths": ["Palvelimen ylläpito"],
+      "uuid": "d12d86727cdf4fe18df21282f5265920"
     },
     {
       "name": "LouNii",
