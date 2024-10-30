@@ -3,10 +3,10 @@ import React from 'react'
 import Heading from '../components/layout/heading'
 import Layout, { siteTitle } from '../components/layout/layout'
 import Modal from '../components/modal'
-import donators from '../data/moplayers.json'
+import monthplayers from '../data/moplayers.json'
 import useMediaQuery from '../lib/useMediaquery'
 
-interface Donator {
+interface MonthPlayer {
     date: string
     name: string
     amount: string
@@ -19,20 +19,20 @@ const getDateParts = (d: string): string[] => {
     return dateParts.map((part) => part.padStart(2, '0'))
 }
 
-const TableRow = ({ donator, width }: { donator: Donator; width: number }) => {
-    let dateParts = getDateParts(donator.date)
+const TableRow = ({ monthplayer, width }: { monthplayer: MonthPlayer; width: number }) => {
+    let dateParts = getDateParts(monthplayer.date)
     let dateString = dateParts.join('.')
 
     return (
         <tr>
             <th>{dateString}</th>
-            <td>{donator.name}</td>
-            <td>{donator.heart}</td>
+            <td>{monthplayer.name}</td>
+            <td>{monthplayer.heart}</td>
         </tr>
     )
 }
 
-export default function Lahjoitus() {
+export default function Kiitos() {
     const [width] = useMediaQuery()
 
     return (
@@ -72,7 +72,7 @@ export default function Lahjoitus() {
                         Emme välttämättä valikoi uutta kuukauden pelaajaa joka kuukausi.
                     </p>
                 </div>
-                <div className="lahjoitustablewrapper lahjoitusdokumentti">
+                <div className="kiitostablewrapper kiitosdokumentti">
                     <table>
                         <thead>
                             <tr>
@@ -82,9 +82,9 @@ export default function Lahjoitus() {
                             </tr>
                         </thead>
                         <tbody>
-                            {donators &&
-                                donators.map((donator: Donator, i) => (
-                                    <TableRow key={i} donator={donator} width={width} />
+                            {monthplayers &&
+                                monthplayers.map((monthplayer: MonthPlayer, i) => (
+                                    <TableRow key={i} monthplayer={monthplayer} width={width} />
                                 ))}
                         </tbody>
                     </table>

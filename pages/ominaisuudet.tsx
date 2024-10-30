@@ -64,7 +64,7 @@ const Ominaisuudet = () => {
                     Komennolla /partikkelit (tai /particles tai /pp) pystyy ottamaan käyttöön erilaisia partikkeleita,
                     jotka seuraavat pelaajahahmoa.
                 </p>
-                <p>Partikkeleita saa uusista rankeista, lahjoittamisesta, sekä erilaisista tapahtumista.</p>
+                <p>Partikkeleita saa uusista rankeista, sekä erilaisista tapahtumista.</p>
             </Feature>
             <Feature title="Emeraldhissi">
                 <Video source="/feature/emeraldvator.mp4" />

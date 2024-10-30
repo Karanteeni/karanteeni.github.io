@@ -207,7 +207,7 @@ const Navbar = () => {
                 icon={faGift}
                 itemIndex={3}
             >
-                <DropDownItem close={closeNav} icon={faGift} url="/lahjoitus" title="Lahjoitukset" />
+                <DropDownItem close={closeNav} icon={faGift} url="/kiitokset" title="Kiitokset" />
                 <DropDownItem close={closeNav} icon={faCrown} url="/kkpelaaja" title="Kuukauden pelaajat" />
             </DropDownCollapseMenu>
 

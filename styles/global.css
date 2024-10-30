@@ -1073,28 +1073,28 @@ time {
     animation-delay: -4000ms;
 }
 
-.lahjoitusdokumentti {
+.kiitosdokumentti {
     background: white;
     border: 20px ridge hsla(47, 46%, 43%, 1);
 }
 
-.lahjoitusdokumentti p,
-.lahjoitusdokumentti table {
+.kiitosdokumentti p,
+.kiitosdokumentti table {
     color: black;
 }
 
-.lahjoitustablewrapper {
+.kiitostablewrapper {
     overflow-x: auto;
     margin-top: 3 rem;
 }
 
-.lahjoitustablewrapper table {
+.kiitostablewrapper table {
     width: 100%;
     margin-bottom: 1rem;
 }
 
-.lahjoitustablewrapper table td,
-.lahjoitustablewrapper table th {
+.kiitostablewrapper table td,
+.kiitostablewrapper table th {
     text-align: center;
     line-height: 2.5;
     padding: 0 0.2em;

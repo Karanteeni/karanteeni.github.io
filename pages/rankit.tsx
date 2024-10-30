@@ -148,7 +148,7 @@ const Rankit = () => {
             <ul>
                 <li>
                     Lahjoittaja (kaikille, jotka lahjoittavat vähintään 10€ palvelimelle ks.{' '}
-                    <Link href="/lahjoitus">lahjoitus-sivu</Link>)
+                    <Link href="/kiitos">kiitokset-sivu</Link>. <i>Tätä tasoa ei ole tällä hetkellä mahdollista enää saada</i>)
                 </li>
                 <li>
                     Rikkoja (sellaisille pelaajille, jotka auttavat ylläpitoa löytämään palvelimelta sitä hajottavia

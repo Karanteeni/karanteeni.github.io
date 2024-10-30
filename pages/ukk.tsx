@@ -76,11 +76,9 @@ const CommonQuestions = (props) => {
             </div>
 
             <div>
-                <Question>Kuinka voin lahjoittaa palvelimelle?</Question>
+                <Question>Voinko ostaa tasoja?</Question>
                 <Answer>
-                    Koska Karanteenissa ei ole käytössä vippejä, vaan kaikki perustuu peliaikaan, voit tehdä
-                    vapaamuotoisen lahjoituksen mm. PayPalilla. Tarkemmat ohjeet löydät{' '}
-                    <Link href="/lahjoitus">täältä</Link>.
+                    Karanteenissa ei ole käytössä vippejä, vaan kaikki normaalit rankit perustuvat peliaikaan. Lahjoituksia ei oteta vastaan.
                 </Answer>
             </div>
 

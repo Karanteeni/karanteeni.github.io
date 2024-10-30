@@ -34,7 +34,7 @@ karanteeni.github.io/
 ├── pages/
 │   └── Sisältää sivuston [Next.js](https://nextjs.org/) sivut
 ├── data/
-|   ├── Päivitettävän datan koti, tiedot lahjoittajista etc
+|   ├── Päivitettävän datan koti, tiedot kiitoksista etc
 |   └── Perus JSON tiedostoja. Muokkaaminen ei vaadi juuri mitään aiempaa osaamista.
 ├── styles/
 |   ├── CSS tyylitiedostot
@@ -61,7 +61,7 @@ karanteeni.github.io/
 #### Etusivun mietelauseiden päivittäminen
 [itseselitteinen](https://github.com/Karanteeni/karanteeni.github.io/blob/master/data/citations.json)
 
-#### Lahjoittajien päivittäminen
+#### Kiitosten päivittäminen
 [itseselitteinen](https://github.com/Karanteeni/karanteeni.github.io/blob/master/data/donators.json)
 
 #### Reseptisivun reseptien päivittäminen

@@ -102,7 +102,7 @@ nav {
     background-size: cover;
 }
 
-main:not(.home):not(.lahjoitus):not(.not-found) {
+main:not(.home):not(.kiitos):not(.not-found) {
     max-width: 900px;
 
     margin: 2em;
@@ -127,12 +127,12 @@ body {
 }
 
 
-.lahjoitusdokumentti {
+.kiitosdokumentti {
     background-color: var(--background-secondary);
     border-color: #7b2106;
 }
-.lahjoitusdokumentti p,
-.lahjoitusdokumentti table {
+.kiitosdokumentti p,
+.kiitosdokumentti table {
     color: var(--color-link);
 }
 
@@ -164,7 +164,7 @@ body {
 
 @media screen and (max-width: 900px) {
     .home-grid > div,
-    main:not(.home):not(.lahjoitus) {
+    main:not(.home):not(.kiitos) {
         border-radius: 0;
         margin-top: 0;
     }
@@ -176,7 +176,7 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-    main:not(.home):not(.lahjoitus) {
+    main:not(.home):not(.kiitos) {
         padding: 1.2em;
     }
 }
