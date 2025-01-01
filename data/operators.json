@@ -27,7 +27,7 @@
       "uuid": "d0cd2962ea3944c48b486c6376e57ca3"
     },
     {
-      "name": "Vaapukkax",
+      "name": "Watukas",
       "description": "\"Manu varasti mun lausahduksen\"",
       "strengths": ["Koodaaminen"],
       "uuid": "00b59d31f84f486db29b7c37b60a0be0"
@@ -40,6 +40,12 @@
     }
   ],
   "operaattori": [
+     {
+      "name": "Viherkukka",
+      "description": "\"Täh?\"",
+      "strengths": ["Riitojen sovittelu"],
+      "uuid": "5db3cb0e4ae847dc91594cc10079190d"
+    }, 
     {
       "name": "MVPPlusPlus",
       "description": "yo kuis hurisee!",
@@ -85,6 +91,12 @@
       "description": "\"Oispa suklaata\"",
       "strengths": ["Rakentaminen"],
       "uuid": "2f4b9740ad04411ea4e29700c1c5c2a5"
+    },
+    {
+      "name": "ME_22",
+      "description": "\"Sleep time :3\"",
+      "strengths": ["Rakentaminen"],
+      "uuid": "16f4a6aa35564d38b421238fc47b2621"
     }
   ]
 }
