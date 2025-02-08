@@ -30,6 +30,10 @@
     background: linear-gradient(to right, #d90647, #910028);
 }
 
+.card-container.arkkitehti {
+    background: linear-gradient(to right, #eb1971, #b11254);
+}
+
 .card-container.operaattori {
     background: linear-gradient(to right, #cb077d, #900153);
 }
@@ -113,6 +117,10 @@
     background: linear-gradient(to right, #ca013f, #c5003c);
 }
 
+.background.arkkitehti {
+    background: linear-gradient(to right, #cf1462, #cc1461);
+}
+
 .background.operaattori {
     background: linear-gradient(to right, #c20075, #bd0071);
 }
@@ -146,6 +154,10 @@
     background: linear-gradient(to bottom, #c80033, #b70337);
 }
 
+.content.arkkitehti {
+    background: linear-gradient(to bottom, #ca0356, #c00352);
+}
+
 .content.operaattori {
     background: linear-gradient(to bottom, #c2006a, #b00367);
 }
@@ -174,6 +186,10 @@
     letter-spacing: 0.01em;
 }
 
+.admin-card-holder.inactive {
+    filter: grayscale(1.0) brightness(100%);
+}
+
 .type {
     display: block;
     background-color: #000;
@@ -199,6 +215,10 @@
 
 .type.admin {
     background-color: #ff476c;
+}
+
+.type.arkkitehti {
+    background-color: #f83888;
 }
 
 .type.operaattori {

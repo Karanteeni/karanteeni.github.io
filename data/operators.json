@@ -4,13 +4,15 @@
       "name": "Jomeee",
       "description": "Jääteen suurkuluttaja",
       "strengths": ["Konfigurointi", "Palvelimen ylläpito"],
-      "uuid": "5b9a03483c15472b8bd8987134cf9f1d"
+      "uuid": "5b9a03483c15472b8bd8987134cf9f1d",
+      "active": true
     },
     {
       "name": "Nuubles",
       "description": "big but very smooth brain",
       "strengths": ["Pluginit", "Palvelimen ylläpito"],
-      "uuid": "d4ef4bc2db26462c9793389ba56d2818"
+      "uuid": "d4ef4bc2db26462c9793389ba56d2818",
+      "active": true
     }
   ],
   "admin": [
@@ -18,25 +20,29 @@
       "name": "Manuzki",
       "description": "\"hmm\"",
       "strengths": ["Musiikki", "Grief-tapaukset"],
-      "uuid": "a802f54ebfa148e3a7754d18d38a48be"
+      "uuid": "a802f54ebfa148e3a7754d18d38a48be",
+      "active": true
     },
     {
       "name": "Iita",
       "description": "\"Ahdistaa.\"",
       "strengths": ["Tapahtumasuunnittelu", "Sisällöntuotanto"],
-      "uuid": "d0cd2962ea3944c48b486c6376e57ca3"
+      "uuid": "d0cd2962ea3944c48b486c6376e57ca3",
+      "active": true
     },
     {
       "name": "Watukas",
       "description": "\"Manu varasti mun lausahduksen\"",
       "strengths": ["Koodaaminen"],
-      "uuid": "00b59d31f84f486db29b7c37b60a0be0"
+      "uuid": "00b59d31f84f486db29b7c37b60a0be0",
+      "active": true
     },
     {
       "name": "Jokune",
       "description": "\"miks tää menee rikki?\"",
       "strengths": ["Discord botin ylläpito"],
-      "uuid": "bbd2bc4c9fe64ffeb69b767c0df3db4f"
+      "uuid": "bbd2bc4c9fe64ffeb69b767c0df3db4f",
+      "active": true
     }
   ],
   "operaattori": [
@@ -44,25 +50,29 @@
       "name": "Viherkukka",
       "description": "\"Täh?\"",
       "strengths": ["Riitojen sovittelu"],
-      "uuid": "5db3cb0e4ae847dc91594cc10079190d"
-    }, 
+      "uuid": "5db3cb0e4ae847dc91594cc10079190d",
+      "active": true
+    },
     {
       "name": "MVPPlusPlus",
       "description": "yo kuis hurisee!",
       "strengths": ["Videoiden editointi"],
-      "uuid": "d5275d787e474d8aa4cdcfae7d2808cc"
+      "uuid": "d5275d787e474d8aa4cdcfae7d2808cc",
+      "active": true
     },
     {
       "name": "Kuutioitu",
       "description": "\"kertoisin mitä laiskuus on mutta en jaksa\"",
       "strengths": ["Palvelimen ylläpito"],
-      "uuid": "13ba8e18123d41c0bba580b2662c0e0d"
+      "uuid": "13ba8e18123d41c0bba580b2662c0e0d",
+      "active": true
     },
     {
       "name": "UninenVille",
       "description": "\"Pitikö tähän joku semmonenki miettiä\"",
       "strengths": ["Palvelimen ylläpito"],
-      "uuid": "6dcda6de07204a30998aa1cdf91990da"
+      "uuid": "6dcda6de07204a30998aa1cdf91990da",
+      "active": true
     }
   ],
   "moderaattori": [
@@ -70,33 +80,82 @@
       "name": "Enm1",
       "description": "\"En mä oo sanonu mitää kivaa\"",
       "strengths": ["Palvelimen ylläpito"],
-      "uuid": "d12d86727cdf4fe18df21282f5265920"
+      "uuid": "d12d86727cdf4fe18df21282f5265920",
+      "active": true
     },
     {
       "name": "LouNii",
       "description": "\"YeS.\"",
       "strengths": ["Palvelimen ylläpito"],
-      "uuid": "d347193d8b794a389158074681bc32f8"
+      "uuid": "d347193d8b794a389158074681bc32f8",
+      "active": false
+    },
+    {
+      "name": "Lesserr",
+      "description": "",
+      "strengths": ["Palvelimen ylläpito"],
+      "uuid": "4f13344913bb4fd4a0b8722d900dbb08",
+      "active": false
+    },
+    {
+      "name": "Asheline",
+      "description": "",
+      "strengths": ["Palvelimen ylläpito"],
+      "uuid": "ca5f9868d9bc4a02b63d5fa2e48a8326",
+      "active": false
     }
   ],
-  "rakentaja": [
+  "arkkitehti": [
     {
       "name": "Mikufox",
       "description": "Kettuilee paljon. Sillee hyvällä tavalla",
       "strengths": ["Rakentaminen"],
-      "uuid": "fdac507124964a92a97236e36d95a1b5"
+      "uuid": "fdac507124964a92a97236e36d95a1b5",
+      "active": true
     },
     {
       "name": "Tanniih",
       "description": "\"Oispa suklaata\"",
       "strengths": ["Rakentaminen"],
-      "uuid": "2f4b9740ad04411ea4e29700c1c5c2a5"
-    },
+      "uuid": "2f4b9740ad04411ea4e29700c1c5c2a5",
+      "active": true
+    }
+  ],
+  "rakentaja": [
     {
       "name": "ME_22",
       "description": "\"Sleep time :3\"",
       "strengths": ["Rakentaminen"],
-      "uuid": "16f4a6aa35564d38b421238fc47b2621"
+      "uuid": "16f4a6aa35564d38b421238fc47b2621",
+      "active": true
+    },
+    {
+      "name": "Sumute",
+      "description": "",
+      "strengths": ["Rakentaminen"],
+      "uuid": "5ef3f27168d44deab47baa1e72b932d5",
+      "active": false
+    },
+    {
+      "name": "Oonakuni",
+      "description": "",
+      "strengths": ["Rakentaminen"],
+      "uuid": "fcc6a1f38457404daed5206e467ec3ff",
+      "active": false
+    },
+    {
+      "name": "Jenniii",
+      "description": "",
+      "strengths": ["Rakentaminen"],
+      "uuid": "c9427421eb1f468aaff457f9f2a7e2f5",
+      "active": false
+    },
+    {
+      "name": "Avenia",
+      "description": "",
+      "strengths": ["Rakentaminen"],
+      "uuid": "9d0b16ecd57d4e2891f842cbeac37a3a",
+      "active": false
     }
   ]
 }

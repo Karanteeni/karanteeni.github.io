@@ -140,6 +140,10 @@ nav {
     display: none;
 }
 
+.text-centered {
+    text-align: center;
+}
+
 main.not-found {
     background: transparent;
     text-align: center;
@@ -356,6 +360,10 @@ main.yllapito ul {
 
 main.yllapito p.lead {
     margin: auto;
+}
+
+main.yllapito p.lead.extra-margin {
+    margin-top: 8em;
 }
 
 main.yllapito li {
@@ -1381,6 +1389,10 @@ time {
 
 .admin {
     color: #ff476c !important;
+}
+
+.arkkitehti {
+    color: #f83888 !important;
 }
 
 .operaattori {

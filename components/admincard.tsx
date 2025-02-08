@@ -17,19 +17,21 @@ const AdminCard = ({
     uuid,
     name,
     description,
-    strengths
+    strengths,
+    active
 }: {
     rank: string
     uuid: string
     name: string
     description?: string
-    strengths?: string[]
+    strengths?: string[],
+    active: boolean
 }) => {
     const ref = useRef(null)
     const [showBackside, setShowBackside] = useState(false)
 
     return (
-        <div className={`${style['admin-card-holder']}`} onClick={() => setShowBackside(() => !showBackside)}>
+        <div className={`${style['admin-card-holder']} ${!active ? style['inactive'] : ''}`} onClick={() => setShowBackside(() => !showBackside)}>
             <div
                 ref={ref}
                 style={
