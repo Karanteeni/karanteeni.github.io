@@ -15,24 +15,33 @@ const rankToMissingText = (rank) => {
             return 'Operaattoreita ei näkyvillä'
         case 'moderaattori':
             return 'Hmm.. moderaattoreistahan on pulaa! Haku ylläpitoon on aina auki!'
+        case 'arkkitehti':
+            return 'Damn, on taitu arkkitehty'
         case 'rakentaja':
-            return 'Ei rakentajia? Kuka nyt rakentaa Gauriksen spawnit?'
+            return 'Ei rakentajia? Kuka nyt rakentaa servun spawnit?'
     }
 }
 
-const Rank = ({ data, rank }) => {
+const Rank = ({ data, rank, active }) => {
     return (
         <div>
             <h3 className={`tag ${rank} minecraft`}>{rank}</h3>
             <div className="admin-card-wrapper">
                 {data.length === 0 && <p>{rankToMissingText(rank)}</p>}
-                {data.length >= 0 && data.map((item, key) => <AdminCard {...item} rank={rank} key={key} />)}
+                <Card data={data} active={active} rank={rank} />
             </div>
         </div>
     )
 }
 
-const Admininstration = () => {
+const Card = ({ data, rank, active }) => {
+    if (data.length >= 0) {
+        return data.map((item, key) => <AdminCard {...item} rank={rank} key={key} active={active} />)
+    }
+    return;
+}
+
+const ActiveAdmininstration = () => {
     let [adminstrationData, _setAdminstrationData] = React.useState(operaattoris)
     let [adminstrationRanksArray, _setAdminstrationRanksArray] = React.useState(Object.keys(operaattoris))
 
@@ -41,8 +50,25 @@ const Admininstration = () => {
     return (
         <div>
             {adminstrationRanksArray.map((rank) => (
-                <Rank key={rank} rank={rank} data={adminstrationData[rank]} />
+                <Rank key={rank} rank={rank} active={true} data={adminstrationData[rank].filter((item) => item.active)} />
             ))}
+        </div>
+    )
+}
+
+const InActiveAdmininstration = () => {
+    let [adminstrationData, _setAdminstrationData] = React.useState(operaattoris)
+    let [adminstrationRanksArray, _setAdminstrationRanksArray] = React.useState(Object.keys(operaattoris))
+
+    if (!adminstrationData || !adminstrationRanksArray) return null
+
+    return (
+        <div>
+            <div className="admin-card-wrapper inactive">
+                {adminstrationRanksArray.filter((rank) => adminstrationData[rank].some((item) => !item.active)).map((rank) => {
+                    return (<Card key={rank} rank={rank} active={false} data={adminstrationData[rank].filter((item) => !item.active)} />)
+                })}
+            </div>
         </div>
     )
 }
@@ -54,7 +80,7 @@ const Yllapito = () => {
             <div className="yp-page-info">
                 <p>
                     Käytännössä ylläpitäjät pitävät vapaaehtoisesti palvelinta pystyssä eri tavoin. Serverin ylläpitoa
-                    varten meiltä löytyy kasa ylläpitoarvoja, jotta voimme jakaa työtehtäviä kokemuksen ja osaamisen, 
+                    varten meiltä löytyy kasa ylläpitoarvoja, jotta voimme jakaa työtehtäviä kokemuksen ja osaamisen,
                     sekä myöskin ajan mukaan. Ylentyminen on mahdollista, tosin Rakentajalla vain ensin
                     moderaattoriksi siirtymisen kautta. Listataan arvoja hieman ja kerrotaan mitä kukakin tekee!
                 </p>
@@ -90,6 +116,15 @@ const Yllapito = () => {
                 </div>
                 <div>
                     <p>
+                        <span className="tag arkkitehti">Arkkitehti</span> on rakentajasta seuraava ylläpitoarvo, johon
+                        voi päästä ainoastaan jos muu ylläpito on vakuuttanut rakentajan osaamisesta, aktiivisuudesta,
+                        ja motivaatiosta. Arkkitehdin vastuualue on kuin rakentajan ja adminin välissä, tarkoittaen uusia
+                        oikeuksia maailmojen hallintaan. Toisin kuin adminilla, arkkitehdin vastuulla ei kuitenkaan ole
+                        niinkään paljon auttaa pelaajia, vaikka voivatkin sitä tehdä mikäli muuta ylläpitoa ei ole paikalla.
+                    </p>
+                </div>
+                <div>
+                    <p>
                         <span className="tag admin">Admin</span> on seuraavaksi korkein ylläpitoarvo, jolla on oikeudet
                         tehdä käytännössä kaikkea, usein päätöksiin vaikuttaa muun ylläpidon mielipide. Tähän porukkaan
                         kuuluu sekalaista väkeä osaamisen kannalta. On kehittäjiä, on entisiä rakentajia, on tavallisia
@@ -109,7 +144,16 @@ const Yllapito = () => {
             <p className="lead">
                 <em>Saanen esitellä: palvelimen henkilökunta</em>
             </p>
-            <Admininstration />
+            <ActiveAdmininstration />
+            {
+                (Object.values(operaattoris).some((rank) => rank.some((item) => !item.active))) ?
+                    (<div>
+                        <h3 className="lead extra-margin text-centered">
+                            <em>Tällä hetkellä epäaktiiviset ylläpitäjät</em>
+                        </h3>
+                    </div>) : null
+            }
+            <InActiveAdmininstration />
         </Layout>
     )
 }
