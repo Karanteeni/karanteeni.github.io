@@ -4,62 +4,47 @@
         "ruleset": [
             {
                 "short": "Hack-clientit ovat kiellettyjä",
-                "long": "Huijausohjelmien (esim. Xray) käyttäminen on kiellettyä.",
+                "long": "Huijausohjelmien (esim. xray, killaura) käyttäminen on kiellettyä.",
                 "icon": "denied"
             },
             {
                 "short": "Bugien hyväksikäyttö on kiellettyä",
-                "long": "Bugien tai palvelinvirheiden hyväksikäyttö on ankarasti kiellettyä. Mikäli löydät peliä rikkovan bugin tai virheen, voidaan sinua palkita peliajalla.",
+                "long": "Bugien tai palvelinvirheiden hyväksikäyttö on ankarasti kiellettyä. Mikäli löydät peliä rikkovan bugin tai virheen ja ilmoitat siitä, voidaan sinua palkita peliajalla.",
                 "icon": "denied"
             },
             {
-                "short": "Modit ovat kiellettyjä",
-                "long": "Pelin etenemistä edistävien modien käyttäminen (mm. rakennusbotit) on kiellettyä. Modit jotka neuvovat, esimerkiksi hologrammimodit (esim. litematica) ovat sallittuja.",
+                "short": "Afk-kickin estäminen on kiellettyä",
+                "long": "Koska palvelimen tasot perustuvat peliaikaan, on afk-kickin estäminen eri tavoin kiellettyä. Tästä hyvästä esimerkiksi afk-koneiden käyttö johtaa perinteisen rangaistuksen lisäksi peliajan menettämiseen.",
                 "icon": "denied"
             },
             {
-                "short": "OptiFine & Sodium",
-                "long": "OptiFinen ja Sodiumin kaltaiset suoritustehoa parantavat modit ovat sallittuja.",
-                "icon": "allowed"
-            },
-            {
-                "short": "TNT-monistajat ovat osittain sallittuja",
-                "long": "TNT-duplikaattoreita voi käyttää hyödyksi farmaamisessa. Kuitenkin muu käyttö on yhä toistaiseksi kielletty.",
-                "icon": "notice"
-            },
-            {
-                "short": "Asiattoman skinin tai käyttäjänimen käyttäminen on kiellettyä",
-                "long": " Jos skinisi on rasistinen, alatyylinen, loukkaava, tai muuten asiaton, sinua pyydetään vaihtamaan se. Asiattomat nimet server bannaa automaattisesti. Saat unbannit vaihdettuasi skinin tai nimen ja tehtyäsi unban-hakemuksen.",
+                "short": "Toisten huijaaminen on kiellettyä",
+                "long": "Toisten vedättäminen, eli scammays on kiellettyä. Sitouduthan siis vaihtokauppoihisi.",
                 "icon": "denied"
             },
             {
-                "short": "Käyttäjäsi pelinimi on oltava tunnistettavissa asettamastasi nickistä",
-                "long": "Komennolla /nick asetettu lempinimi on oltava pelinimeäsi muistuttava ja tunnistettavissa.",
-                "icon": "notice"
-            },
-            {
-                "short": "Alt-accounttien hyväksikäyttäminen kielletty",
-                "long": "Et saa käyttää alt-accountteja pääkäyttäjän edun hyväksi (esimerkiksi rahan siirtämistä, tai rankkien ominaisuuksien jakamista).",
+                "short": "Lagin aiheuttaminen on kiellettyä",
+                "long": "Lagia voi aiheuttaa palvelimen lisäksi toisille pelaajille. Molemmissa tapauksissa aiheutettu lagi häiritsee muiden pelikokemusta. Vältäthän siis lagin syntymistä lisäämällä redstone rakennelmiisi sammutusvipuja ja rajoittamalla lehmäfarmisi kokoa.",
                 "icon": "denied"
             },
             {
-                "short": "Afkaaminen kielletty",
-                "long": "Palvelimella afkaaminen on kielletty. \"Afki\"koneiden rakentaminen tästä syystä myös ankarasti kielletty. Mobifarmeilla afkaaminen keräten mobeja on myös kiellettyä. Kuitenkin automaattiset mobifarmit on sallittuja, kunhan entiteettejä ei keräänny liikaa aiheuttaakseen lagia.",
+                "short": "Asiattomat rakennelmat ovat kiellettyjä",
+                "long": "Pidäthän tekemäsi rakennelmat asiallisina. Ylläpidolla on oikeus tarvittaessa poistaa asiattomat rakennelmat palvelimelta.",
                 "icon": "denied"
             },
             {
-                "short": "Palvelimen lagittaminen kielletty",
-                "long": "Palvelinta rasittavien ja lagittavien redstonerakennelmien teko on kielletty (esim. loputtomiin käyvät kellot, 0-tick farmit). Lisää rakennelmaan sulkemisvipu ja pidä laite suljettuna, jos se ei ole käytössä. Palvelimen lagittamiseen kuuluu myös entiteetit (hostile mobit, lemmikit, kyläläiset).\nYlläpidolla on oikeus tappaa suojauksestasi eläimiä, mikäli ne kuormittavat palvelinta. \nTämän lisäksi teleporttailu matrixin ulkopuolelle (esimerkiksi koordinaatit yli Endin ja Netherin generointirajan, sekä mapin ulkopuolelle jonka rajat ovat +-10k) on kiellettyä. Palvelimen tahallisesta lagittamisesta seuraa aina ikuinen porttikielto.",
-                "icon": "denied"
-            },
-            {
-                "short": "Ansaitun rankin hyväksikäyttäminen kielletty",
+                "short": "Ansaitun rankin hyväksikäyttäminen on kielletty",
                 "long": "Sinua alempirankkiset pelaajat eivät saa hyötyä rankkisi ominaisuuksista.",
                 "icon": "denied"
             },
             {
-                "short": "Olet velvoitettu ilmoittamaan rikkeestä",
-                "long": "Jos havaitset sääntöjen rikkomista, välitä tieto välittömästi ylläpidolle. Pyri hankkimaan todisteita, kuten screenshotteja tai videoita.",
+                "short": "Useamman tilin käyttö",
+                "long": "Karanteenissa saa pelata useammalla tilillä, mutta tilit eivät saa hyötyä toisistaan. Tähän lukeutuu esimerkiksi äänestyspalkintojen jakaminen tilien välillä.",
+                "icon": "notice"
+            },
+            {
+                "short": "Modien käyttö",
+                "long": "Peliä epäreilusti edistävät ja muita etuuksia antavat modit ovat kiellettyjä. Toisaalta taas kannustammekin teitä käyttämään modeja, jotka eivät anna epäreiluja etuuksia. Näihin lukeutuvat esimerkiksi suorituskykyä parantavat modit, kuten Sodium. Nykäisethän ylläpitoa hihasta, jos et ole varma saako modiasi käyttää.",
                 "icon": "notice"
             }
         ]
@@ -74,23 +59,38 @@
             },
             {
                 "short": "Pidetään kieli kurissa",
-                "long": "Turha kiroilu ja toisten pelaajien härnääminen tai kiusaaminen ei ole asianmukaista. Ollaanhan ihmisiksi.",
+                "long": "Palvelimella pelaa myös nuorempaa väkeä, joten vältäthän esimerkiksi liiallista kiroilua etenkin päiväsaikaan. Lisäksi täysin asiattomat puheet eivät Karanteenin chattiin kuulu.",
                 "icon": "important"
             },
             {
                 "short": "Pidetään chatti siistinä",
-                "long": "Turha spammaaminen, floodaaminen, ja CAPSILLA KIRJOITTAMINEN on kiellettyä.",
+                "long": "Turha spammaaminen, floooooooooooooodaaminen, ja JATKUVA CAPSILLA KIRJOITTAMINEN häiritsevät chatin lukemista. Pidä siis chat omalta osaltasi siistinä.",
                 "icon": "important"
             },
             {
-                "short": "Karanteeni on poliittisesti neutraali palvelin",
-                "long": "Tämä tarkoittaa sitä, että chatissa ja palvelimella pyritään välttämään poliittisia aatteita, symboleita tai ideologioita. Myös yleistä keskustelua politiikasta pyritään välttämään, koska se yleensä aiheuttaa väittelyitä ja eripuraa.",
+                "short": "Toisten häirintä on kiellettyä",
+                "long": "Annathan toisille pelaajille pelirauhan, etkä häiritse heitä esimerkiksi kinuamalla heiltä tavaraa.",
                 "icon": "denied"
             },
             {
-                "short": "Mainostaminen on kiellettyä",
-                "long": "Älä mainosta (varsinkaan toisia palvelimia). Tämä ei kuitenkaan tarkoita sitä ettetkö saisi kertoa minkä merkkinen hiiri tai auto sinulla on, mutta siinä se raja sitten kulkeekin.",
+                "short": "Karanteeni on poliittisesti ja uskonnollisesti neutraali palvelin",
+                "long": "Tämä tarkoittaa sitä, että chatissa ja palvelimella pyritään välttämään poliittisia ja uskonnollisia aatteita, symboleita tai ideologioita. Vältäthän keskustelua politiikasta ja uskonnosta, koska ne yleensä aiheuttavat väittelyitä ja eripuraa.",
+                "icon": "notice"
+            },
+            {
+                "short": "Mainostaminen",
+                "long": "Ethän mainosta toisia palvelimia Karanteenissa, etkä myöskään Karanteenia toisilla palvelimilla. Näin voimme parhaiten välttää kitkan syntymisen palvelimien välille. Paras mainonta palvelimelle on sisällön tuottaminen sosiaaliseen mediaan.",
+                "icon": "notice"
+            },
+            {
+                "short": "Asiattoman skinin tai käyttäjänimen käyttäminen on kiellettyä",
+                "long": " Jos skinisi on rasistinen, alatyylinen, loukkaava, tai muuten asiaton, sinua pyydetään vaihtamaan se. Asiattomat nimet server bannaa automaattisesti. Saat unbannit vaihdettuasi skinin tai nimen ja tehtyäsi unban-hakemuksen.",
                 "icon": "denied"
+            },
+            {
+                "short": "Käyttäjäsi pelinimi on oltava tunnistettavissa asettamastasi nickistä",
+                "long": "Komennolla /nick asetettu lempinimi on oltava pelinimeäsi muistuttava ja tunnistettavissa.",
+                "icon": "important"
             }
         ]
     },
@@ -99,12 +99,7 @@
         "ruleset": [
             {
                 "short": "Grieffaaminen on kielletty",
-                "long": "Toisten pelaajien rakennelmien tuhoaminen ja omaisuuden varastaminen on kielletty. Mikäli tielläsi on rakennus, pyydä ylläpitoa rikkomaan tai siirtämään sitä.",
-                "icon": "denied"
-            },
-            {
-                "short": "Pelaajien vedättäminen, skämmääminen on kiellettyä",
-                "long": "Et saa esimerkiksi huijata toiselta tavaraa.",
+                "long": "Toisten pelaajien rakennelmien tuhoaminen ja omaisuuden varastaminen on kielletty. Mikäli toinen pelaaja on rakentanut liian lähelle aluettasi, otathan ylläpitoon yhteyttä.",
                 "icon": "denied"
             },
             {
@@ -114,7 +109,7 @@
             },
             {
                 "short": "Villager kyliä ei saa tuhota",
-                "long": "Villager kyliä ei saa grieffata, mutta heinäpaalit, työasemat, kellot, sekä sängyt saa ottaa itselleen. Kylien peltoja saa käyttää, kunhan muistaa istuttaa ruoat takaisin. Kylän voi ottaa kodikseen, jolloin kyliä koskevat säännöt eivät enää päde.",
+                "long": "Villager (NPC) kylät kuuluvat myös omalla tavallaan maisemaan. Kylistä saat vapaasti ottaa itsellesi heinäpaaleja, työasemia, kelloja ja sänkyjä. Pellot ovat vapaasti käytettävissä, kunhan vaan muistat istuttaa ne takaisin. Muuten kylien on oltava ulkoisesti ehjän näköisiä maiseman siisteyden säilyttämiseksi. Kylän voi ottaa kodikseen, jolloin kyliä koskevat säännöt eivät enää päde.",
                 "icon": "notice"
             },
             {
@@ -123,14 +118,19 @@
                 "icon": "denied"
             },
             {
+                "short": "Asioiden monistaminen",
+                "long": "Karanteenissa on sallittua tehdä TNT-duplikaattoreita esimerkiksi farmaamista varten. Muut duplikaatioglitchit eivät ole sallittuja.",
+                "icon": "notice"
+            },
+            {
                 "short": "Älä rakenna liian lähelle toisia ilman lupaa",
-                "long": "Ylläpito suojaa alueen ja suojaukseen vaaditaan talon alku. Huomaathan, että talosi täytyy olla vähintään sadan (100) blockin päässä lähimmästä talosta. Endiin ei pääsääntöisesti suojata alueita.",
+                "long": "Ylläpito suojaa alueen pyydettäessä ja suojaukseen vaaditaan talon alku. Huomaathan, että talosi täytyy olla vähintään sadan (100) blockin päässä lähimmästä talosta. Endiin ei pääsääntöisesti suojata alueita.",
                 "icon": "notice"
             },
             {
                 "short": "Ylläpito voi siirtää rakennuksia tarvittaessa",
                 "long": "Mikäli olet vahingossa rakentanut väärään paikkaan tai muuten haluat siirtää rakennustasi, voidaan se sääntöjä noudattaen siirtää 2000 pennin hinnasta. Näin sinun ei itse tarvitse rakentaa koko rakennusta uudelleen",
-                "icon": "notice"
+                "icon": "important"
             }
         ]
     },
@@ -139,13 +139,8 @@
         "ruleset": [
             {
                 "short": "Kylän mainostaminen julkisesti",
-                "long": "Kylien mainostus on sallittua, mutta jos pelaajat antavat siitä palautetta, täytyy siinä hommassa rauhoittua. Pyynnön ohittamisesta seuraa varoitus. Pyyntöä ei kuitenkaan saa tehdä syyttä, kaikilla on oltava mahdollisuus saada pelaajia kyläänsä.",
+                "long": "Kylien mainostus on sallittua, mutta jos pelaajat antavat siitä palautetta, täytyy siinä hommassa rauhoittua. Asiallisen (ja oikeutetun) pyynnön ohittamisesta seuraa varoitus.",
                 "icon": "notice"
-            },
-            {
-                "short": "Kylän mainostaminen yksityisesti",
-                "long": "Kylien mainostus yksityisviestillä on kiellettyä. Tällä vältämme sen, että joku kokee mainostuksen hyökkäävänä. Kyliä saa mainostaa julkisesti pitäen sen rajoissa. (Kts. yllä)",
-                "icon": "denied"
             },
             {
                 "short": "Copy & Paste -viestit ovat kiellettyjä",
@@ -153,9 +148,9 @@
                 "icon": "denied"
             },
             {
-                "short": "Mainosta kylääsi spawnilla!",
-                "long": "Jomelle voi yksityisviestillä laittaa 256x128-resoluutioisen kuvan, jossa mainostat omaa kylääsi. Se laitetaan spawnille. Kylällä on oltava warp, jotta mainoksesi laitetaan näkyviin!",
-                "icon": "important"
+                "short": "Kylän mainostaminen yksityisesti",
+                "long": "Kylien mainostus yksityisviestillä on kiellettyä. Tällä vältämme sen, että joku kokee mainostuksen hyökkäävänä. Kyliä saa mainostaa julkisesti pitäen sen rajoissa. (Kts. yllä)",
+                "icon": "denied"
             },
             {
                 "short": "Kylästä häätäminen",
@@ -180,11 +175,41 @@
         ]
     },
     {
-        "heading": "Tietosuoja ja muut",
+        "heading": "Creativen lisäsäännöt",
+        "ruleset": [
+            {
+                "short": "Grieffaaminen on kielletty",
+                "long": "Kuten Survivalissakin, on Creativessa rakentaessa pelaajilla täysi oikeus rakentaa rakennelmiaan rauhassa ilman huolta sen tuhoutumisesta. Vaikka siis saisitkin oikeudet pelaajan plotille, se ei anna automaattisesti sinulle vapaita käsiä ruveta kyseistä aluetta tuhoamaan.",
+                "icon": "denied"
+            },
+            {
+                "short": "WorldEditin käyttö",
+                "long": "Parantuvasta eteenpäin Creativessa on käytössä WorldEdit. Korkea peliaikavaatimus on sen takia, koska emme halua rajusti rajoittaa WorldEdittiä. Käytössä onkin siis luottamukseen perustuva systeemi, jossa WorldEditin käyttöä rajoitetaan vain, jos sitä ei osata käyttää oikein.",
+                "icon": "important"
+            },
+            {
+                "short": "Redstonen käyttö",
+                "long": "Olemme rajoittaneet redstonen käyttöä Creativessa mahdollisimman vähän. Toivomme, että emme joudu lisäämään redstonen käyttöön enempää rajoituksia, joten käytäthän sitä asiallisesti.",
+                "icon": "important"
+            },
+            {
+                "short": "Lentonopeuden vaihtaminen",
+                "long": "Lentämisen nopeuden vaihtaminen clienttejä/modeja käyttäen ei ole sallittua. Voit sen sijaan säätää nopeuttasi komennolla /speed.",
+                "icon": "denied"
+            }
+        ]
+    },
+    {
+        "heading": "Tietosuoja ja muuta huomioitavaa",
         "ruleset": [
             {
                 "short": "Ylläpito näkee komennot, viestit, ja datan",
-                "long": "Turvallisuussyistä ylläpito näkee kaikki pelaajien komennot ja viestit, jotta voidaan estää esimerkiksi toisten häiriköintiä ja mahdollista lähentelyä. Tämä on yleisesti käytössä kaikilla Minecraft-palvelimilla, vaikka he eivät toisikaan sitä esille millään tavalla, näin toimien harmaalla alueella. (esimerkiksi: /socialspy). Vaikka ylläpito näkeekin pelaajan datan kuten muillakin palvelimilla, yksityistä tietoa näistä ei levitetä ulkopuolelle, kuten muillakaan palvelimilla.",
+                "long": "Turvallisuussyistä ylläpito näkee kaikki pelaajien komennot ja viestit, jotta voidaan estää esimerkiksi toisten häiriköintiä ja mahdollista lähentelyä. Tämä on yleisesti käytössä kaikilla Minecraft-palvelimilla, vaikka he eivät toisikaan sitä esille millään tavalla. (esimerkiksi: /socialspy). Vaikka ylläpito näkeekin pelaajan datan kuten muillakin palvelimilla, yksityistä tietoa näistä ei levitetä ulkopuolelle, kuten muillakaan palvelimilla.",
+                "icon": "notice"
+            },
+            {
+                "short": "Olet velvoitettu ilmoittamaan rikkeestä",
+                "long": "Jos havaitset sääntöjen rikkomista, välitä tieto välittömästi ylläpidolle. Pyri hankkimaan todisteita, kuten kuvankaappauksia (f2) tai videoita.",
                 "icon": "notice"
             }
         ]
