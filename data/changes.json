@@ -1,8 +1,104 @@
 [
     {
+        "date": "9.2.2025",
+        "changes": [
+            "Vaihdettu välityspalvelinta (Bungeecord -> Velocity). Käytännössä vaatinut koko servun uudelleenkoodaamisen.",
+            "Lisätty uusi ylläpitotaso [Arkkitehti]. Kyseessä on taso, johon rakentajatkin voivat ylentyä.",
+            "Lisätty tuki Simple Voice Chat -modille.",
+            "Tammikuussa Hubiin lisätyt nametag-muutokset ovat nyt koko palvelimella.",
+            "Survival: Kartta, kodit ja rahat nollattu (mapreset 17 --> 18).",
+            "Survival: Päivitetty 1.21.4 versioon.",
+            "Creative: Päivitetty 1.21.4 versioon.",
+            "Sivut: bannisivut ja karttasivut eivät enää valita suojaamattomasta yhteydestä.",
+            "Sivut: Lisätty ylläpitolistaan listaus epäaktiivisista ylläpitäjistä."
+        ]
+    },
+    {
+        "date": "25.1.2025",
+        "changes": [
+            "Hub: Päivitetty virallisesti versioon 1.21.4.",
+            "Hub: Lisätty pelirakennuksen yläkertaan itse tehty UNO.",
+            "Hub: Otettu käyttöön uudenlaiset nametagit."
+        ]
+    },
+    {
+        "date": "9.12.2024",
+        "changes": [
+            "Lisätty 1.21.4 tuki."
+        ]
+    },
+    {
+        "date": "1.12.2024",
+        "changes": [
+            "Vuoden 2024 joulukalenteri avattu."
+        ]
+    },
+    {
+        "date": "25.10.2024",
+        "changes": [
+            "Lisätty 1.21.2 (ja .3) tuki."
+        ]
+    },
+    {
+        "date": "12.9.2024",
+        "changes": [
+            "Hub: Miinaharavan numerot ovat nyt maassa kiinni.",
+            "Hub: Lisätty ennätyslista miinaharavaan.",
+            "Hub: Lisätty ennätyslista matopeliin."
+        ]
+    },
+    {
+        "date": "5.9.2024",
+        "changes": [
+            "Survival: lisätty puuttuva resepti slabien craftaamiseen kokonaisiksi blockeiksi."
+        ]
+    },
+    {
+        "date": "27.8.2024",
+        "changes": [
+            "Hub: Äänestyslaatikkojen avausta voi nopeuttaa.",
+            "Hub: Äänestyslaatikoista voitettujen päiden nimet näkyvät nyt chatissä.",
+            "Hub: Hubin kellonaika vastaa Suomen kellonaikaa.",
+            "DC: Äänestäminen näkyy Discordin puolella #minecraft-chat kanavalla.",
+            "Korjattu /kieli komento vaihtamaan jopa oikeasti kieliä."
+        ]
+    },
+    {
+        "date": "26.8.2024",
+        "changes": [
+            "Hub: Äänestyslaatikkojen toimintaa paranneltu.",
+            "Hub: Äänestyslaattikkojen määrä näkyy nyt niiden päällä.",
+            "Hub: Hotbaria siistitty.",
+            "Hub: Lisätty uusi tapa selata warppeja.",
+            "Hub: Lisätty uusia äänitehosteita.",
+            "Hub: Päivitetty navigointi itemiä.",
+            "Hub: Poistettu menun tausta itemeistä tooltipit siisteyden vuoksi.",
+            "Hub: Siistitty koodia.",
+            "Hub: Ylläpitäjien tuplahyppy korjattu Gamemoden vaihdon jälkeen."
+        ]
+    },
+    {
+        "date": "13.8.2024",
+        "changes": [
+            "Lisätty komennot /hub, /survival ja /creative."
+        ]
+    },
+    {
+        "date": "12.8.2024",
+        "changes": [
+            "Creative: Creative päivitetty versioon 1.21."
+        ]
+    },
+    {
+        "date": "9.8.2024",
+        "changes": [
+            "Hub: Otettu testiin uusi AFK-kick plugin."
+        ]
+    },
+    {
         "date": "2.8.2024",
         "changes": [
-            "Kartta, kodit ja rahat nollattu (mapreset 16 --> 17).",
+            "Survival: Kartta, kodit ja rahat nollattu (mapreset 16 --> 17).",
             "Server päivitetty 1.21 versioon.",
             "Useampi bugikorjaus."
         ]
@@ -16,20 +112,21 @@
     {
         "date": "23.6.2024",
         "changes": [
-            "Korjattu äänestyslaatikoiden bugi."
+            "Hub: Korjattu äänestyslaatikoiden bugi."
         ]
     },
     {
         "date": "1.6.2024",
         "changes": [
-            "Survival & Creative päivitetty 1.20.6 versioon.",
-            "Hubin teema vaihtuu automaattisesti eri teemoihin ympäri vuoden."
+            "Survival: Päivitetty 1.20.6 versioon",
+            "Creative: päivitetty 1.20.6 versioon.",
+            "Hub: Hubin teema vaihtuu automaattisesti eri teemoihin ympäri vuoden."
         ]
     },
     {
         "date": "27.4.2024",
         "changes": [
-            "End resetoitu.",
+            "Survival: End resetoitu.",
             "Serverille lisätty 1.20.5 tuki."
         ]
     },
