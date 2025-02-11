@@ -13,6 +13,13 @@
       "strengths": ["Pluginit", "Palvelimen ylläpito"],
       "uuid": "d4ef4bc2db26462c9793389ba56d2818",
       "active": true
+    },
+    {
+      "name": "Jokune",
+      "description": "\"miks tää menee rikki?\"",
+      "strengths": ["Discord botin ylläpito"],
+      "uuid": "bbd2bc4c9fe64ffeb69b767c0df3db4f",
+      "active": true
     }
   ],
   "admin": [
@@ -35,13 +42,6 @@
       "description": "\"Manu varasti mun lausahduksen\"",
       "strengths": ["Koodaaminen"],
       "uuid": "00b59d31f84f486db29b7c37b60a0be0",
-      "active": true
-    },
-    {
-      "name": "Jokune",
-      "description": "\"miks tää menee rikki?\"",
-      "strengths": ["Discord botin ylläpito"],
-      "uuid": "bbd2bc4c9fe64ffeb69b767c0df3db4f",
       "active": true
     }
   ],
