@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import Heading from '../components/layout/heading'
 import Layout from '../components/layout/layout'
+import AnchorHeading from '../components/anchor'
 
 const COMMANDS = [
   '/playtimetop (/patop)',
@@ -139,10 +140,21 @@ const Image = ({ src }: { src: string }) => {
     )
 }
 
-const Feature = ({ id, title, children }: { id?: string; title: string; children: React.ReactNode }) => {
+const Feature = ({
+  id,
+  title,
+  children
+}: {
+  id?: string
+  title: string
+  children: React.ReactNode
+}) => {
+  const computedId = id || title.toLowerCase().split(' ').join('_')
     return (
-        <div className="feature" id={id || ''}>
-            <h4>{title}</h4>
+    <div className="feature">
+      <AnchorHeading id={computedId} level={4}>
+        {title}
+      </AnchorHeading>
             {children}
         </div>
     )
