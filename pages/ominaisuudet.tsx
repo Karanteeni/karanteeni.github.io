@@ -2,6 +2,117 @@ import Link from 'next/link'
 import React from 'react'
 import Heading from '../components/layout/heading'
 import Layout from '../components/layout/layout'
+import AnchorHeading from '../components/anchor'
+
+const COMMANDS = [
+  '/playtimetop (/patop)',
+  '/discord',
+  '/säännöt',
+  '/rankit',
+  '/warnings (tarkistathan varoitustilanteesi!)',
+  '/vote',
+  '/dynmap hide (piilottaa pelaajan dynmapista)',
+  '/dynmap show (palauttaa pelaajan takaisin dynmappiin)',
+  '/spawn',
+  '/warp(s)',
+  '/tpa',
+  '/tpahere',
+  '/tpyes (/tpaccept)',
+  '/tpno (/tpdeny)',
+  '/rtp (random tp)',
+  '/sethome {kodin_nimi}',
+  '/delhome {kodin_nimi}',
+  '/home {kodin_nimi}',
+  '/back',
+  '/mail read [<sivu>]',
+  '/mail clear [<määrä>]',
+  '/mail send <nimi> <viesti>',
+  '/msg (/m, /message)',
+  '/reply (/r)',
+  '/quickshop (kauppa-arkkuopas)',
+  '/bal',
+  '/baltop',
+  '/pay {pelaaja} {määrä}',
+  '/peliaika (/pa, /playtime)',
+  '/trust {alueen_nimi} {pelaajan_nimi}',
+  '/untrust {alueen_nimi} {pelaajan_nimi}',
+  '/alue (näyttää tietoja alueesta)',
+  '/rg i (näyttää tietoja alueesta)',
+  '/lukitus add-member <nimi>',
+  '/lukitus remove-member <nimi>',
+  '/lukitus unlock',
+  '/lukitus lock',
+  '/lukitus public',
+  '/lukitus private',
+  '/lukitus info',
+  '/trash (/roskis /roskakori)',
+  '/kms',
+  '/sit',
+  '/lemmikki (lemmikkiopas)',
+  '/music',
+  '/radio',
+  '/tk'
+]
+
+const CHAT_CODES = [
+  { code: '*penni', emoji: '❂' },
+  { code: '<3', emoji: '♥' },
+  { code: '*biovaara', emoji: '☣' },
+  { code: '*karanteeni', emoji: '☣' },
+  { code: '*check', emoji: '✔' },
+  { code: '*shrug', emoji: '¯\\_(ツ)_/¯' },
+  { code: '*magic*', emoji: '*magic* (värjättynä)' },
+  { code: 'owo', emoji: 'OωO' },
+  { code: '*miekka / *sword', emoji: '🗡' },
+  { code: '*jousipyssy / *bowi', emoji: '🏹' },
+  { code: '*kirves / *axe', emoji: '🪓' },
+  { code: '*atrain / *trident', emoji: '🔱' },
+  { code: '*onki', emoji: '🎣' },
+  { code: '*pottu / *potion / *taikajuoma', emoji: '🧪' },
+  { code: '*kilpi / *shield', emoji: '🛡' },
+  { code: '*ilo / *hymy / *happyface', emoji: '☺' },
+  { code: '*suru / *sadface', emoji: '☹' },
+  { code: '*hakku / *pikki / *pickaxe', emoji: '⛏' },
+  { code: '*nuoliylös / *ylös / *up / *arrowup', emoji: '↑' },
+  { code: '*nuolialas / *alas / *down / *arrowdown', emoji: '↓' },
+  { code: '*nuolioikea / *oikea / *right / *arrowright', emoji: '→' },
+  { code: '*nuolivasen / *vasen / *left / *arrowleft', emoji: '←' },
+  { code: '*pääkallo / *kallo / *skull', emoji: '☠' },
+  { code: '*tm / *trademark', emoji: '™' },
+  { code: '*aurinko / *sun', emoji: '☀' },
+  { code: '*sade / *rain', emoji: '🌧' },
+  { code: '*salama / *lightning', emoji: '⚡' },
+  { code: '*tähti1 / *star1', emoji: '⭐' },
+  { code: '*tähti2 / *star2', emoji: '★' },
+  { code: '*tähti3 / *star3', emoji: '☆' },
+  { code: '*meteoriitti / *meteorite', emoji: '☄' },
+  { code: '*rasti / *raksi / *cross', emoji: '✘' },
+  { code: '*ruoka / *food', emoji: '🍖' },
+  { code: '*laatikko_tyhjä / *box_empty', emoji: '☐' },
+  { code: '*laatikko_check / *box_check', emoji: '☑' },
+  { code: '*laatikko_raksi / *laatikko_rasti / *box_cross', emoji: '☒' },
+  { code: '^2', emoji: '²' }
+]
+
+const CommandsList = () => (
+  <ul className="wrappedlist">
+    {COMMANDS.map((command, index) => (
+      <li key={index}>
+        <code>{command}</code>
+      </li>
+    ))}
+  </ul>
+)
+
+const ChatCodesList = ({ chatCodes }) => (
+  <ul>
+    {chatCodes.map(({ code, emoji }, index) => (
+      <li key={index}>
+        <code>{code}</code> =&gt; {emoji}
+      </li>
+    ))}
+  </ul>
+)
 
 const Video = ({ source }: { source: string }) => {
     if (source.endsWith('.gif')) {
@@ -29,10 +140,21 @@ const Image = ({ src }: { src: string }) => {
     )
 }
 
-const Feature = ({ id, title, children }: { id?: string; title: string; children: React.ReactNode }) => {
+const Feature = ({
+  id,
+  title,
+  children
+}: {
+  id?: string
+  title: string
+  children: React.ReactNode
+}) => {
+  const computedId = id || title.toLowerCase().split(' ').join('_')
     return (
-        <div className="feature" id={id || ''}>
-            <h4>{title}</h4>
+    <div className="feature">
+      <AnchorHeading id={computedId} level={4}>
+        {title}
+      </AnchorHeading>
             {children}
         </div>
     )
@@ -253,284 +375,22 @@ const Ominaisuudet = () => {
             </Feature>
 
             <Feature title="Yleiset komennot" id="komennot">
-                <p>Survivalissa toimii iso läjä komentoja jotka ovat pelaajilla auki Eloton rankista asti!</p>
+        <p>
+          Survivalissa toimii iso läjä komentoja jotka ovat pelaajilla auki
+          Eloton rankista asti!
+        </p>
                 <p>
-                    Rankkikohtaiset komennot ja ominaisuudet löytyvät <Link href="rankit">täältä</Link>.
+          Rankkikohtaiset komennot ja ominaisuudet löytyvät{' '}
+          <Link href="rankit">täältä</Link>.
                 </p>
-                <ul className="wrappedlist">
-                    <li>
-                        <code>/playtimetop (/patop)</code>
-                    </li>
-                    <li>
-                        <code>/discord</code>
-                    </li>
-                    <li>
-                        <code>/säännöt</code>
-                    </li>
-                    <li>
-                        <code>/rankit</code>
-                    </li>
-                    <li>
-                        <code>/warnings (tarkistathan varoitustilanteesi!)</code>
-                    </li>
-                    <li>
-                        <code>/vote</code>
-                    </li>
-                    <li>
-                        <code>/dynmap hide (piilottaa pelaajan dynmapista)</code>{' '}
-                    </li>
-                    <li>
-                        <code>/dynmap show (palauttaa pelaajan takaisin dynmappiin)</code>{' '}
-                    </li>
-                    <li>
-                        <code>/spawn</code>
-                    </li>
-                    <li>
-                        <code>/warp(s)</code>
-                    </li>
-                    <li>
-                        <code>/tpa</code>
-                    </li>
-                    <li>
-                        <code>/tpahere</code>
-                    </li>
-                    <li>
-                        <code>/tpyes (/tpaccept)</code>
-                    </li>
-                    <li>
-                        <code>/tpno (/tpdeny)</code>
-                    </li>
-                    <li>
-                        <code>/rtp (random tp)</code>
-                    </li>
-                    <li>
-                        <code>
-                            /sethome {'{'}kodin_nimi{'}'}
-                        </code>
-                    </li>
-                    <li>
-                        <code>
-                            /delhome {'{'}kodin_nimi{'}'}
-                        </code>
-                    </li>
-                    <li>
-                        <code>
-                            /home {'{'}kodin_nimi{'}'}
-                        </code>
-                    </li>
-                    <li>
-                        <code>/back</code>
-                    </li>
-                    <li>
-                        <code>/mail read [&lt;sivu&gt;]</code>
-                    </li>
-                    <li>
-                        <code>/mail clear [&lt;määrä&gt;]</code>
-                    </li>
-                    <li>
-                        <code>/mail send &lt;nimi&gt; &lt;viesti&gt;</code>
-                    </li>
-                    <li>
-                        <code>/msg (/m, /message)</code>
-                    </li>
-                    <li>
-                        <code>/reply (/r)</code>
-                    </li>
-                    <li>
-                        <code>/quickshop (kauppa-arkkuopas)</code>
-                    </li>
-                    <li>
-                        <code>/bal</code>
-                    </li>
-                    <li>
-                        <code>/baltop</code>
-                    </li>
-                    <li>
-                        <code>
-                            /pay {'{'}pelaaja{'}'} {'{'}määrä{'}'}
-                        </code>
-                    </li>
-                    <li>
-                        <code>/peliaika (/pa, /playtime)</code>
-                    </li>
-                    <li>
-                        <code>
-                            /trust {'{'}alueen_nimi{'}'} {'{'}pelaajan_nimi{'}'}
-                        </code>
-                    </li>
-                    <li>
-                        <code>
-                            /untrust {'{'}alueen_nimi{'}'} {'{'}pelaajan_nimi{'}'}
-                        </code>
-                    </li>
-                    <li>
-                        <code>/alue (näyttää tietoja alueesta)</code>
-                    </li>
-                    <li>
-                        <code>/rg i (näyttää tietoja alueesta)</code>
-                    </li>
-                    <li>
-                        <code>/lukitus add-member &lt;nimi&gt;</code>
-                    </li>
-                    <li>
-                        <code>/lukitus remove-member &lt;nimi&gt;</code>
-                    </li>
-                    <li>
-                        <code>/lukitus unlock</code>
-                    </li>
-                    <li>
-                        <code>/lukitus lock</code>
-                    </li>
-                    <li>
-                        <code>/lukitus public</code>
-                    </li>
-                    <li>
-                        <code>/lukitus private</code>
-                    </li>
-                    <li>
-                        <code>/lukitus info</code>
-                    </li>
-                    <li>
-                        <code>/trash (/roskis /roskakori)</code>
-                    </li>
-                    <li>
-                        <code>/kms</code>
-                    </li>
-                    <li>
-                        <code>/sit</code>
-                    </li>
-                    <li>
-                        <code>/lemmikki (lemmikkiopas)</code>
-                    </li>
-                    <li>
-                        <code>/music</code>
-                    </li>
-                    <li>
-                        <code>/radio</code>
-                    </li>
-                    <li>
-                        <code>/tk</code>
-                    </li>
-                </ul>
+        <CommandsList />
             </Feature>
             <Feature title="Chatkoodit">
                 <p>
-                    Karanteenissa on käytössä tiettyjä chatkoodeja, jotka chattiin kirjoittaessa muuttuvat
-                    automaattisesti emojeiksi.
+          Karanteenissa on käytössä tiettyjä chatkoodeja, jotka chattiin
+          kirjoittaessa muuttuvat automaattisesti emojeiksi.
                 </p>
-                <ul>
-                    <li>
-                        <code>*penni</code> =&gt; ❂
-                    </li>
-                    <li>
-                        <code>&lt;3</code> =&gt; ♥
-                    </li>
-                    <li>
-                        <code>*biovaara</code> =&gt; ☣{' '}
-                    </li>
-                    <li>
-                        <code>*karanteeni</code> =&gt; ☣
-                    </li>
-                    <li>
-                        <code>*check</code> =&gt; ✔{' '}
-                    </li>
-                    <li>
-                        <code>*shrug</code> =&gt; ¯\_(ツ)_/¯
-                    </li>
-                    <li>
-                        <code>*magic*</code> =&gt; *magic* (värjättynä)
-                    </li>
-                    <li>
-                        <code>owo</code> =&gt; OωO
-                    </li>
-                    <li>
-                        <code>*miekka / *sword</code> =&gt; 🗡
-                    </li>
-                    <li>
-                        <code>*jousipyssy / *bowi</code> =&gt; 🏹
-                    </li>
-                    <li>
-                        <code>*kirves / *axe</code> =&gt; 🪓
-                    </li>
-                    <li>
-                        <code>*atrain / *trident</code> =&gt; 🔱
-                    </li>
-                    <li>
-                        <code>*onki</code> =&gt; 🎣
-                    </li>
-                    <li>
-                        <code>*pottu / *potion / *taikajuoma</code> =&gt; 🧪
-                    </li>
-                    <li>
-                        <code>*kilpi / *shield</code> =&gt; 🛡
-                    </li>
-                    <li>
-                        <code>*ilo / *hymy / *happyface</code> =&gt; ☺
-                    </li>
-                    <li>
-                        <code>*suru / *sadface</code> =&gt; ☹
-                    </li>
-                    <li>
-                        <code>*hakku / *pikki / *pickaxe</code> =&gt; ⛏
-                    </li>
-                    <li>
-                        <code>*nuoliylös / *ylös / *up / *arrowup</code> =&gt; ↑
-                    </li>
-                    <li>
-                        <code>*nuolialas / *alas / *down / *arrowdown</code> =&gt; ↓
-                    </li>
-                    <li>
-                        <code>*nuolioikea / *oikea / *right / *arrowright</code> =&gt; →
-                    </li>
-                    <li>
-                        <code>*nuolivasen / *vasen / *left / *arrowleft</code> =&gt; ←
-                    </li>
-                    <li>
-                        <code>*pääkallo / *kallo / *skull</code> =&gt; ☠
-                    </li>
-                    <li>
-                        <code>*tm / *trademark</code> =&gt; ™
-                    </li>
-                    <li>
-                        <code>*aurinko / *sun</code> =&gt; ☀
-                    </li>
-                    <li>
-                        <code>*sade / *rain</code> =&gt; 🌧
-                    </li>
-                    <li>
-                        <code>*salama / *lightning</code> =&gt; ⚡
-                    </li>
-                    <li>
-                        <code>*tähti1 / *star1</code> =&gt; ⭐
-                    </li>
-                    <li>
-                        <code>*tähti2 / *star2</code> =&gt; ★
-                    </li>
-                    <li>
-                        <code>*tähti3 / *star3</code> =&gt; ☆
-                    </li>
-                    <li>
-                        <code>*meteoriitti / *meteorite</code> =&gt; ☄
-                    </li>
-                    <li>
-                        <code>*rasti / *raksi / *cross</code> =&gt; ✘
-                    </li>
-                    <li>
-                        <code>*ruoka / *food</code> =&gt; 🍖
-                    </li>
-                    <li>
-                        <code>*laatikko_tyhjä / *box_empty</code> =&gt; ☐
-                    </li>
-                    <li>
-                        <code>*laatikko_check / *box_check</code> =&gt; ☑
-                    </li>
-                    <li>
-                        <code>*laatikko_raksi / *laatikko_rasti_ *box_cross</code> =&gt; ☒
-                    </li>
-                    <li>
-                        <code>^2</code> =&gt; ²
-                    </li>
-                </ul>
+        <ChatCodesList chatCodes={CHAT_CODES} />
             </Feature>
         </Layout>
     )

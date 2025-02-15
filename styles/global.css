@@ -1569,3 +1569,27 @@ fieldset > label > input {
         padding: 0.5rem;
     }
 }
+
+/* anchor tag stuff */
+.anchor-heading {
+  display: flex;
+}
+
+.anchor-heading__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.anchor-heading__indicator {
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: #6b7280;
+}
+
+.anchor-heading__link:hover .anchor-heading__indicator {
+  opacity: 1;
+  color: #4b5563;
+}
