@@ -1586,24 +1586,23 @@ fieldset > label > input {
 /* anchor tag stuff */
 .anchor-heading {
   all: unset;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0.285rem;
 }
 
 .anchor-heading__link {
   text-decoration: none;
-  color: inherit;
-}
-
-.anchor-heading__indicator {
-  text-decoration: none;
   opacity: 0;
   transition: opacity 0.3s ease;
-  color: #6b7280;
+  color: #4b5563;
+  padding-right: 1rem;
 }
 
-.anchor-heading:hover .anchor-heading__indicator {
+.anchor-heading:hover .anchor-heading__link {
   opacity: 1;
-  color: #4b5563;
+}
+
+.anchor-heading__link:hover {
+  text-decoration: underline;
 }

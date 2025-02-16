@@ -18,7 +18,7 @@ const Rule = ({ children }) => {
 const RuleHeading = ({ children, id }: PropsWithChildren<{ id: string }>) => {
     return (
         <div className="rule-head">
-            <AnchorHeading hideIndicator level={3} id={id} className="rule-heading">{children}</AnchorHeading>
+            <AnchorHeading level={3} id={id} className="rule-heading">{children}</AnchorHeading>
         </div>
     )
 }
