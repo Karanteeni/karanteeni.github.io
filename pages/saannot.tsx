@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { PropsWithChildren } from 'react'
 import Heading from '../components/layout/heading'
 import Layout from '../components/layout/layout'
 import rules from '../data/rules.json'
 
 import { faTimes, faExclamation, faCheck } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import AnchorHeading from '../components/anchor'
 
 const RuleContainer = ({ children }) => {
     return <div className="rule-container">{children}</div>
@@ -14,10 +15,10 @@ const Rule = ({ children }) => {
     return <div className="rule">{children}</div>
 }
 
-const RuleHeading = ({ children }) => {
+const RuleHeading = ({ children, id }: PropsWithChildren<{ id: string }>) => {
     return (
         <div className="rule-head">
-            <h3 className="rule-heading">{children}</h3>
+            <AnchorHeading hideIndicator level={3} id={id} className="rule-heading">{children}</AnchorHeading>
         </div>
     )
 }
@@ -96,15 +97,16 @@ const Saannot = () => {
 
             {rules &&
                 rules.map((category) => {
+                    const id = category.heading.toLowerCase().split(" ").join("_")
                     return (
                         <div>
-                            <h2>{category.heading}</h2>
-                            {category.ruleset.map((rule) => (
+                            <AnchorHeading level={2} id={id}>{category.heading}</AnchorHeading>
+                            {category.ruleset.map((rule, i) => (
                                 <RuleContainer>
                                     <Rule>
                                         <Icon icon={rule.icon} />
                                         <Content>
-                                            <RuleHeading>{rule.short}</RuleHeading>
+                                            <RuleHeading id={id.concat(`_${i}`)}>{rule.short}</RuleHeading>
                                             <Description>{rule.long}</Description>
                                         </Content>
                                     </Rule>

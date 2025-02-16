@@ -1585,14 +1585,15 @@ fieldset > label > input {
 
 /* anchor tag stuff */
 .anchor-heading {
+  all: unset;
   display: flex;
+  align-items: center;
+  gap: 0.25rem;
 }
 
 .anchor-heading__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.25rem;
+  text-decoration: none;
+  color: inherit;
 }
 
 .anchor-heading__indicator {
@@ -1602,7 +1603,7 @@ fieldset > label > input {
   color: #6b7280;
 }
 
-.anchor-heading__link:hover .anchor-heading__indicator {
+.anchor-heading:hover .anchor-heading__indicator {
   opacity: 1;
   color: #4b5563;
 }
