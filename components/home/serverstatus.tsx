@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
-import { useToasts } from 'react-toast-notifications'
+import { toast } from 'react-toastify'
 
 const ServerStatus = () => {
-    const { addToast } = useToasts()
     let [status, setStatus] = useState<any>(null)
 
     let textIp = 'mc.karanteeni.net'
@@ -14,7 +13,7 @@ const ServerStatus = () => {
 
     const copyIpToClipboard = () => {
         navigator.clipboard.writeText(textIp)
-        addToast('IP tallennettu leikepöydälle', { appearance: 'success', autoDismiss: true })
+        toast('IP tallennettu leikepöydälle', { type: 'success' })
     }
 
     return (

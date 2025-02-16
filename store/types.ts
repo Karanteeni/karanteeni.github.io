@@ -18,13 +18,13 @@ export interface Product {
     originalPrice?: number
 }
 
-export interface CartProduct {
+export type TCartProduct = {
     product: Product
     amount: number
 }
 
 export interface AppState {
-    cart: CartProduct[]
+    cart: TCartProduct[]
 }
 
 export enum AppActionType {

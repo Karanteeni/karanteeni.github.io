@@ -15,7 +15,7 @@ const Julkaisut = ({ allPostsData }) => {
                 {allPostsData.map(({ id, date, title }) => (
                     <li className="list-item" key={id}>
                         <Link href={`/julkaisut/${id}`}>
-                            <a>{title}</a>
+                            {title}
                         </Link>
 
                         <small className="secondary-color">

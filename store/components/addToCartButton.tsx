@@ -1,43 +1,36 @@
 import { useContext } from 'react'
-import { useToasts } from 'react-toast-notifications'
 import { AppContext } from '../context'
 import { addProductAction, incrementProductAmount, decrementProductAmount } from '../reducer'
 import { Product } from '../types'
 import IncrementDecrement from './incrementDecrement'
 
 import style from '../../store/store.module.css'
+import { toast } from 'react-toastify'
 
 const AddToCartButton = ({ product }: { product: Product }) => {
     const { state, dispatch } = useContext(AppContext)
-    const { addToast } = useToasts()
 
     const cartProduct = state.cart.find((c) => c.product.id === product.id)
     const someInCart = cartProduct && cartProduct.amount > 0
 
     function onAddClick() {
         dispatch(addProductAction(product.id))
-        addToast(product.name + ' lisätty ostoskoriin', {
-            appearance: 'success',
-            autoDismiss: true,
-            id: 'inc' + product.id
+        toast(product.name + ' lisätty ostoskoriin', {
+            type: 'success',
         })
     }
 
     function onIncrementClick() {
         dispatch(incrementProductAmount(product.id))
-        addToast(product.name + ' lisätty ostoskoriin', {
-            appearance: 'success',
-            autoDismiss: true,
-            id: 'inc' + product.id
+        toast(product.name + ' lisätty ostoskoriin', {
+            type: 'success',
         })
     }
 
     function onDecrementClick() {
         dispatch(decrementProductAmount(product.id))
-        addToast(product.name + ' poistettu ostoskorista', {
-            appearance: 'success',
-            autoDismiss: true,
-            id: 'dec' + product.id
+        toast(product.name + ' poistettu ostoskorista', {
+            type: 'success',
         })
     }
 

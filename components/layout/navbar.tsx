@@ -43,7 +43,7 @@ const NavLink = ({
     const router = useRouter()
     return (
         <li className="nav-item">
-            <Link href={url}>
+            <Link href={url} legacyBehavior>
                 <a
                     className="nav-link"
                     onClick={() => {
@@ -103,7 +103,7 @@ const DropDownItem = ({
     }, [url]);
 
     return (
-        <Link href={url}>
+        <Link href={url} legacyBehavior>
             <a
                 className="dropdown-item"
                 onClick={() => {

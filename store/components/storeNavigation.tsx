@@ -26,7 +26,7 @@ export default function StoreNavigation() {
                 {crumbs &&
                     crumbs.map((crumb, i) => (
                         <>
-                            <Link href={crumb} key={i}>
+                            <Link href={crumb} key={i} legacyBehavior>
                                 <a className={style['crumb']}>{crumb.split('/')[crumb.split('/').length - 1]}</a>
                             </Link>
                             <span className={style['crumb-arrow']}>→</span>
@@ -37,7 +37,7 @@ export default function StoreNavigation() {
                     {showCartButton && (
                         <>
                             <Link href="/kauppa/ostoskori">
-                                <a>Ostoskoriin</a>
+                                Ostoskoriin
                             </Link>
                             <CartInfo />
                         </>

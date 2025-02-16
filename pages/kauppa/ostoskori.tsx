@@ -1,8 +1,5 @@
 import Heading from '../../components/layout/heading'
 import Layout from '../../components/layout/layout'
-
-import CartProduct from '../../store/components/cartProduct'
-
 import style from '../../store/store.module.css'
 import { useContext, useState } from 'react'
 import { AppContext } from '../../store/context'
@@ -11,10 +8,10 @@ import StoreNavigation from '../../store/components/storeNavigation'
 import { centsToEur } from '../../store/util'
 import { ProductType } from '../../store/types'
 import RickRoll from '../../store/components/rickRoll'
-import { useToasts } from 'react-toast-notifications'
+import { toast } from 'react-toastify'
+import CartProduct from '../../store/components/cartProduct'
 
 const Ostoskori = () => {
-    const { addToast } = useToasts()
     let [applyCode, setApplyCode] = useState(false)
     let [inputCode, setInputCode] = useState('')
     let [rickRoll, setRickRoll] = useState(false)
@@ -35,11 +32,11 @@ const Ostoskori = () => {
 
     function test() {
         if (inputCode.toLowerCase() === 'kara22') {
-            addToast("20% etukoodi 'kara22' on nyt käytössä", { appearance: 'success', autoDismiss: true })
+            toast("20% etukoodi 'kara22' on nyt käytössä", { type: 'success', })
             setApplyCode(true)
             setInputCode('')
         } else {
-            addToast('Virheellinen etukoodi', { appearance: 'error', autoDismiss: true })
+            toast('Virheellinen etukoodi', { type: 'error', })
         }
     }
 
