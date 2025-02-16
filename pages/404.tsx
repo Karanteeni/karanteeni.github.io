@@ -8,7 +8,7 @@ export default function Custom404() {
             <Heading heading="Ooferippington" lead="-Nuubles" />
             <div className="not-found-back">
                 <Link href="/">
-                    <a>Takaisin alkuun</a>
+                    Takaisin alkuun
                 </Link>
             </div>
 

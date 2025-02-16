@@ -1,6 +1,6 @@
 import Heading from '../components/layout/heading'
 import Layout from '../components/layout/layout'
-import ReactTooltip from 'react-tooltip'
+import { Tooltip } from 'react-tooltip'
 
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -10,48 +10,48 @@ import style from '../styles/ranks.module.css'
 
 import RanksData from '../data/ranks.json'
 
-interface CommandInterface {
+type TCommand = {
     command: string
     hover?: string
 }
 
-interface OtherInterface {
+type TOthers = {
     content: string
     hover?: string
     link?: string
 }
 
-interface RankInterface {
+type TRank = {
     name: string
     time: string
     color: string
-    commands: CommandInterface[]
-    other?: OtherInterface[]
+    commands: TCommand[]
+    other?: TOthers[]
 }
 
-const ranksData: { [rankName: string]: RankInterface } = RanksData
+const RANKS_DATA: Record<string, TRank> = RanksData
 
-const Other = ({ other }: { other: OtherInterface }) => {
+const Other = ({ other, i, j }: { other: TOthers, i: number, j: number }) => {
+    const id = `other${i}-${j}`
     if (other.link) {
         return (
             <div className={style['other']}>
                 <Link href={other.link}>
-                    <a>
-                        {other.content}
-                        {other.hover && (
-                            <>
-                                <span
-                                    data-tip={other.hover}
-                                    data-toggle="tooltip"
-                                    data-placement="right"
-                                    title={other.hover}
-                                >
-                                    <FontAwesomeIcon className="icon" icon={faInfoCircle} />
-                                </span>
-                                <ReactTooltip />
-                            </>
-                        )}
-                    </a>
+                    {other.content}
+                    {other.hover && (
+                        <>
+                            <span
+                                data-tip={other.hover}
+                                data-toggle="tooltip"
+                                data-placement="right"
+                                data-tooltip-content={other.hover}
+                                data-tooltip-id={id}
+                            >
+                                <FontAwesomeIcon className="icon" icon={faInfoCircle} />
+                            </span>
+                            <Tooltip variant="dark" id={id} />
+                        </>
+                    )}
                 </Link>
             </div>
         )
@@ -62,26 +62,27 @@ const Other = ({ other }: { other: OtherInterface }) => {
             {other.content}
             {other.hover && (
                 <>
-                    <span data-tip={other.hover} data-toggle="tooltip" data-placement="right" title={other.hover}>
+                    <span data-tooltip-id={id} data-tip={other.hover} data-toggle="tooltip" data-placement="right" data-tooltip-content={other.hover}>
                         <FontAwesomeIcon className={style['icon']} icon={faInfoCircle} />
                     </span>
-                    <ReactTooltip />
+                    <Tooltip variant="dark" id={id} />
                 </>
             )}
         </div>
     )
 }
 
-const Others = ({ others }: { others: OtherInterface[] }) => {
+const Others = ({ others, i }: { others: TOthers[], i: number }) => {
     return (
         <div className={style['others']}>
             <h3>Muuta:</h3>
-            {others && others.map((other, i) => <Other other={other} key={i} />)}
+            {others && others.map((other, j) => <Other other={other} key={j} i={i} j={j} />)}
         </div>
     )
 }
 
-const Command = ({ command }: { command: CommandInterface }) => {
+const Command = ({ command, i, j }: { command: TCommand, i: number, j: number }) => {
+    const id = `command${i}-${j}`
     return (
         <div className={style['command']}>
             /{command.command}
@@ -92,26 +93,27 @@ const Command = ({ command }: { command: CommandInterface }) => {
                         data-tip={command.hover}
                         data-toggle="tooltip"
                         data-placement="right"
-                        title={command.hover}
+                        data-tooltip-id={id}
+                        data-tooltip-content={command.hover}
                     >
                         <FontAwesomeIcon className={style['icon']} icon={faInfoCircle} />
                     </span>
-                    <ReactTooltip />
+                    <Tooltip variant="dark" id={id} />
                 </>
             )}
         </div>
     )
 }
 
-const Commands = ({ commands }: { commands: CommandInterface[] }) => {
+const Commands = ({ commands, i }: { commands: TCommand[], i: number }) => {
     return (
         <div className={style['commands']}>
-            {commands && commands.map((command, i) => <Command command={command} key={i} />)}
+            {commands && commands.map((command, j) => <Command command={command} key={j} i={i} j={j} />)}
         </div>
     )
 }
 
-const Rank = ({ rank }: { rank: RankInterface }) => {
+const Rank = ({ rank, i }: { rank: TRank, i: number }) => {
     return (
         <div className={style['rank']}>
             <div className={style['body'] + ' ' + rank.color}>
@@ -119,17 +121,17 @@ const Rank = ({ rank }: { rank: RankInterface }) => {
                     <span className={style['rank-name']}>{rank.name}</span>{' '}
                     <span className={style['time']}>({rank.time})</span>
                 </h2>
-                {rank.commands && <Commands commands={rank.commands} />}
-                {rank.other && <Others others={rank.other} />}
+                {rank.commands && <Commands commands={rank.commands} i={i} />}
+                {rank.other && <Others others={rank.other} i={i} />}
             </div>
         </div>
     )
 }
 
-const RanksContainer = ({ ranks }: { ranks: typeof ranksData }) => {
+const RanksContainer = ({ ranks }: { ranks: typeof RANKS_DATA }) => {
     return (
         <div className={style['ranks']}>
-            {ranks && Object.values(ranks).map((rank, i) => <Rank rank={rank} key={i} />)}
+            {ranks && Object.values(ranks).map((rank, i) => <Rank rank={rank} key={i} i={i} />)}
         </div>
     )
 }
@@ -166,7 +168,7 @@ const Rankit = () => {
                 toimintoja. Niistä voit lukea <Link href="/ominaisuudet">täällä</Link>.
             </p>
             <p>Alla on nähtävissä jokaisen rankin peliaikavaatimus sekä avautuvat ominaisuudet.</p>
-            <RanksContainer ranks={ranksData} />
+            <RanksContainer ranks={RANKS_DATA} />
         </Layout>
     )
 }

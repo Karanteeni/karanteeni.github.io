@@ -9,9 +9,7 @@ const SmallProduct = ({ product }: { product: Product }) => {
     return (
         <div className={style['small-product']}>
             <Link href={'/kauppa/tuotteet/' + product.type + '/' + product.id}>
-                <a>
-                    <h3>{product.name}</h3>
-                </a>
+                <h3>{product.name}</h3>
             </Link>
             <ProductImage product={product} height={100} width={200} />
 

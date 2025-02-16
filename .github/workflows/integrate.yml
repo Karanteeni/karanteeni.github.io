@@ -19,14 +19,14 @@ jobs:
                   path: |
                       ~/.npm
                       .next/cache
-                  key: ${{ runner.os }}-node20-${{ hashFiles('**/package-lock.json') }}
+                  key: ${{ runner.os }}-node22-${{ hashFiles('**/package-lock.json') }}
                   restore-keys: |
-                      ${{ runner.os }}-node20-
+                      ${{ runner.os }}-node22-
 
             - name: Setup Node.js 🔧
               uses: actions/setup-node@v4
               with:
-                  node-version: '20'
+                  node-version: '22'
                   cache: 'npm'
 
             - name: Install Dependencies
