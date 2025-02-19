@@ -1587,7 +1587,7 @@ fieldset > label > input {
 .anchor-heading {
   all: unset;
   display: inline-flex;
-  align-items: center;
+  align-items: baseline;
   gap: 0.285rem;
 }
 
