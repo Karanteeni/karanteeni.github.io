@@ -97,7 +97,11 @@ const Saannot = () => {
 
             {rules &&
                 rules.map((category) => {
-                    const id = category.heading.toLowerCase().split(" ").join("_")
+                   const id = category.heading
+                      .toLowerCase()
+                      .replace(/[öäå]/g, (c) => ({ 'ö': 'o', 'ä': 'a', 'å': 'o' }[c]))
+                      .split(" ")
+                      .join("_");
                     return (
                         <div>
                             <AnchorHeading level={2} id={id}>{category.heading}</AnchorHeading>
