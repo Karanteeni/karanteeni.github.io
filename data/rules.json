@@ -68,6 +68,11 @@
                 "icon": "important"
             },
             {
+                "short": "Henkilökohtaisten tietojen jako on kiellettyä",
+                "long": "Ethän jaa palvelimella pelatessasi MITÄÄN henkilötietoja. Omien tai toisten tietojen (osoitteet, puhelinnumerot, nimet...) jakaminen johtaa aina rangaistukseen.",
+                "icon": "denied"
+            },
+            {
                 "short": "Toisten häirintä on kiellettyä",
                 "long": "Annathan toisille pelaajille pelirauhan, etkä häiritse heitä esimerkiksi kinuamalla heiltä tavaraa.",
                 "icon": "denied"
