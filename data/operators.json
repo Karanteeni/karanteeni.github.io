@@ -88,7 +88,7 @@
       "description": "\"YeS.\"",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "d347193d8b794a389158074681bc32f8",
-      "active": false
+      "active": true
     },
     {
       "name": "Lesserr",
