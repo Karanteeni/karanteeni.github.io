@@ -73,6 +73,13 @@
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "6dcda6de07204a30998aa1cdf91990da",
       "active": true
+    },
+    {
+      "name": "RetuPoika",
+      "description": "\"Oispa kahvia\"",
+      "strengths": ["Palvelimen ylläpito"],
+      "uuid": "02518a1790f740e8940251d8ae348991",
+      "active": true
     }
   ],
   "moderaattori": [
