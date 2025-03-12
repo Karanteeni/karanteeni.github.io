@@ -47,7 +47,7 @@ export default function Kiitos() {
             <div className="kiitosdokumentti">
                 <Heading
                     heading="Kiitokset"
-                    lead="Tälle sivulle on kerätty kaikki palvelinta tukeneet henkilöt. Kiitos tuesta ja uskollisuudestanne! ♥ Lahjoituksia ei oteta vastaan"
+                    lead="Tälle sivulle on kerätty kaikki palvelinta tukeneet henkilöt. Kiitos tuesta ja uskollisuudestanne! ♥ Lahjoituksia ei oteta vastaan."
                 />
                 <div className="kiitostablewrapper">
                     <table>
