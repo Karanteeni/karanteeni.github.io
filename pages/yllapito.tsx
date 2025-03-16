@@ -117,7 +117,7 @@ const Yllapito = () => {
                 <div>
                     <p>
                         <span className="tag arkkitehti">Arkkitehti</span> on rakentajasta seuraava ylläpitoarvo, johon
-                        voi päästä ainoastaan jos muu ylläpito on vakuuttanut rakentajan osaamisesta, aktiivisuudesta,
+                        voi päästä ainoastaan jos muu ylläpito on vakuuttunut rakentajan osaamisesta, aktiivisuudesta,
                         ja motivaatiosta. Arkkitehdin vastuualue on kuin rakentajan ja adminin välissä, tarkoittaen uusia
                         oikeuksia maailmojen hallintaan. Toisin kuin adminilla, arkkitehdin vastuulla ei kuitenkaan ole
                         niinkään paljon auttaa pelaajia, vaikka voivatkin sitä tehdä mikäli muuta ylläpitoa ei ole paikalla.
