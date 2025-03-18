@@ -16,8 +16,8 @@
     },
     {
       "name": "Jokune",
-      "description": "\"miks tää menee rikki?\"",
-      "strengths": ["Discord botin ylläpito"],
+      "description": "\"taas tää menee rikki!\"",
+      "strengths": ["Discord bottien ylläpito", "Mäyyy"],
       "uuid": "bbd2bc4c9fe64ffeb69b767c0df3db4f",
       "active": true
     }
@@ -35,13 +35,6 @@
       "description": "\"Ahdistaa.\"",
       "strengths": ["Tapahtumasuunnittelu", "Sisällöntuotanto"],
       "uuid": "d0cd2962ea3944c48b486c6376e57ca3",
-      "active": true
-    },
-    {
-      "name": "Watukas",
-      "description": "\"Manu varasti mun lausahduksen\"",
-      "strengths": ["Koodaaminen"],
-      "uuid": "00b59d31f84f486db29b7c37b60a0be0",
       "active": true
     }
   ],
