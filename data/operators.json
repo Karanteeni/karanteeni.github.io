@@ -102,7 +102,7 @@
       "description": "",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "ca5f9868d9bc4a02b63d5fa2e48a8326",
-      "active": false
+      "active": true
     }
   ],
   "arkkitehti": [
