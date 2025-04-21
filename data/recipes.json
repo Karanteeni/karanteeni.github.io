@@ -8,6 +8,10 @@
         "image": "log_to_chest.png"
     },
     {
+        "caption": "Myös trapdooreja voi tehdä suoraan ison määrän logeista tai kuorituista logeista.",
+        "image": "log_to_trapdoor.png"
+    },
+    {
         "caption": "Kahden slabin yhdistäminen päällekäin liittää ne taas kokonaiseksi palikaksi. Toimii millä tahansa slabilla, jotka eivät päällekäin laitettuna tuota muita blockeja.",
         "image": "slab_to_block.png"
     },
