@@ -31,7 +31,7 @@ const Hoks = () => {
                 vanha mappi uuden tieltä.
             </p>
             <p>
-                Palvelin on täysin omakustanteinen. Mikäli tuet meitä jollakin tavoin, kaikki tukeminen menee palvelimen ylläpitoon.
+                Palvelin on täysin omakustanteinen.
             </p>
 
             <h3>Muita pointteja</h3>
