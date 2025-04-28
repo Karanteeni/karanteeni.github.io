@@ -24,6 +24,10 @@
         "image": "moss_block.png"
     },
     {
+        "caption": "Voit luoda sammaleen myös yhdeksästä sammalmatosta. Tämä toimii myös pale moss carpeteilla.",
+        "image": "moss_carpet_to_moss_block.png"
+    },
+    {
         "caption": "Suuri dripleaf",
         "image": "big_dripleaf.png"
     },
