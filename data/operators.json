@@ -58,7 +58,7 @@
       "description": "\"kertoisin mitä laiskuus on mutta en jaksa\"",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "13ba8e18123d41c0bba580b2662c0e0d",
-      "active": true
+      "active": false
     },
     {
       "name": "UninenVille",
