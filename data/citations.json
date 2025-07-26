@@ -21,7 +21,7 @@
     },
     {
         "content": "Vesi ei oo oikeeta.",
-        "name": "Jomeee"
+        "name": "Jome"
     },
     {
         "content": "Mun mahan sisällä on kolmas maailmansota meneillään.",
@@ -69,7 +69,7 @@
     },
     {
         "content": "Tykkään veden hengittämisestä.",
-        "name": "Jomeee"
+        "name": "Jome"
     },
     {
         "content": "Oon syöny kaks pitsaa ja yhen suklaalevyn... mulla on hirvee ähky... mä haluun päärynää.",
@@ -121,7 +121,7 @@
     },
     {
         "content": "NUUF NUUF NUUF",
-        "name": "Jomeee"
+        "name": "Jome"
     },
     {
         "content": "Senkin vauhtiraitarallimehu!",
@@ -177,11 +177,11 @@
     },
     {
         "content": "Meil on pikivalkoinen kissa.",
-        "name": "Jomeee"
+        "name": "Jome"
     },
     {
         "content": "OleN väSYnyrt",
-        "name": "Jomeee"
+        "name": "Jome"
     },
     {
         "content": "Musta tulee käytetty latvialainen.",
@@ -228,7 +228,7 @@
         "name": "Manuzki"
     },
     {
-        "content": "Gave 1000000 [Jesuses] to Jomeee",
+        "content": "Gave 1000000 [Jesuses] to Jome",
         "name": ""
     },
     {
@@ -542,5 +542,21 @@
     {
         "content": "Nam vessapaperia",
         "name": "Manuzki"
+    },
+    {
+        "content": "Kalastus on parasta... mitä vaatteet päällä voi tehdä",
+        "name": "Jome"
+    },
+    {
+        "content": "En mielestäni kuule kuolleiden ääniä",
+        "name": "Manuzki"
+    },
+    {
+        "content": "Sehän vois olla vaikka A-..... mikä on viimenen aakkonen?",
+        "name": "Ville"
+    },
+    {
+        "content": "Alusvaatteet on kertakäyttösii",
+        "name": "Nuubles"
     }
 ]
