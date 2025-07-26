@@ -1,5 +1,152 @@
 [
     {
+        "date": "26.7.2025",
+        "changes": [
+            "Lisätty bedrock tuki serverille. Suosittelemme silti Minecraftin pelaamista javaversiolla, jos vain mahdollista.",
+            "Survival: Päivitetty 1.21.8 versioon.",
+            "Survival: Kartta, kodit ja rahat nollattu (mapreset 18 --> 19).",
+            "Creative: Päivitetty 1.21.8 versioon."
+        ]
+    },
+    {
+        "date": "17.6.2025",
+        "changes": [
+            "Päivitetty Sus Pilvet -resoucepackin pilvitekstuuri vastaamaan Minecraftin uutta tekstuuria."
+        ]
+    },
+    {
+        "date": "14.5.2025",
+        "changes": [
+            "Lisätty pelaajapartyt: voit nyt chattailla helposti kaveriporukan kesken täyttämättä julkista chattia.",
+            "Survival: Paranneltu rikki menneiden tavaroiden korjaamista.",
+            "Survival: Creeperien räjähdykset eivät enää tuhoa armorstandeja, itemframeja, veneitä ja muita vastaavia entityjä.",
+            "Korjattu useita pieniä ongelmia."
+        ]
+    },
+    {
+        "date": "13.5.2025",
+        "changes": [
+            "Serverillä 1.12.5 tuki."
+        ]
+    },
+    {
+        "date": "1.5.2025",
+        "changes": [
+            "Survival: End resetoitu."
+        ]
+    },
+    {
+        "date": "7.4.2025",
+        "changes": [
+            "Parannuksia teleporttaamiseen.",
+            "Lisätty musiikkivalikkoon sieltä puuttuvia musiikkilevyjä.",
+            "Poistettu plunge attack.",
+            "Survival: Onnenkeksit antavat oikeasti onnea.",
+            "Korjattu linkkien klikkaus chatissa.",
+            "Korjattu taikamattoon liittyviä bugeja.",
+            "Korjattu rakennussauvaan liittyviä bugeja.",
+            "Korjattu tuplahyppy hubissa."
+        ]
+    },
+    {
+        "date": "13.3.2025",
+        "changes": [
+            "Survival: Viljasiemenet korvautuu inventorista, kun ne loppuu kädestä.",
+            "Survival: Rakennussauva tukee nyt kaikkia siemeniä."
+        ]
+    },
+    {
+        "date": "10.3.2025",
+        "changes": [
+            "Survival: Kesyttämättömät hevoset muuttuvat zombiehevoseksi salaman osuessa niihin."
+        ]
+    },
+    {
+        "date": "9.3.2025",
+        "changes": [
+            "Muutettu AFK-kickin logiikkaa.",
+            "Survival: Lento poistuu wither efektistä.",
+            "Survival: Muunnettu eläinten kantamisefektejä.",
+            "Hub: Palautettu kuvat galleriasaarelle."
+        ]
+    },
+    {
+        "date": "2.3.2025",
+        "changes": [
+            "Survival: Witheriä vastaan taistelua vaikeutettu.",
+            "Survival: Korjattu bugien hyväksikäyttö, jolla endiin sai lennon."
+        ]
+    },
+    {
+        "date": "28.2.2025",
+        "changes": [
+            "Survival: Lisätty 18. kartan spawnille PvP areena."
+        ]
+    },
+    {
+        "date": "22.2.2025",
+        "changes": [
+            "Pitkä sydän muuttuu chatissa moneksi (<33 -> ❤️❤️).",
+            "Chatissa toimii *up, *down, *left, *right.",
+            "Paranneltu /tp komentoa.",
+            "Tehty muutoksia /back komentoon."
+        ]
+    },
+    {
+        "date": "21.2.2025",
+        "changes": [
+            "Survival: Lisätty muutama uusi craftays resepti."
+        ]
+    },
+    {
+        "date": "20.2.2025",
+        "changes": [
+            "Lisätty /seen komento - näyttää milloin pelaajat ovat viimeksi olleet paikalla."
+        ]
+    },
+    {
+        "date": "19.2.2025",
+        "changes": [
+            "Korjattu tietokantaongelma uusien pelajien lataamisessa.",
+            "Istuminen toimii taas oikein.",
+            "Korjattu bugi taikamaton valikossa.",
+            "Survival: lisätty auto-complete /trust komentoon.",
+            "Survival: Kaupasta osto ei näy enää chatissa.",
+            "Discord: /list komennon vastaus näkyy vain sinulle."
+        ]
+    },
+    {
+        "date": "16.2.2025",
+        "changes": [
+            "Voit nyt kolauttaa toisia tiilillä. :)"
+        ]
+    },
+    {
+        "date": "14.2.2025",
+        "changes": [
+            "Kyykyssä olevien pelaajien nimet eivät enää näy seinien läpi.",
+            "Survival: Tiilien heitto korjattu ennalleen."
+        ]
+    },
+    {
+        "date": "13.2.2025",
+        "changes": [
+            "Hienosäädetty nick komentoa: vanhan nickin saanti onnistuu auto-completesta, MiniMessage formaatin käyttö sallittu",
+            "Korjattu rakennuswandin ongelmat.",
+            "Korjattu värivuotoja chatissa.",
+            "Palautettu clickattavat linkit toimintaan chatissa.",
+            "Custom pelaaja tagi ei katoa mobien kantamisen myötä."
+        ]
+    },
+    {
+        "date": "11.2.2025",
+        "changes": [
+            "Paranneltu päävalikon käyttöystävällisyyttä.",
+            "Kuparisten ovien koputusääni päivitetty metallisiksi.",
+            "Survival: Lisätty pale oak puu automaattiseen puunkaatoon."
+        ]
+    },
+    {
         "date": "9.2.2025",
         "changes": [
             "Vaihdettu välityspalvelinta (Bungeecord -> Velocity). Käytännössä vaatinut koko servun uudelleenkoodaamisen.",
