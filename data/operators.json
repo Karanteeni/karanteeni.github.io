@@ -36,6 +36,13 @@
       "strengths": ["Tapahtumasuunnittelu", "Sisällöntuotanto"],
       "uuid": "d0cd2962ea3944c48b486c6376e57ca3",
       "active": true
+    },
+    {
+      "name": "UninenVille",
+      "description": "\"Pitikö tähän joku semmonenki miettiä\"",
+      "strengths": ["Palvelimen ylläpito"],
+      "uuid": "6dcda6de07204a30998aa1cdf91990da",
+      "active": true
     }
   ],
   "operaattori": [
@@ -61,13 +68,6 @@
       "active": false
     },
     {
-      "name": "UninenVille",
-      "description": "\"Pitikö tähän joku semmonenki miettiä\"",
-      "strengths": ["Palvelimen ylläpito"],
-      "uuid": "6dcda6de07204a30998aa1cdf91990da",
-      "active": true
-    },
-    {
       "name": "RetuPoika",
       "description": "\"Oispa kahvia\"",
       "strengths": ["Palvelimen ylläpito"],
@@ -76,13 +76,6 @@
     }
   ],
   "moderaattori": [
-    {
-      "name": "Enm1",
-      "description": "\"En mä oo sanonu mitää kivaa\"",
-      "strengths": ["Palvelimen ylläpito"],
-      "uuid": "d12d86727cdf4fe18df21282f5265920",
-      "active": true
-    },
     {
       "name": "LouNii",
       "description": "\"YeS.\"",
@@ -130,24 +123,10 @@
       "active": true
     },
     {
-      "name": "Sumute",
-      "description": "",
-      "strengths": ["Rakentaminen"],
-      "uuid": "5ef3f27168d44deab47baa1e72b932d5",
-      "active": false
-    },
-    {
       "name": "Oonakuni",
       "description": "",
       "strengths": ["Rakentaminen"],
       "uuid": "fcc6a1f38457404daed5206e467ec3ff",
-      "active": false
-    },
-    {
-      "name": "Jenniii",
-      "description": "",
-      "strengths": ["Rakentaminen"],
-      "uuid": "c9427421eb1f468aaff457f9f2a7e2f5",
       "active": false
     },
     {
