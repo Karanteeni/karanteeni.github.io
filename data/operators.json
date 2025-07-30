@@ -88,7 +88,7 @@
       "description": "",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "4f13344913bb4fd4a0b8722d900dbb08",
-      "active": false
+      "active": true
     },
     {
       "name": "Asheline",
