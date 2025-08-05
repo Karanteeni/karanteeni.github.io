@@ -127,7 +127,7 @@
       "description": "",
       "strengths": ["Rakentaminen"],
       "uuid": "fcc6a1f38457404daed5206e467ec3ff",
-      "active": false
+      "active": true
     },
     {
       "name": "Avenia",
