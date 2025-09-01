@@ -5,8 +5,8 @@ import { ToastContainer } from 'react-toastify';
 import '../styles/global.css'
 // import '../styles/winter.css'
 // import '../styles/easter.css'
-import '../styles/summer.css'
-// import '../styles/autumn.css'
+// import '../styles/summer.css'
+import '../styles/autumn.css'
 
 function App({ Component, pageProps }: AppProps) {
     return (
