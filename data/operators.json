@@ -95,7 +95,7 @@
       "description": "",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "ca5f9868d9bc4a02b63d5fa2e48a8326",
-      "active": true
+      "active": false
     }
   ],
   "arkkitehti": [
@@ -104,7 +104,7 @@
       "description": "Kettuilee paljon. Sillee hyvällä tavalla",
       "strengths": ["Rakentaminen"],
       "uuid": "fdac507124964a92a97236e36d95a1b5",
-      "active": true
+      "active": false
     },
     {
       "name": "Tanniih",
