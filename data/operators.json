@@ -39,10 +39,10 @@
     },
     {
       "name": "UninenVille",
-      "description": "\"Pitikö tähän joku semmonenki miettiä\"",
-      "strengths": ["Palvelimen ylläpito"],
+      "description": "Nukkumassa",
+      "strengths": ["Nukkuminen", "Päiväunet"],
       "uuid": "6dcda6de07204a30998aa1cdf91990da",
-      "active": true
+      "active": false
     }
   ],
   "operaattori": [
