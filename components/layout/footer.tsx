@@ -26,6 +26,11 @@ const Footer = ({ home }: { home?: boolean }) => {
                                 YouTube
                             </a>
                         </li>
+                        <li>
+                            <a href="mailto:mckaranteeni@gmail.com">
+                                Contact us at mckaranteeni@gmail.com
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div>
