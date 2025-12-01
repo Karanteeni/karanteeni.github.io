@@ -73,6 +73,10 @@
         ],
         "other": [
             {
+                "content": "Mahdollisuus käyttää Simple Voice Chat modia",
+                "link": "https://modrinth.com/plugin/simple-voice-chat"
+            },
+            {
                 "content": "Kyky käyttää ja craftata Builders Wand",
                 "link": "/reseptit#builders_wand"
             },
