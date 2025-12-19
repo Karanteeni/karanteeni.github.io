@@ -39,10 +39,10 @@
     },
     {
       "name": "UninenVille",
-      "description": "Nukkumassa",
-      "strengths": ["Nukkuminen", "Päiväunet"],
+      "description": "Nukkumassa...",
+      "strengths": ["Nukkuminen", "Päiväunet", "AFK-koneiden rakentaminen"],
       "uuid": "6dcda6de07204a30998aa1cdf91990da",
-      "active": false
+      "active": true
     },
     {
       "name": "Watukas",
@@ -70,7 +70,7 @@
     {
       "name": "Kuutioitu",
       "description": "\"kertoisin mitä laiskuus on mutta en jaksa\"",
-      "strengths": ["Palvelimen ylläpito"],
+      "strengths": ["Palvelimen ylläpito", "Rakentaminen"],
       "uuid": "13ba8e18123d41c0bba580b2662c0e0d",
       "active": true
     },
@@ -116,9 +116,9 @@
     {
       "name": "Tanniih",
       "description": "\"Oispa suklaata\"",
-      "strengths": ["Rakentaminen"],
+      "strengths": ["Rakentaminen", "Miinaharavan pelaaminen"],
       "uuid": "2f4b9740ad04411ea4e29700c1c5c2a5",
-      "active": true
+      "active": false
     }
   ],
   "rakentaja": [
