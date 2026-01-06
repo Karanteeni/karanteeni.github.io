@@ -12,7 +12,7 @@
         "image": "log_to_trapdoor.png"
     },
     {
-        "caption": "Kahden slabin yhdistäminen päällekäin liittää ne taas kokonaiseksi palikaksi. Toimii millä tahansa slabilla, jotka eivät päällekäin laitettuna tuota muita blockeja.",
+        "caption": "Kahden slabin yhdistäminen vierekkäin liittää ne taas kokonaiseksi palikaksi.",
         "image": "slab_to_block.png"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
         "caption": "Voit luoda sammaleen myös yhdeksästä sammalmatosta. Tämä toimii myös pale moss carpeteilla.",
-        "image": "moss_carpet_to_moss_block.png"
+        "image": "moss_carpet_to_moss_block.gif"
     },
     {
         "caption": "Suuri dripleaf",
@@ -41,7 +41,7 @@
     },
     {
         "caption": "Coral faneja voi muuttaa Coraleiksi. Resepti toimii myös toiseen suuntaan.",
-        "image": "coral_fan_to_coral.png"
+        "image": "coral_fan_to_coral.gif"
     },
     {
         "caption": "Coraleja taas voi muuntaa vastaaviksi blockeikseen.",
@@ -72,7 +72,7 @@
         "image": "end_crystal.png"
     },
     {
-        "caption": "Kätevä tapa kantaa mukanaan ylimääräisiä leveleitä.",
+        "caption": "Bottle o' Enchanting, kätevä tapa kantaa mukanaan ylimääräisiä leveleitä.",
         "image": "enchanted_bottle.png"
     },
     {
@@ -120,7 +120,7 @@
         "image": "spawner.png"
     },
     {
-        "caption": "Voit tehdä pelaajan pään, johon saat äänestämällä satoja erilaisia tekstuureja.",
+        "caption": "Voit tehdä pelaajan pään, johon saat äänestämällä satoja erilaisia tekstuureja. Kokeile /pää -komennon kanssa!",
         "image": "player_head.png"
     },
     {
