@@ -77,7 +77,7 @@
     },
     {
         "caption": "Chainmail armorit rakennetaan iron bareista normaalien armoreiden tapaan.",
-        "image": "chainmail_armor.png"
+        "image": "chainmail_armor.gif"
     },
     {
         "caption": "Enää ei tarvitse craftailla erikseen redstone torcheja. Repeaterit saa nyt tehtyä helpomminkin.",
@@ -108,11 +108,11 @@
         "image": "gravel_to_sand_blasting.png"
     },
     {
-        "caption": "Raudat ja kullat voi nyt sulattaa suoraan kokonaisina blockeina blast furnacella.",
-        "image": "raw_ore_to_block_blasting.png"
+        "caption": "Raudat, kullat ja kuparit voi nyt sulattaa suoraan kokonaisina blockeina blast furnacella.",
+        "image": "raw_ore_to_block_blasting.gif"
     },
     {
-        "caption": "Rakentajan essentiaalinen työkalu. Käytössä sisukkaasta ylöspäin.",
+        "caption": "Builders' wand, rakentajan essentiaalinen työkalu. Käytössä sisukkaasta ylöspäin.",
         "image": "builders_wand.png"
     },
     {
