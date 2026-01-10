@@ -1,5 +1,66 @@
 [
     {
+        "date": "10.1.2026",
+        "changes": [
+            "Karanteeni päivitetty täysin versioon 1.21.11.",
+            "Lisätty Server links -valikko.",
+            "Survival: Kartta, kodit ja rahat nollattu (mapreset 19 --> 20).",
+            "Survival: Uudistettu kauppa käyttämään NPC hahmoja, joilta voit ostaa tavaraa. Lisätty myös NPC myymään vaihtuvia tarjouksia.",
+            "Survival: Lennon poistuminen muutettu järkevämmäksi.",
+            "Survival: Voikukkien puhallusta korjattu.",
+            "Nörtteily: Päivitetty käyttöjärjestelmä ja paranneltu tietoturvaa."
+        ]
+    },
+    {
+        "date": "2.1.2026",
+        "changes": [
+            "Hub miinaharava: kentän läpäisyn aika näkyy nyt chatissä, lisätty näkyviin montako kertaa olet minkäkin kentän läpäissyt."
+        ]
+    },
+    {
+        "date": "1.1.2026",
+        "changes": [
+            "Hub: Päivitetty versioon 1.21.11.",
+            "Hub parkour: Muut parkourissa olevat pelaajat ovat nyt läpinäkyviä, muutettu ajat tick-pohjaisiksi, lisätty haamu-pelaaja matkimaan ennätystäsi & lisätty ennätystaulukkoon näkymään oma aikasi."
+        ]
+    },
+    {
+        "date": "14.12.2025",
+        "changes": [
+            "Lisätty serverille 1.21.11 tuki."
+        ]
+    },
+    {
+        "date": "2.12.2025",
+        "changes": [
+            "Hub: Lisätty locator bar näkyviin hubiin.",
+            "Hub: Paranneltu hotbarilta löytyvää warp-valikkoa.",
+            "Hub: Lisätty Valot Pois (Lights Out) -pulmapeli.",
+            "Hub tetris: Versus valikko uusittu täysin, lisätty ennätystaulu 40 rivin -haasteelle, lisätty 4 leveät kentät, paranneltu musiikin toistoa, lisätty asetus ohjusherkkyydelle & lisätty haamupalikka näyttämään mihin palikka tulee tippumaan.",
+            "Hub miinaharava: Häviöanimaatio vaihdettu uuteen & lisätty mahdollisuus haastaa muita pelaajia."
+        ]
+    },
+    {
+        "date": "4.11.2025",
+        "changes": [
+            "Lisätty serverille 1.21.10 tuki.",
+            "Survival: End resetoitu."
+        ]
+    },
+    {
+        "date": "20.8.2025",
+        "changes": [
+            "Survival: Lisätty recipe raakakupariblockien sulattamiseen blast furnacella."
+        ]
+    },
+    {
+        "date": "5.8.2025",
+        "changes": [
+            "Korjattu bugeja.",
+            "Survival: Poistettu ylläpidon pennipeli."
+        ]
+    },
+    {
         "date": "26.7.2025",
         "changes": [
             "Lisätty bedrock tuki serverille. Suosittelemme silti Minecraftin pelaamista javaversiolla, jos vain mahdollista.",

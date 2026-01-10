@@ -173,6 +173,10 @@
             {
                 "command": "sethome",
                 "hover": "16 kpl"
+            },
+            {
+                "command": "kauppa",
+                "hover": "Nopeampi pääsy serverin kauppavalikkoon"
             }
         ],
         "other": [
