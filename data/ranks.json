@@ -211,6 +211,10 @@
             {
                 "command": "co i",
                 "hover": "Kyky tarkastella blockkeja"
+            },
+            {
+                "command": "kysely",
+                "hover": "Mahdollisuus luoda kyselyitä (/kysely <kysymys> -<vastausvaihtoehto> -<vastausvaihtoehto>)"
             }
         ],
         "other": [
