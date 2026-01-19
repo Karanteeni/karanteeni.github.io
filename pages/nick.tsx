@@ -90,7 +90,7 @@ const Nick = () => {
         >
             <Heading
                 heading="Nimigeneraattori"
-                lead='Generoi hienot värit pelinimeesi täällä'
+                lead='Nekromantikkona ja siitä ylöspäin voit generoida hienot värit pelinimeesi täällä'
             />
             <div className='nameStylized' style={{color: "white", backgroundColor: "#00000099"}}>
                 {stylizedHTMLName}
@@ -146,3 +146,4 @@ const Nick = () => {
 }
 
 export default Nick
+
