@@ -7,26 +7,25 @@ const Hoks = () => {
     return (
         <Layout
             title="Hyvä tietää"
-            description="Karanteeni on vuodesta 2016 asti toiminut suomalainen Minecraft palvelin. Karanteenin alkuperäiset perustajat ovat Emmazki, Jomeee ja
-            Nuubles, joista Jomeee ja Nuubles ovat vielä aktiivisina pyörimässä. Palvelimella keskeisin pelimuoto on omilla ominaisuuksilla paranneltu Survival.
-            Palvelimelle on palaamassa Creative ja erinäköiset minipelit."
+            description="Karanteeni on vuodesta 2016 asti toiminut suomalainen Minecraft-palvelin. Karanteenin omistavat Jomeee, Nuubles ja Jokune.
+            Palvelimella keskeisin pelimuoto on omilla ominaisuuksilla paranneltu Survival, mutta meiltä löytyvät myös Hub minipeleineen ja Creative."
         >
             <Heading heading="Hyvä tietää!" lead="Karanteeni tiivistettynä" />
             <p>
-                Karanteeni on vuodesta 2016 asti toiminut suomalainen Minecraft-palvelin. Karanteenin alkuperäiset
-                perustajat ovat Emmazki, Jomeee ja Nuubles, joista Jomeee ja Nuubles ovat vielä aktiivisina pyörimässä.
-                Palvelimella keskeisin pelimuoto on omilla ominaisuuksilla paranneltu Survival, mutta monelle tuttu
-                Creative on myös pelattavissa. Tulevaisuudessa myös erilaiset minipelit tekevät paluun serverille.
+                Karanteeni on vuodesta 2016 asti toiminut suomalainen Minecraft-palvelin. Karanteenin omistajat ovat
+                Jomeee, Nuubles ja Jokune. Palvelimella keskeisin pelimuoto on omilla ominaisuuksilla paranneltu Survival,
+                mutta monelle tuttu Creative on myös pelattavissa. Hub-palvelimelta löydät taas monenlaisia uniikkeja
+                minipelejä ja gallerian palvelimen historiasta.
             </p>
             <p>
                 Palvelimen toimintaidea on se, että mitä pidempään pelaat serverillä, sitä parempia ominaisuuksia avaat
                 käyttöösi. Peliajalla kerättävistä ominaisuuksista voi lukea lisää{' '}
                 <Link href="/rankit">rankit-sivulta</Link>. Muista Karanteenin ominaisuuksista voi lukea{' '}
-                <Link href="ominaisuudet">ominaisuudet sivulla</Link>.
+                <Link href="ominaisuudet">ominaisuudet-sivulla</Link>.
             </p>
             <p>
-                Palvelimella järjestetään vuosittain erilaisia tapahtumia (esim. joulujuhlat, synttäribileet ja pääsiäisjuhlat).
-                Vakituisten juhlien lisäksi pyöritämme satunnaisesti UHC-pelejä, joiden voittamisesta saa harvinaisen partikkelin.
+                Palvelimella järjestetään satunnaisesti erilaisia tapahtumia (esim. synttäri- ja joulujuhlat, UHC ja
+                pidemmät tapahtumapalvelimen tapahtumat). Voit saada tapahtumista palkintoja, kuten harvinaisia pelaajapartikkeleita!
                 Survival resetoidaan noin puolen vuoden välein, jota ennen aina pelaajien annetaan räjäyttää
                 vanha mappi uuden tieltä.
             </p>
@@ -37,8 +36,10 @@ const Hoks = () => {
             <h3>Muita pointteja</h3>
             <ul>
                 <li>
-                    Karanteenissa valuuttana toimii pennit (❂). Pennejä voi ansaita äänestämällä Karanteenia{' '}
-                    <code>/vote</code> ja käymällä kauppaa toisten pelaajien kanssa.
+                    Karanteenissa valuuttana toimii pennit (❂). Pennejä voi ansaita äänestyslaatikoista, joita voit saada
+                    äänestämällä Karanteenia{' '}
+                    <code>/vote</code> , myymällä malmeja kaupassa{' '}
+                    <code>/warp kauppa</code> ja käymällä kauppaa toisten pelaajien kanssa.
                 </li>
                 <li>
                     Karanteenissa ylläpito suojaa alueesi. Pyydäthän ylläpitoa suojausta, niin vältytään turhilta grief-tapauksilta.
