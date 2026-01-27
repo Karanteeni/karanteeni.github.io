@@ -161,6 +161,10 @@
                 "content": "Uudet partikkelit taikamattoon"
             },
             {
+                "content": "Formatointivaihtoehdot nickiin",
+                "hover": "Esimerkiksi bold (&l)"
+            },
+            {
                 "content": "2 uutta plottia Creativeen (yht. 6)"
             }
         ]
