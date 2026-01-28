@@ -88,6 +88,10 @@
         "image": "dispenser.png"
     },
     {
+        "caption": "Tuliko mainattua deepslatea silk touchilla? Voit tehdä stonecutterilla normaalista deepslatesta cobbled deepslatea ja sen variantteja.",
+        "image": "deepslate_to_variants.png"
+    },
+    {
         "caption": "Kaikki lasipaneelityypit voi muuttaa takaisin palikoiksi.",
         "image": "glass_pane_to_block.png"
     },
