@@ -104,8 +104,8 @@
         "image": "black_dye_blasting.png"
     },
     {
-        "caption": "Voit sulattaa blast furnacella kiven soraksi.",
-        "image": "stone_to_gravel_blasting.png"
+        "caption": "Voit sulattaa blast furnacella kiveä, mukulakiveä ja muutamia muita kivilajeja soraksi.",
+        "image": "stone_to_gravel_blasting.gif"
     },
     {
         "caption": "Gravelin voi taas vuorostaan muuntaa blast furnacella hiekaksi.",
