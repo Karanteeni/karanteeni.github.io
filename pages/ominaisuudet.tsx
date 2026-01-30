@@ -211,7 +211,7 @@ const Ominaisuudet = () => {
 
             <Feature title="Puun kaataminen">
                 <Video source="/feature/woodchop.mp4" />
-                <p>Puu kaatuu alhaalta ylös kokonaan, kunhan sen hakkaa kirveellä!</p>
+                <p>Puu kaatuu alhaalta ylös kokonaan, kunhan sen hakkaa kirveellä! Tämän voi estää hakkaamalla kyykyssä.</p>
                 <p>(muistathan kasvattaa puut aina seikkaillessasi takaisin)</p>
             </Feature>
 
@@ -239,8 +239,8 @@ const Ominaisuudet = () => {
             <Feature title="Rakentajan taikasauva">
                 <Video source="/feature/builderswand.mp4" />
                 <p>
-                    Sisukas rankista ylöspäin pelaajat voivat craftata{' '}
-                    <Link href="/reseptit#builders_wand">Builders Wandin</Link>. Tämä työkalu edesauttaa suurien
+                    Sisukas-rankista ylöspäin pelaajat voivat craftata{' '}
+                    <Link href="/reseptit#builders_wand">Builders Wandin</Link>. Tämä työkalu auttaa suurien
                     rakennusten rakennuksessa!
                 </p>
                 <p>
@@ -291,8 +291,8 @@ const Ominaisuudet = () => {
             <Feature title="Arkkukaupat">
                 <Video source="/feature/chestshop.mp4" />
                 <p>
-                    Pelaajien väliseen kauppaan työkaluna on arkkukaupat! Lyö arkkua tavaralla, jota haluat myydä,
-                    kirjoita chattiin tavaran hinta, ja kauppa on valmis!
+                    Pelaajien väliseen kauppaan työkaluna on arkkukaupat! Lyö arkkua tai tynnyriä kyykyssä ollessa tavaralla, jota haluat myydä,
+                    jonka jälkeen kirjoita chattiin tavaran hinta, ja kauppa on valmis!
                 </p>
             </Feature>
 
@@ -312,6 +312,9 @@ const Ominaisuudet = () => {
                     </li>
                     <li>
                         Voit tehdä lukituksista kaikille avonaisen, mutta ilman muokkaus-/rikkomisoikeuksia komennolla <code>/lukitus public</code>.
+                    </li>
+                    <li>
+                        Voit antaa haluamallesi pelaajalle oikeudet suoraan kaikkiin sinun omistamiisi lukituksiin komennolla <code>/lukitus add-global-whitelist &lt;pelaajan_nimi&gt;</code>.
                     </li>
                 </ul>
             </Feature>
@@ -342,10 +345,10 @@ const Ominaisuudet = () => {
                 </p>
             </Feature>
 
-            <Feature title="Villan peseminen">
+            <Feature title="Peseminen cauldronissa">
                 <p>
-                    Värjätyt villat voi valkaista takaisin valkoiseksi samalla tavalla kuin bannerit. Laita värjätyt
-                    villat cauldroniin!
+                    Värjätyt villat ja sängyt voi pestä takaisin valkoiseksi samalla tavalla kuin bannerit. Klikkaa vedellä täytettyä cauldronia esineellä, jonka haluat pestä.
+                    Voit pestä myös magma creamia limapalloiksi, mutta sitä tehdessä on pieni riski, että vesi muuttuu laavaksi!
                 </p>
             </Feature>
 
@@ -365,13 +368,14 @@ const Ominaisuudet = () => {
                     Karanteenissa pystyy hakkaamaan mobspawnerit itselleen, mutta ne putoavat tyhjänä maahan. Jos haluat mobin säilyvän, riko spawner hakulla jossa on on Silk Touch
                     (silkkinen kosketus) -enchantti.
                 </p>
-                <p>Voit muuttaa spawnerin tyyppiä craftaamalla.</p>
+                <p>Voit muuttaa spawnerin tyyppiä{' '}
+                <Link href="reseptit#spawner">craftaamalla</Link>.</p>
                 <p>Roihuja sisältäviä spawnereita ei voi kerätä.</p>
             </Feature>
 
             <Feature title="Näkymättömät itemframet">
                 <Video source="/feature/invisiframe.mp4" />
-                <p>Itemframet voi muuttaa pysyvästi näkymättömiksi näkymättömyyspotioneilla!</p>
+                <p>Itemframet voi muuttaa pysyvästi näkymättömiksi heitettävillä näkymättömyyspotioneilla!</p>
             </Feature>
 
             <Feature title="Yleiset komennot" id="komennot">
