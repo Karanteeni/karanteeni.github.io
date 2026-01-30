@@ -186,11 +186,13 @@ const Ominaisuudet = () => {
                     Komennolla /partikkelit (tai /particles tai /pp) pystyy ottamaan käyttöön erilaisia partikkeleita,
                     jotka seuraavat pelaajahahmoa.
                 </p>
-                <p>Partikkeleita saa uusista rankeista, sekä erilaisista tapahtumista.</p>
+                <p>Partikkeleita voi saada uusista rankeista, palvelinkohtaisen peliajan kertymisen myötä, äänestyspalkintoina sekä erilaisista tapahtumista.</p>
             </Feature>
             <Feature title="Emeraldhissi">
                 <Video source="/feature/emeraldvator.mp4" />
-                <p>Voit rakentaa toimivan hissin emerald palikoista. Hissit kytketään päälle redstonevirralla ja ne yltävät enintään 32 palikan päähän. </p>
+                <p>
+                    Voit rakentaa toimivan hissin emerald palikoista. Hissit kytketään päälle redstonevirralla ja ne yltävät enintään 32 palikan päähän.
+                    Hississä pääsee ylös hyppynäppäimellä ja alas kyykkynäppäimellä. </p>
             </Feature>
 
             <Feature title="Taikamatto">
@@ -232,8 +234,9 @@ const Ominaisuudet = () => {
                     </code>
                 </p>
                 <p>
-                    Jos kylässäsi on vähintään 10 asukasta, voit pyytää sille warppia <code>/warps</code> listaan.
-                </p>
+                    Jos kylässäsi on vähintään 10 asukasta, voit pyytää sille warppia <code>/warps</code> listaan. Myös kauppapaikat ja torit voivat saada warpin,
+                    tällöin vaaditaan vähintään 10 kauppiasta.
+               </p>
             </Feature>
 
             <Feature title="Rakentajan taikasauva">
@@ -292,8 +295,19 @@ const Ominaisuudet = () => {
                 <Video source="/feature/chestshop.mp4" />
                 <p>
                     Pelaajien väliseen kauppaan työkaluna on arkkukaupat! Lyö arkkua tai tynnyriä kyykyssä ollessa tavaralla, jota haluat myydä,
-                    jonka jälkeen kirjoita chattiin tavaran hinta, ja kauppa on valmis!
+                    jonka jälkeen kirjoita chattiin tavaran hinta, ja kauppa on valmis! Yhden kaupan luominen maksaa 10 penniä.
                 </p>
+                <ul>
+                    <li>
+                        Komennolla <code>/qs price &lt;uusi hinta&gt;</code> voit muuttaa tavaran hintaa.
+                    </li>
+                    <li>
+                        Komennolla <code>/qs remove</code> voit poistaa kaupan.
+                    </li>
+                    <li>
+                        Voit etsiä lähistöltä tiettyjä myytäviä esineitä komennolla <code>/qs find &lt;tavara&gt;</code> .
+                    </li>
+                </ul>
             </Feature>
 
             <Feature title="Arkkujen lukittuminen">
@@ -381,7 +395,7 @@ const Ominaisuudet = () => {
             <Feature title="Yleiset komennot" id="komennot">
         <p>
           Survivalissa toimii iso läjä komentoja jotka ovat pelaajilla auki
-          Eloton rankista asti!
+          Eloton-rankista asti!
         </p>
                 <p>
           Rankkikohtaiset komennot ja ominaisuudet löytyvät{' '}
