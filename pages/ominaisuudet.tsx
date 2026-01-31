@@ -360,6 +360,38 @@ const Ominaisuudet = () => {
                 </ul>
             </Feature>
 
+            <Feature title="Partychat">
+                <p>Voit luoda partychatin itsellesi ja kavereillesi, jossa voitte helposti jutella keskenänne. Vain partyn jäsenet (ja ylläpito tarvittaessa) näkevät partyn viestit.</p>
+                <p>Voit kuulua myös useampaan partyyn yhtä aikaa, asettaa partylle pikaviestin etuliitteen, ja jopa säädellä partychatin värejä!</p>
+                <ul>
+                    <li>
+                        Alkuun pääset luomalla partyn komennolla <code>/party create &lt;partyn_nimi&gt;</code>.
+                    </li>
+                    <li>
+                        Voit kutsua kaverisi partyyn komennolla <code>/party invite &lt;pelaajan_nimi&gt; &lt;partyn_nimi&gt;</code>.
+                    </li>
+                    <li>
+                        Kutsun voi hyväksyä komennolla <code>/party join &lt;partyn_nimi&gt;</code>.
+                    </li>
+                    <li>
+                        Partychatin voi kytkeä päälle tai pois päältä komennolla <code>/partychat</code> tai <code>/pc</code>.
+                    </li>
+                    <li>
+                        Voit myös lähettää viestin suoraan partychattiin komennolla <code>/partychat &lt;viesti&gt </code>.
+                    </li>
+                    <li>
+                        Voit vaihtaa partychatin värejä komennolla <code>/party set-chat-style &lt;väriteema&gt </code>.
+                    </li>
+                    <li>
+                        Asettamalla partyn pikaviestille etuliitteen komennolla <code>/party set-message-prefix "etuliite"</code> voit lähettää viestejä partyyn suoraan normaalichatista.
+                        Jos prefiksi olisi "!", viesti "!Moi kamut" menisi suoraan partyyn: "Moi kamut".
+                    </li>
+                    <li>
+                        Näet selityksen kaikista lopuista partykomennoista komennolla <code>/party</code>!
+                    </li>
+                </ul>
+            </Feature>
+
             <Feature title="Armorstandien muokkaus">
                 <Video source="/feature/armorstand.mp4" />
                 <p>
@@ -393,7 +425,7 @@ const Ominaisuudet = () => {
                 </p>
             </Feature>
 
-            <Feature title="Enderdragonin munien kerääminen">
+            <Feature title="Ender dragonin munien kerääminen">
                 <p>
                     Karanteenissa jokainen uudelleenkin spawnattu Ender dragon pudottaa Ender dragonin munan. Tästä
                     syystä Ender dragon on myös hankalampi spawnata uudelleen.
