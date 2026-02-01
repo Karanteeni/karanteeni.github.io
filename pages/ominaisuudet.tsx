@@ -5,7 +5,7 @@ import Layout from '../components/layout/layout'
 import AnchorHeading from '../components/anchor'
 
 const COMMANDS = [
-  '/peliaika (näyttää peliaikasi)',
+  '/peliaika (/pa, /playtime, näyttää peliaikasi)',
   '/playtimetop (/patop)',
   '/discord',
   '/sivut',
@@ -36,7 +36,6 @@ const COMMANDS = [
   '/bal',
   '/baltop',
   '/pay {pelaaja} {määrä}',
-  '/peliaika (/pa, /playtime)',
   '/trust {alueen_nimi} {pelaajan_nimi}',
   '/untrust {alueen_nimi} {pelaajan_nimi}',
   '/alue (näyttää tietoja alueesta)',
@@ -186,6 +185,7 @@ const Ominaisuudet = () => {
             </Feature>
 
             <Feature title="Äänestyslaatikot">
+                <Video source="/feature/votecrates.mp4" />  
                 <p>
                   Voit äänestää karanteenia kerran päivässä kahdella eri sivustolla! Linkit löydät pelistä komennolla <code>/vote</code> ja karanteeni.net -etusivulta. 
                 </p>
@@ -212,7 +212,7 @@ const Ominaisuudet = () => {
             <Feature title="Taikamatto">
                 <Video source="/feature/magiccarpet.mp4" />
                 <p>
-                    Sisukas rankista ylöspäin pelaajat voivat aktivoida taikamaton, jolla pystyy lentämään kuin Aladdin
+                    Sisukas-rankista ylöspäin pelaajat voivat aktivoida taikamaton, jolla pystyy lentämään kuin Aladdin
                     konsanaan!
                 </p>
                 <p>
@@ -226,7 +226,8 @@ const Ominaisuudet = () => {
             </Feature>
 
             <Feature title="Koristepäät">
-                <p>
+              <Video source="/feature/playerheads.mp4" />  
+              <p>
                   Voit saada äänestyslaatikoista palkinnoksi koristepäitä, joita voit käyttää koristeluun survivalissa ja creativessa. 
                 </p>
                   <p>Kun olet ansainnut päitä, voit käyttää niitä ensiksi {' '}
