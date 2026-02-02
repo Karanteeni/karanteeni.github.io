@@ -185,15 +185,12 @@ const Ominaisuudet = () => {
             </Feature>
 
             <Feature title="Äänestyslaatikot">
-                <Video source="/feature/votecrates.mp4" />  
-                <p>
-                  Voit äänestää karanteenia kerran päivässä kahdella eri sivustolla! Linkit löydät pelistä komennolla <code>/vote</code> ja karanteeni.net -etusivulta. 
-                </p>
-                  <p>Äänestämällä saat palkinnoksi yhden äänestyslaatikon yhtä äänestyskertaa kohden, jotka voit käyttää Hub-palvelimella palvelinportaalien vieressä.</p>
-                  <p>Äänestyslaatikoista voit saada palkinnoksi pennejä survivaliin, koristepäitä, pelaajapartikkeleita, taikamattopalikoita tai lisää äänestyslaatikoita!</p>
-               
+                <Video source="/feature/votecrates.mp4" />
+                <p>Voit äänestää karanteenia kerran päivässä kahdella eri sivustolla! Linkit löydät pelistä komennolla <code>/vote</code> ja karanteeni.net -etusivulta.</p>
+                <p>Äänestämällä saat palkinnoksi yhden äänestyslaatikon yhtä äänestyskertaa kohden, jotka voit käyttää Hub-palvelimella palvelinportaalien vieressä.</p>
+                <p>Äänestyslaatikoista voit saada palkinnoksi pennejä survivaliin, koristepäitä, pelaajapartikkeleita, taikamattopalikoita tai lisää äänestyslaatikoita!</p>
             </Feature>
-          
+
             <Feature title="Partikkelit">
                 <Video source="/feature/particles1.gif" />
                 <p>
@@ -226,18 +223,16 @@ const Ominaisuudet = () => {
             </Feature>
 
             <Feature title="Koristepäät">
-              <Video source="/feature/playerheads.mp4" />  
-              <p>
-                  Voit saada äänestyslaatikoista palkinnoksi koristepäitä, joita voit käyttää koristeluun survivalissa ja creativessa. 
+                <Video source="/feature/playerheads.mp4" />
+                <p>Voit saada äänestyslaatikoista palkinnoksi koristepäitä, joita voit käyttää koristeluun survivalissa ja creativessa.</p>
+                <p>
+                    Kun olet ansainnut päitä, voit käyttää niitä ensiksi {' '}
+                    <Link href="/reseptit#player_head">craftaamalla</Link> tai muuten hankkimalla pelaajan pään.
+                    Tämän jälkeen sitä kädessä pitäessä tee komento <code>/pää</code>, joka avaa päävalikon,
+                    josta voit valita päälle haluamasi tekstuurin.
                 </p>
-                  <p>Kun olet ansainnut päitä, voit käyttää niitä ensiksi {' '}
-                    <Link href="/reseptit#player_head">craftaamalla</Link> 
-                    tai muuten hankkimalla pelaajan pään. Tämän jälkeen sitä kädessä pitäessä tee komento <code>/pää</code>, joka avaa päävalikon, 
-                    josta voit valita päälle haluamasi kuosin. </p>
-                  <p>Voit muuttaa myös muuttaa pään kuosia samasta valikosta.</p>
-               
+                <p>Voit muuttaa myös muuttaa pään tekstuuria samasta valikosta.</p>
             </Feature>
-          
 
             <Feature title="Puun kaataminen">
                 <Video source="/feature/woodchop.mp4" />
@@ -362,7 +357,7 @@ const Ominaisuudet = () => {
             </Feature>
 
             <Feature title="Partychat">
-                <p>Voit luoda partychatin itsellesi ja kavereillesi, jossa voitte helposti jutella keskenänne. Vain partyn jäsenet (ja ylläpito tarvittaessa) näkevät partyn viestit.</p>
+                <p>Voit luoda partychatin itsellesi ja kavereillesi, jossa voitte helposti jutella keskenänne. Vain partyn jäsenet (ja ylläpito, mutta partychatissa voi keskustella vapaammin) näkevät partyn viestit.</p>
                 <p>Voit kuulua myös useampaan partyyn yhtä aikaa, asettaa partylle pikaviestin etuliitteen, ja jopa säädellä partychatin värejä!</p>
                 <ul>
                     <li>
@@ -378,13 +373,13 @@ const Ominaisuudet = () => {
                         Partychatin voi kytkeä päälle tai pois päältä komennolla <code>/partychat</code> tai <code>/pc</code>.
                     </li>
                     <li>
-                        Voit myös lähettää viestin suoraan partychattiin komennolla <code>/partychat &lt;viesti&gt </code>.
+                        Voit myös lähettää viestin suoraan partychattiin komennolla <code>/partychat &lt;viesti&gt; </code>.
                     </li>
                     <li>
-                        Voit vaihtaa partychatin värejä komennolla <code>/party set-chat-style &lt;väriteema&gt </code>.
+                        Voit vaihtaa partychatin värejä komennolla <code>/party set-chat-style &lt;väriteema&gt; </code>.
                     </li>
                     <li>
-                        Asettamalla partyn pikaviestille etuliitteen komennolla <code>/party set-message-prefix "etuliite"</code> voit lähettää viestejä partyyn suoraan normaalichatista.
+                        Asettamalla partyn pikaviestille etuliitteen komennolla <code>/party set-message-prefix &lt;"etuliite"&gt;</code> voit lähettää viestejä partyyn suoraan normaalichatista.
                         Jos prefiksi olisi "!", viesti "!Moi kamut" menisi suoraan partyyn: "Moi kamut".
                     </li>
                     <li>
