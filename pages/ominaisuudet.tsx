@@ -5,8 +5,10 @@ import Layout from '../components/layout/layout'
 import AnchorHeading from '../components/anchor'
 
 const COMMANDS = [
+  '/peliaika (/pa, /playtime, näyttää peliaikasi)',
   '/playtimetop (/patop)',
   '/discord',
+  '/sivut',
   '/säännöt',
   '/rankit',
   '/warnings (tarkistathan varoitustilanteesi!)',
@@ -24,6 +26,7 @@ const COMMANDS = [
   '/delhome {kodin_nimi}',
   '/home {kodin_nimi}',
   '/back',
+  '/party (partychat-opas)',
   '/mail read [<sivu>]',
   '/mail clear [<määrä>]',
   '/mail send <nimi> <viesti>',
@@ -33,7 +36,6 @@ const COMMANDS = [
   '/bal',
   '/baltop',
   '/pay {pelaaja} {määrä}',
-  '/peliaika (/pa, /playtime)',
   '/trust {alueen_nimi} {pelaajan_nimi}',
   '/untrust {alueen_nimi} {pelaajan_nimi}',
   '/alue (näyttää tietoja alueesta)',
@@ -44,6 +46,8 @@ const COMMANDS = [
   '/lukitus lock',
   '/lukitus public',
   '/lukitus private',
+  '/lukitus add-global-whitelist',
+  '/lukitus remove-global-whitelist',
   '/lukitus info',
   '/trash (/roskis /roskakori)',
   '/kms',
@@ -51,7 +55,6 @@ const COMMANDS = [
   '/lemmikki (lemmikkiopas)',
   '/music',
   '/radio',
-  '/tk'
 ]
 
 const CHAT_CODES = [
@@ -180,23 +183,33 @@ const Ominaisuudet = () => {
                     asetuksia sekä käyttämään muita Karanteenin komentoja nopeasti.
                 </p>
             </Feature>
+
+            <Feature title="Äänestyslaatikot">
+                <Video source="/feature/votecrates.mp4" />
+                <p>Voit äänestää karanteenia kerran päivässä kahdella eri sivustolla! Linkit löydät pelistä komennolla <code>/vote</code> ja karanteeni.net -etusivulta.</p>
+                <p>Äänestämällä saat palkinnoksi yhden äänestyslaatikon yhtä äänestyskertaa kohden, jotka voit käyttää Hub-palvelimella palvelinportaalien vieressä.</p>
+                <p>Äänestyslaatikoista voit saada palkinnoksi pennejä survivaliin, koristepäitä, pelaajapartikkeleita, taikamattopalikoita tai lisää äänestyslaatikoita!</p>
+            </Feature>
+
             <Feature title="Partikkelit">
                 <Video source="/feature/particles1.gif" />
                 <p>
                     Komennolla /partikkelit (tai /particles tai /pp) pystyy ottamaan käyttöön erilaisia partikkeleita,
                     jotka seuraavat pelaajahahmoa.
                 </p>
-                <p>Partikkeleita saa uusista rankeista, sekä erilaisista tapahtumista.</p>
+                <p>Partikkeleita voi saada uusista rankeista, palvelinkohtaisen peliajan kertymisen myötä, äänestyspalkintoina sekä erilaisista tapahtumista.</p>
             </Feature>
             <Feature title="Emeraldhissi">
                 <Video source="/feature/emeraldvator.mp4" />
-                <p>Voit rakentaa toimivan hissin emerald palikoista. Hissit kytketään päälle redstonevirralla ja ne yltävät enintään 32 palikan päähän. </p>
+                <p>
+                    Voit rakentaa toimivan hissin emerald blockeista. Hissit kytketään päälle redstonevirralla ja ne yltävät enintään 32 palikan päähän.
+                    Hississä pääsee ylös hyppynäppäimellä ja alas kyykkynäppäimellä. </p>
             </Feature>
 
             <Feature title="Taikamatto">
                 <Video source="/feature/magiccarpet.mp4" />
                 <p>
-                    Sisukas rankista ylöspäin pelaajat voivat aktivoida taikamaton, jolla pystyy lentämään kuin Aladdin
+                    Sisukas-rankista ylöspäin pelaajat voivat aktivoida taikamaton, jolla pystyy lentämään kuin Aladdin
                     konsanaan!
                 </p>
                 <p>
@@ -209,9 +222,21 @@ const Ominaisuudet = () => {
                 </p>
             </Feature>
 
+            <Feature title="Koristepäät">
+                <Video source="/feature/playerheads.mp4" />
+                <p>Voit saada äänestyslaatikoista palkinnoksi koristepäitä, joita voit käyttää koristeluun survivalissa ja creativessa.</p>
+                <p>
+                    Kun olet ansainnut päitä, voit käyttää niitä ensiksi {' '}
+                    <Link href="/reseptit#player_head">craftaamalla</Link> tai muuten hankkimalla pelaajan pään.
+                    Tämän jälkeen sitä kädessä pitäessä tee komento <code>/pää</code>, joka avaa päävalikon,
+                    josta voit valita päälle haluamasi tekstuurin.
+                </p>
+                <p>Voit muuttaa myös muuttaa pään tekstuuria samasta valikosta.</p>
+            </Feature>
+
             <Feature title="Puun kaataminen">
                 <Video source="/feature/woodchop.mp4" />
-                <p>Puu kaatuu alhaalta ylös kokonaan, kunhan sen hakkaa kirveellä!</p>
+                <p>Puu kaatuu alhaalta ylös kokonaan, kunhan sen hakkaa kirveellä! Tämän voi estää hakkaamalla kyykyssä.</p>
                 <p>(muistathan kasvattaa puut aina seikkaillessasi takaisin)</p>
             </Feature>
 
@@ -232,15 +257,16 @@ const Ominaisuudet = () => {
                     </code>
                 </p>
                 <p>
-                    Jos kylässäsi on vähintään 10 asukasta, voit pyytää sille warppia <code>/warps</code> listaan.
-                </p>
+                    Jos kylässäsi on vähintään 10 asukasta, voit pyytää sille warppia <code>/warps</code> listaan. Myös kauppapaikat ja torit voivat saada warpin,
+                    tällöin vaaditaan vähintään 10 kauppiasta.
+               </p>
             </Feature>
 
             <Feature title="Rakentajan taikasauva">
                 <Video source="/feature/builderswand.mp4" />
                 <p>
-                    Sisukas rankista ylöspäin pelaajat voivat craftata{' '}
-                    <Link href="/reseptit#builders_wand">Builders Wandin</Link>. Tämä työkalu edesauttaa suurien
+                    Sisukas-rankista ylöspäin pelaajat voivat craftata{' '}
+                    <Link href="/reseptit#builders_wand">Builders Wandin</Link>. Tämä työkalu auttaa suurien
                     rakennusten rakennuksessa!
                 </p>
                 <p>
@@ -291,9 +317,20 @@ const Ominaisuudet = () => {
             <Feature title="Arkkukaupat">
                 <Video source="/feature/chestshop.mp4" />
                 <p>
-                    Pelaajien väliseen kauppaan työkaluna on arkkukaupat! Lyö arkkua tavaralla, jota haluat myydä,
-                    kirjoita chattiin tavaran hinta, ja kauppa on valmis!
+                    Pelaajien väliseen kauppaan työkaluna on arkkukaupat! Lyö arkkua tai tynnyriä kyykyssä ollessa tavaralla, jota haluat myydä,
+                    jonka jälkeen kirjoita chattiin tavaran hinta, ja kauppa on valmis! Yhden kaupan luominen maksaa 10 penniä.
                 </p>
+                <ul>
+                    <li>
+                        Komennolla <code>/qs price &lt;uusi hinta&gt;</code> voit muuttaa tavaran hintaa.
+                    </li>
+                    <li>
+                        Komennolla <code>/qs remove</code> voit poistaa kaupan.
+                    </li>
+                    <li>
+                        Voit etsiä lähistöltä tiettyjä myytäviä esineitä komennolla <code>/qs find &lt;tavara&gt;</code> .
+                    </li>
+                </ul>
             </Feature>
 
             <Feature title="Arkkujen lukittuminen">
@@ -312,6 +349,41 @@ const Ominaisuudet = () => {
                     </li>
                     <li>
                         Voit tehdä lukituksista kaikille avonaisen, mutta ilman muokkaus-/rikkomisoikeuksia komennolla <code>/lukitus public</code>.
+                    </li>
+                    <li>
+                        Voit antaa haluamallesi pelaajalle oikeudet suoraan kaikkiin sinun omistamiisi lukituksiin komennolla <code>/lukitus add-global-whitelist &lt;pelaajan_nimi&gt;</code>.
+                    </li>
+                </ul>
+            </Feature>
+
+            <Feature title="Partychat">
+                <p>Voit luoda partychatin itsellesi ja kavereillesi, jossa voitte helposti jutella keskenänne. Vain partyn jäsenet (ja ylläpito, mutta partychatissa voi keskustella vapaammin) näkevät partyn viestit.</p>
+                <p>Voit kuulua myös useampaan partyyn yhtä aikaa, asettaa partylle pikaviestin etuliitteen, ja jopa säädellä partychatin värejä!</p>
+                <ul>
+                    <li>
+                        Alkuun pääset luomalla partyn komennolla <code>/party create &lt;partyn_nimi&gt;</code>.
+                    </li>
+                    <li>
+                        Voit kutsua kaverisi partyyn komennolla <code>/party invite &lt;pelaajan_nimi&gt; &lt;partyn_nimi&gt;</code>.
+                    </li>
+                    <li>
+                        Kutsun voi hyväksyä komennolla <code>/party join &lt;partyn_nimi&gt;</code>.
+                    </li>
+                    <li>
+                        Partychatin voi kytkeä päälle tai pois päältä komennolla <code>/partychat</code> tai <code>/pc</code>.
+                    </li>
+                    <li>
+                        Voit myös lähettää viestin suoraan partychattiin komennolla <code>/partychat &lt;viesti&gt; </code>.
+                    </li>
+                    <li>
+                        Voit vaihtaa partychatin värejä komennolla <code>/party set-chat-style &lt;väriteema&gt; </code>.
+                    </li>
+                    <li>
+                        Asettamalla partyn pikaviestille etuliitteen komennolla <code>/party set-message-prefix &lt;"etuliite"&gt;</code> voit lähettää viestejä partyyn suoraan normaalichatista.
+                        Jos prefiksi olisi "!", viesti "!Moi kamut" menisi suoraan partyyn: "Moi kamut".
+                    </li>
+                    <li>
+                        Näet selityksen kaikista lopuista partykomennoista komennolla <code>/party</code>!
                     </li>
                 </ul>
             </Feature>
@@ -342,14 +414,14 @@ const Ominaisuudet = () => {
                 </p>
             </Feature>
 
-            <Feature title="Villan peseminen">
+            <Feature title="Peseminen cauldronissa">
                 <p>
-                    Värjätyt villat voi valkaista takaisin valkoiseksi samalla tavalla kuin bannerit. Laita värjätyt
-                    villat cauldroniin!
+                    Värjätyt villat ja sängyt voi pestä takaisin valkoiseksi samalla tavalla kuin bannerit. Klikkaa vedellä täytettyä cauldronia esineellä, jonka haluat pestä.
+                    Voit pestä myös magma creamia limapalloiksi, mutta sitä tehdessä on pieni riski, että vesi muuttuu laavaksi!
                 </p>
             </Feature>
 
-            <Feature title="Enderdragonin munien kerääminen">
+            <Feature title="Ender dragonin munien kerääminen">
                 <p>
                     Karanteenissa jokainen uudelleenkin spawnattu Ender dragon pudottaa Ender dragonin munan. Tästä
                     syystä Ender dragon on myös hankalampi spawnata uudelleen.
@@ -365,19 +437,20 @@ const Ominaisuudet = () => {
                     Karanteenissa pystyy hakkaamaan mobspawnerit itselleen, mutta ne putoavat tyhjänä maahan. Jos haluat mobin säilyvän, riko spawner hakulla jossa on on Silk Touch
                     (silkkinen kosketus) -enchantti.
                 </p>
-                <p>Voit muuttaa spawnerin tyyppiä craftaamalla.</p>
+                <p>Voit muuttaa spawnerin tyyppiä{' '}
+                <Link href="reseptit#spawner">craftaamalla</Link>.</p>
                 <p>Roihuja sisältäviä spawnereita ei voi kerätä.</p>
             </Feature>
 
             <Feature title="Näkymättömät itemframet">
                 <Video source="/feature/invisiframe.mp4" />
-                <p>Itemframet voi muuttaa pysyvästi näkymättömiksi näkymättömyyspotioneilla!</p>
+                <p>Itemframet voi muuttaa pysyvästi näkymättömiksi heitettävillä näkymättömyyspotioneilla!</p>
             </Feature>
 
             <Feature title="Yleiset komennot" id="komennot">
         <p>
           Survivalissa toimii iso läjä komentoja jotka ovat pelaajilla auki
-          Eloton rankista asti!
+          Eloton-rankista asti!
         </p>
                 <p>
           Rankkikohtaiset komennot ja ominaisuudet löytyvät{' '}
