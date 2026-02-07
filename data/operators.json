@@ -50,6 +50,13 @@
       "strengths": ["Koodaaminen"],
       "uuid": "00b59d31f84f486db29b7c37b60a0be0",
       "active": true
+    },
+    {
+      "name": "MVPPlusPlus",
+      "description": "yo kuis hurisee!",
+      "strengths": ["Videoiden editointi"],
+      "uuid": "d5275d787e474d8aa4cdcfae7d2808cc",
+      "active": true
     }
   ],
   "operaattori": [
@@ -58,13 +65,6 @@
       "description": "\"Täh?\"",
       "strengths": ["Riitojen sovittelu"],
       "uuid": "5db3cb0e4ae847dc91594cc10079190d",
-      "active": true
-    },
-    {
-      "name": "MVPPlusPlus",
-      "description": "yo kuis hurisee!",
-      "strengths": ["Videoiden editointi"],
-      "uuid": "d5275d787e474d8aa4cdcfae7d2808cc",
       "active": true
     },
     {
@@ -96,13 +96,6 @@
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "4f13344913bb4fd4a0b8722d900dbb08",
       "active": true
-    },
-    {
-      "name": "Asheline",
-      "description": "",
-      "strengths": ["Palvelimen ylläpito"],
-      "uuid": "ca5f9868d9bc4a02b63d5fa2e48a8326",
-      "active": false
     }
   ],
   "arkkitehti": [
@@ -118,7 +111,7 @@
       "description": "\"Oispa suklaata\"",
       "strengths": ["Rakentaminen", "Miinaharavan pelaaminen"],
       "uuid": "2f4b9740ad04411ea4e29700c1c5c2a5",
-      "active": false
+      "active": true
     }
   ],
   "rakentaja": [
@@ -134,13 +127,6 @@
       "description": "",
       "strengths": ["Rakentaminen"],
       "uuid": "fcc6a1f38457404daed5206e467ec3ff",
-      "active": true
-    },
-    {
-      "name": "Avenia",
-      "description": "",
-      "strengths": ["Rakentaminen"],
-      "uuid": "9d0b16ecd57d4e2891f842cbeac37a3a",
       "active": false
     }
   ]
