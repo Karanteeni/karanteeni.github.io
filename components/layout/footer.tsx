@@ -2,6 +2,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 import React from 'react'
+import style from '../../styles/footer.module.css'
 
 const Footer = ({ home }: { home?: boolean }) => {
     const year = new Date().getFullYear()
@@ -53,6 +54,16 @@ const Footer = ({ home }: { home?: boolean }) => {
                         </li>
                         <li>
                             - <Link href="/unban">Unban-hakemus</Link>
+                        </li>
+                    </ul>
+                </div>
+                <div className={`${style['legal']}`}>
+                    <h4>Tiedot / Affiliations</h4>
+                    <ul>
+                        <li>- <b>NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT</b></li>
+                        <li>- <b>EI OLE VIRALLINEN MINECRAFT-TUOTE. EI OLE MOJANGIN TAI MICROSOFTIN HYVÄKSYMÄ EIKÄ MOJANGIIN TAI MICROSOFTIIN LIITOKSISSA</b></li>
+                        <li>
+                            - <Link href="/yllapito">Up-to-date staff and owners</Link>
                         </li>
                     </ul>
                 </div>
