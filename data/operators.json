@@ -32,7 +32,7 @@
     },
     {
       "name": "Iita",
-      "description": "\"Ahdistaa.\"",
+      "description": "\"Ei enää ahdista nii paljoo.\"",
       "strengths": ["Tapahtumasuunnittelu", "Sisällöntuotanto"],
       "uuid": "d0cd2962ea3944c48b486c6376e57ca3",
       "active": true
@@ -96,6 +96,13 @@
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "4f13344913bb4fd4a0b8722d900dbb08",
       "active": true
+    },
+    {
+      "name": "_g0thShun_",
+      "description": "\"mitäh?\"",
+      "strengths": ["Palvelimen ylläpito"],
+      "uuid": "f1e9a910b70f401d9db08346ef4343aa",
+      "active": true
     }
   ],
   "arkkitehti": [
@@ -111,7 +118,7 @@
       "description": "\"Oispa suklaata\"",
       "strengths": ["Rakentaminen", "Miinaharavan pelaaminen"],
       "uuid": "2f4b9740ad04411ea4e29700c1c5c2a5",
-      "active": true
+      "active": false
     }
   ],
   "rakentaja": [
