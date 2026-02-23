@@ -482,7 +482,7 @@ const Ominaisuudet = () => {
                         Ruohoa hakatessa mullan päältä ruohon alla oleva multa korvautuu ruoholla! Voit estää tämän hakkaamalla kyykyssä.
                     </li>
                     <li>
-                        Tavaroiden loppuessa ja rikkoutuessa serveri korvaa sinulle uuden käteen, jos sinulla vain on niitä inventorissa. Erityisen hyödyllinen rakennellessa, ettei tarvitse palikoiden kädestä loppuessa avata inventoria. Tämän saa halutessaan pois päältä
+                        Tavaroiden loppuessa ja rikkoutuessa serveri korvaa sinulle uuden käteen, jos sinulla vain on niitä inventoryssä. Erityisen hyödyllinen rakennellessa, ettei tarvitse palikoiden kädestä loppuessa avata inventoryä. Tämän saa halutessaan pois päältä
                         asetuksista.
                     </li>
                     <li>
