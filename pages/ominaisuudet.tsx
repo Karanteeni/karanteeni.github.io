@@ -356,6 +356,22 @@ const Ominaisuudet = () => {
                 </ul>
             </Feature>
 
+            <Feature title="Mobien ja pelaajien kantaminen">
+                <Video source="/feature/carrying.mp4" />
+                <p>
+                    Voit kantaa osaa mobeista ja pelaajia! Kannettavia ovat pääosin passiiviset, neutraalit ja vauvamobit. Voit aloittaa mobin kantamisen klikkaamalla sitä hiiren oikealla
+                    napilla ja heittää sen pois kannosta vasemmalla klikkauksella.
+                </p>
+                <ul>
+                    <li>
+                        Kun sinulla on eläin kannossa, painovoimasi kasvaa, eli et voi hypätä kovin korkealle. Kanaa kantaessa puolestaan painovoimasi laskee, tiput hitaasti etkä ota fall damagea!
+                    </li>
+                    <li>
+                        Voit kantaa pelaajia siten, että olet kyykyssä ja kaverisi klikkaa sinua hiiren oikealla napilla. Voit pinota myös useampia pelaajia torniksi!
+                    </li>
+                </ul>
+            </Feature>
+
             <Feature title="Partychat">
                 <p>Voit luoda partychatin itsellesi ja kavereillesi, jossa voitte helposti jutella keskenänne. Vain partyn jäsenet (ja ylläpito, mutta partychatissa voi keskustella vapaammin) näkevät partyn viestit.</p>
                 <p>Voit kuulua myös useampaan partyyn yhtä aikaa, asettaa partylle pikaviestin etuliitteen, ja jopa säädellä partychatin värejä!</p>
@@ -446,6 +462,35 @@ const Ominaisuudet = () => {
                 <Video source="/feature/invisiframe.mp4" />
                 <p>Itemframet voi muuttaa pysyvästi näkymättömiksi heitettävillä näkymättömyyspotioneilla!</p>
             </Feature>
+
+            <Feature title="Muut ominaisuudet">
+                <p>Tässä lyhyesti pienempiä kivoja ominaisuuksia mitä meiltä löytyy!</p>
+                <ul>
+                    <li>
+                        Voit virittää nappeja ja painelaattoja pysyvästi pohjaan right klikkaamalla niitä höyhenellä.
+                    </li>
+                    <li>
+                        Voit luoda lätäköitä maahan heitettävillä vesipulloilla.
+                    </li>
+                    <li>
+                        Keritylle lampaalle voi syöttää heinäpaalin, jolloin se kasvattaa villansa suoraan takaisin.
+                    </li>
+                    <li>
+                        Tiiliä voi heittää! Ole kuitenkin varovainen, ne rikkovat ikkunoita ja sattuvat osuessaan sinuun.
+                    </li>
+                    <li>
+                        Kun hakkaat ruohoa mullan päältä, alempi multa korvautuu ruoholla! Voit estää tämän hakkaamalla kyykyssä.
+                    </li>
+                    <li>
+                        Jos sinulta loppuvat hotbarista palikat, tuo servu käteesi lisää samaa palikkaa inventorystäsi, jos sinulla on sitä. Tämän saa halutessaan pois päältä
+                        asetuksista.
+                    </li>
+                    <li>
+                        Voit halutessasi kytkeä asetuksista päälle asetuksen, jolla voit avata arkkuja kylttien ja kehysten läpi.
+                    </li>
+                </ul>
+            </Feature>
+
 
             <Feature title="Yleiset komennot" id="komennot">
         <p>
