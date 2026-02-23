@@ -479,10 +479,10 @@ const Ominaisuudet = () => {
                         Tiiliä voi heittää! Ole kuitenkin varovainen, ne rikkovat ikkunoita ja sattuvat osuessaan sinuun.
                     </li>
                     <li>
-                        Kun hakkaat ruohoa mullan päältä, alempi multa korvautuu ruoholla! Voit estää tämän hakkaamalla kyykyssä.
+                        Ruohoa hakatessa mullan päältä ruohon alla oleva multa korvautuu ruoholla! Voit estää tämän hakkaamalla kyykyssä.
                     </li>
                     <li>
-                        Jos sinulta loppuvat hotbarista palikat, tuo servu käteesi lisää samaa palikkaa inventorystäsi, jos sinulla on sitä. Tämän saa halutessaan pois päältä
+                        Tavaroiden loppuessa ja rikkoutuessa serveri korvaa sinulle uuden käteen, jos sinulla vain on niitä inventorissa. Erityisen hyödyllinen rakennellessa, ettei tarvitse palikoiden kädestä loppuessa avata inventoria. Tämän saa halutessaan pois päältä
                         asetuksista.
                     </li>
                     <li>
