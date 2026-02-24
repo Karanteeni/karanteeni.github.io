@@ -20,6 +20,10 @@
         "image": "rooted_dirt.png"
     },
     {
+        "caption": "Voit polttaa mutaisista mangrovejuurista juuret pois uunissa saadaksesi mutaa.",
+        "image": "mud_smelting.png"
+    },
+    {
         "caption": "Sammalta saa helposti levitettyä bone mealin avulla. Jos et jaksa mennä etsimään, niin tässä oiva ohituskaista sen ensimmäisen sammaleen hankintaan.",
         "image": "moss_block.png"
     },
