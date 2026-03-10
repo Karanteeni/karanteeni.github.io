@@ -40,7 +40,7 @@
     {
       "name": "UninenVille",
       "description": "Nukkumassa...",
-      "strengths": ["Nukkuminen", "Päiväunet", "AFK-koneiden rakentaminen"],
+      "strengths": ["Nukkuminen", "Päiväunet", "AFK-koneiden rakentaminen", "Maukuminen"],
       "uuid": "6dcda6de07204a30998aa1cdf91990da",
       "active": true
     },
@@ -102,6 +102,13 @@
       "description": "\"mitäh?\"",
       "strengths": ["Palvelimen ylläpito"],
       "uuid": "f1e9a910b70f401d9db08346ef4343aa",
+      "active": true
+    },
+    {
+      "name": "annimetal",
+      "description": "\"Hurjaa\"",
+      "strengths": ["Palvelimen ylläpito"],
+      "uuid": "26bfac1164fb4122b738ff6a9db16435",
       "active": true
     }
   ],
