@@ -12,6 +12,9 @@ const Yphaku = () => {
                 <p style={{ marginTop: '1rem' }} className="lead pt-2">
                     Luethan ensin mihin arvoihin olet hakemassa ja mitä vaatimuksia niihin vaaditaan!
                 </p>
+                <p>
+                    Emme tällä hetkellä ole etsimässä uusia Moderaattoreita! Haemmekin tällä hetkellä erityisesti <b>Rakentajia</b>! Jos olet kiinnostunut, pistä hakemusta tulemaan. :3
+                </p>
             </Heading>
 
             <h3>Moderaattori</h3>
