@@ -125,7 +125,7 @@
       "description": "\"Oispa suklaata\"",
       "strengths": ["Rakentaminen", "Miinaharavan pelaaminen"],
       "uuid": "2f4b9740ad04411ea4e29700c1c5c2a5",
-      "active": false
+      "active": true
     }
   ],
   "rakentaja": [
