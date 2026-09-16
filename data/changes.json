@@ -1,5 +1,48 @@
 [
     {
+        "date": "16.9.2026",
+        "changes": [
+            "Hub: Lisätty pelikaveri UNO peleihin."
+        ]
+    },
+    {
+        "date": "2.9.2026",
+        "changes": [
+            "Hub: Lisätty uusi korttipeli Ristiseiska."
+        ]
+    },
+    {
+        "date": "26.8.2026",
+        "changes": [
+            "Muutettu /asetus valikkoa siten, että asetukset ovat kategorisoitu ja selkeämmin erotettavissa."
+        ]
+    },
+    {
+        "date": "23.8.2026",
+        "changes": [
+            "Taikajuomat menevät nyt neljän itemin stackeihin ja niille on lisätty sekunnin cooldown."
+        ]
+    },
+    {
+        "date": "27.7.2026",
+        "changes": [
+            "Builders wandiin lisätty visualisointi: näyttää nyt maahan tulevat palikat etukäteen.",
+            "Lisätty Minimessage-tuki /nimeä komentoon"
+        ]
+    },
+    {
+        "date": "21.7.2026",
+        "changes": [
+            "Survival: lukituksen global-whitelistilla olevat pelaajat voivat nyt hajoittaa lukitettuja palikoita."
+        ]
+    },
+    {
+        "date": "20.7.2026",
+        "changes": [
+            "Lisätty automaattiset varoitukset viestien venytyksille, spammille ja capsaamisille."
+        ]
+    },
+    {
         "date": "18.7.2026",
         "changes": [
             "Survival: Kartta, kodit ja rahat nollattu (mapreset 20 --> 21).",
